@@ -1,1 +1,1 @@
-# Lógica de Programação
+# Estudos, práticas, exercícios e projetos. 
