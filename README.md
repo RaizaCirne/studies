@@ -1,1 +1,1 @@
-# Estudos, práticas, exercícios e projetos. 
+# Práticas, exercícios e projetos. 
