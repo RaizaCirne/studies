@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 .exemplo {
-  border: 1px solid #00FF00;
-  padding: 10px;
+  background-color: #000000;
+  width: 500px; 
+  height: 500pc;
+}
+
+img {
+  min-width: 500px;
+  width: 100px;
 }
