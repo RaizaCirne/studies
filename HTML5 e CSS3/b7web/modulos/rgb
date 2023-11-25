@@ -1,0 +1,20 @@
+
+  RGB = red = vermelho 
+  G = green = verde 
+  B = blue = azul  
+
+  PRETO 
+  R = 0%
+  G = 0%
+  B = 0%
+
+  BRANCO
+  R = 100%
+  G = 100%
+  B = 100%
+
+  VERMELHO 
+  R = 100%
+  G = 0%
+  B = 0%
+  
