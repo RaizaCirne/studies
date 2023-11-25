@@ -6,3 +6,19 @@ body {
   font-size: 17px;
 }
 
+p {
+  color: #0000FF;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
