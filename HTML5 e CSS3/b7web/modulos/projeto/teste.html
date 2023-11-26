@@ -7,46 +7,42 @@
     <link rel="stylesheet" href="estilo.css">
   </head>
   <body>
-    <h1>Página de Teste</h1>
+    <form action="" method="POST" action="blablabla.php">
 
-    <h2>Área de Cadastro</h2>
-    <form action="paginas/login.html" method="GET">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+          Primeiro Nome:<br/>
+          <input type="text" name="name" minlength="2" maxlength="4" />
+        </label><br/>
+        <label>
+          Sobrenome:<br/>
+          <input type="text" name="lastname"/>
+        </label><br/>
+        <label>
+          E-mail:<br/>
+          <input type="text" name="email" pattern="(^a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de e-mail"/>
+        </label><br/>
+        <label>
+          Data de nascimento<br/>
+          <input type="date" name="birthdate" min="2021-06-14" />
+        </label><br/>
+      </fieldset>
 
-      <label>
-        Nome Completo:</br>
-        <input type="text" name="nome">
-      </label>
+      <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>
+          Nome da Empresa:<br/>
+          <input type="text" name="companyname" />
+        </label><br/>
+        <label>
+          Cargo na empresa:<br/>
+          <input type="text" name="companyjobtitle" />
+        </label><br/>
+      </fieldset>
 
-      <label>
-        Descrição:</br>
-        <textarea name="descricao"></textarea>
-      </label>
-
-      <label>
-        Categoria:</br>
-        <select name="categoria">
-          <option value="1">Categoria 1</option>
-          <option value="2">Categoria 2</option>
-          <option value="3">Categoria 3</option>
-          <option value="4">Categoria 4</option>
-          <option value="5">Categoria 5</option>
-        </select>
-
-      </label>
-
-     <label>
-       <input type="checkbox">
-       Eu declaro que li e aceito os <a href="paginas/termos.html" target="_blank" class="termoslink">termos de uso</a>.
-     </label>
-
-      <button>Fazer Cadastro</button>
-      
-    </form>
-
-    <h2>Área de Login</h2>
-    <form>
+      <input type="submit" value="Cadastrar" />
 
     </form>
-
   </body>
 </html>
