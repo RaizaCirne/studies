@@ -10,10 +10,44 @@ h1 {
   font-family: 'Indie Flower';
 }
 
-p {
-  color: #0000FF;
-  font-size: 20px;
-  font-family: 'Chilanka';
+table {
+  width: 600px;
 }
 
+/* th, td {
+  border: 1px solid #000000;
+} */
 
+/* Aplicação apenas no cabeçalho que está dentro da tabela */
+table thead {
+  background-color: #CCC;
+}
+
+th {
+  font-weight: normal;
+}
+
+/* table tbody {
+  background-color: #FF0000;
+} */
+
+/* Aplicação no cabeçalho e nas colunas */
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Aplicação APENAS nas linhas dentro do corpo */
+tbody tr:hover {
+  background-color: #EEE;
+}
+
+/* Aplicação nas colunas que estão dentro do tbody  */
+/* tbody td {
+  border: 1px solid #CCC ;
+} */
+
+/* Aplicação de efeito apenas nas linhas pares  */
+tbody tr:nth-child(even) {
+  background-color: #EEE;
+}
