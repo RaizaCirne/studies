@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="estilo.css">
   </head>
   <body>
-    <form action="" method="POST" action="blablabla.php">
+    <form action="" method="GET" action="blablabla.php">
+      <input type="hidden" name="country" value="BR">
 
       <fieldset>
         <legend>Dados Pessoais</legend>
@@ -18,14 +19,6 @@
         <label>
           Sobrenome:<br/>
           <input type="text" name="lastname"/>
-        </label><br/>
-        <label>
-          E-mail:<br/>
-          <input type="text" name="email" pattern="(^a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de e-mail"/>
-        </label><br/>
-        <label>
-          Data de nascimento<br/>
-          <input type="date" name="birthdate" min="2021-06-14" />
         </label><br/>
       </fieldset>
 
