@@ -1,19 +1,14 @@
-html {
-  font-size: 10px;
-}
-
-h1 {
-  /* Baseado no html 3rem*10px = 30px */
-  font-size: 3rem;
-}
 .box {
-  /* Baseado no html 2rem*10px = 20px */
-  font-size: 2rem;
+  /* É 50% do espaço disponível que ele tem */
+  width: 50%;
+  height: 400px;
+  background-color: #999;
 }
 
 .box-interno {
-  /* Baseado no html 10rem*10px = 100px*/
-  width: 10rem;
-  height: 10rem;
-  background-color: #999;
-} 
+  /* É 50% do espaço disponível que ele tem */
+  width: 50%;
+  /* height: pega 50% do espaço disponível que ele tem. Que são os 400px do box */
+  height: 50%;
+  background-color: #333;
+}
