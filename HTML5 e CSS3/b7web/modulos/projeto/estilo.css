@@ -1,20 +1,19 @@
-body {
-  font-size: 20px;
+html {
+  font-size: 10px;
 }
 
 h1 {
-  /* Baseado no body: 3em.20px = 60px */
-  font-size: 3em;
+  /* Baseado no html 3rem*10px = 30px */
+  font-size: 3rem;
 }
 .box {
-  /* Baseado no body: 2em.20px = 40px */
-  font-size: 2em;
+  /* Baseado no html 2rem*10px = 20px */
+  font-size: 2rem;
 }
 
 .box-interno {
-  /* 10em é 10em.40px = 400px */
-  /* É baseado no box, 1em tem 20px e 2em tem 40px */
-  width: 10em;
-  height: 10em;
+  /* Baseado no html 10rem*10px = 100px*/
+  width: 10rem;
+  height: 10rem;
   background-color: #999;
-}
+} 
