@@ -1,11 +1,19 @@
-fieldset {
-  background-color: #eee;
-  margin-bottom: 20px;
-  border: 2px solid #FF0000;
+body {
+  margin: 0;
 }
 
-legend {
-  background-color: #FF0000;
-  color: #fff;
-  padding: 5px;
+.container {
+  width: calc(100% - 20px);
+  height: 200px;
+  background-color: #CCC;
+
+  color: #FF0000;
+  font-size: 30px;
+  /* border: Não é herdado */
+  border: 3px solid #00FF00; 
+}
+
+.container strong {
+  color: #0000FF;
+  border: 2px solid #000;
 }
