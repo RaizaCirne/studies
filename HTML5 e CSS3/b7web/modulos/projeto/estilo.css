@@ -1,31 +1,9 @@
-/* Vamos ter que aplicar CSS: video, video-area e no iframe */
-
-/* tamanho desejado */
-.video {
-  width: 100%;
-  /* Para não pegar a tela completa */
-  /* Mantém o máximo 800px e quando a tela tem menos de 800px começa a diminuir junto */
-  max-width: 800px;
-  margin: auto;
+body {
+  margin: 0;
 }
 
-.video-area {
-  position: relative;
-  height: 0;
-  background-color: #CCC;
-  /* Porcentagem de proporção entre a largura e a altura */
-  /* Exibir vídeo 16:9 - formato fullhd -->>> altura/largura*100 */
-  /* FullHD - 1800/1920 * 100 = 56.25 */
-  /* A altura tem 56.25% do tamanho da largura */
-  padding: 0px 0px 56.25%;
-}
-
-.video-area iframe {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+.container {
+  width: calc(100% - 20px);
+  height: 200px;
+  background-color: #ccc;
 }
