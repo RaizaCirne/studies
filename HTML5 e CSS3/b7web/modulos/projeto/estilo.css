@@ -1,14 +1,6 @@
-.box {
-  /* É 50% do espaço disponível que ele tem */
-  width: 50%;
-  height: 400px;
-  background-color: #999;
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
 
-.box-interno {
-  /* É 50% do espaço disponível que ele tem */
-  width: 50%;
-  /* height: pega 50% do espaço disponível que ele tem. Que são os 400px do box */
-  height: 50%;
-  background-color: #333;
-}
