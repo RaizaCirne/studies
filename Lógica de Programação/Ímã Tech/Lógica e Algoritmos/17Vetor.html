@@ -19,6 +19,15 @@
       // Exibir a quantidade de cores
       //document.write(cores.length)
 
+      // Adicionar 
+      cores.push("Vermelho");
+
+      // Alterar
+      cores[1] = "Rosa";
+
+      // Excluir 
+      cores.splice(2, 1);
+
       // Listando cores
       for (var indice = 0; indice<cores.length; indice++) {
         document.write((indice+1)+"ª "+cores[indice]+"<br>")
