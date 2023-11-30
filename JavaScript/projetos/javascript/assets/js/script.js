@@ -14,7 +14,7 @@ console.log(w === z);
 // o resultado seja TRUE
 let a = 10; 
 let b = 5; 
-console.log(x > y && a > b); 
+console.log(x != y); 
 
 // Crie uma condicional para verificar se o preço 
 // da carne está barato ou caro. PS: Até 45 está barato. 
