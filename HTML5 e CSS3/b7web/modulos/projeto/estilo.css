@@ -2,12 +2,10 @@ body {
   margin: 0;
 }
 
-nav {
-  height: 50px;
-  background-color: #999999;
-}
-
-footer {
-  height: 100px;
-  background-color: #cccccc;
+div {
+  background-color: #ccc;
+  width: 15%;
+  margin: 0 auto;
+  padding: 20px 20px 40px 20px;
+  margin-top: 10px;
 }
