@@ -1,19 +1,24 @@
 body {
   margin: 0;
-  background-color: #EEE;
 }
 
+.exemplo {
+  width: 500px;
+  height: 200px;
 
-form {
-  width: 160px;
-  height: 150px;
-  background-color: #DDD;
-  margin: auto;
-  padding: 20px;
-  margin-top: 20px;
+  /* background padrão caso o navegador não suporte */
+  background: blue; 
+
+  /* Sintaxe padrão */
+  background: linear-gradient(-75deg, white, blue);
+
+  /* Versão Mozzila */
+  background:-moz-linear-gradient(-75deg,white, blue);
+
+  /* Opera */
+  background:-o-linear-gradient(-75deg,white, blue);
+
+  /* Safari */
+  background: -webkit-linear-gradient(-75deg,white, blue);
 }
 
-input {
-  padding: 5px;
-  font-size: 13px;
-} 
