@@ -2,18 +2,45 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Página</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Flexbox</title>
+    <style type="text/css">
+      .container {
+        display: flex;
+        flex-direction: row;
+        background-color: #DDDDDD;
+        margin: 10px;
+      }
+
+      .container2 {
+        display: flex;
+        flex-direction: column;
+        background-color: #DDDDDD;
+        margin: 10px;
+
+      }
+
+      .container div,
+      .container2 div {
+        background-color: #FF0000;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+      }
+    
+    </style>
   </head>
 
   <body>
-    <p>
-      blablabla
-    </p>
-    <figure>
-      <img src="https://www.google.com.br/google.jpg" alt="">
-      <figcaption>Logo do Google</figcaption>
-    </figure>
-    <p>blablabla</p>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+
+    <div class="container2">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
   </body>
 </html>
