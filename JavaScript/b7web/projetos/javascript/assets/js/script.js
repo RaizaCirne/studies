@@ -1,20 +1,26 @@
-// Recebendo dados
-function nomeCompleto (nome, sobrenome) {
-  // Processando e Retornando dados
-  return `${nome} ${sobrenome}`;
+// Função com retorno condicional 
+
+function maiorDeIdade(idade) {
+  if (idade >= 18) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-// Executando a função nomeCompleto. 
-// O retorno da função (return) vai ser armazenado na variável -> completo
-let completo = nomeCompleto('Raíza', 'Cirne');
-console.log('Completo: ' + completo);
+// let verificacao = maiorDeIdade(70);
+// console.log(verificacao);
 
-// Dando um console direto
-// Executando a função e jogando resultado para o console
-console.log(nomeCompleto('Raíza', 'Cirne'));
+// OU 
 
+let idade = 65; 
+let verificacao = maiorDeIdade(idade);
 
+if (verificacao) {
+  console.log('É maior de idade');
+} else {
+  console.log('É menor de idade');
+}
 
-
-// ENTRADA -> PROCESSAMENTO -> SAÍDA 
-
+// OBS: Uma função só pode ter um retorno. 
+// Ai tem dois porque tá dentro de uma condicional
