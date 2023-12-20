@@ -11,7 +11,7 @@ console.log(pessoa.nome + ' ' + pessoa.sobrenome);
 
 */
 
-// Deixando o próprio objeto a cargo de gear o nome completo 
+// Deixando o próprio objeto a cargo de gerar o nome completo 
 
 let pessoa = {
   nome: 'Bonieky',
