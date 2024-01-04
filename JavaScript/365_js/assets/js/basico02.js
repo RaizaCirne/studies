@@ -1,7 +1,9 @@
-// Escreva uma função que recebe um parâmetro e retorna o tipo do valor recebido nesse parâmetro. 
-
-// Complete a função: 
 function myFunction(a) {
-  return 
+  return typeof(a);
 } 
 
+console.log(myFunction(1));
+console.log(myFunction(false));
+console.log(myFunction({}));
+console.log(myFunction("Hello world"));
+console.log(myFunction(["Hello world"]));
