@@ -1,4 +1,4 @@
-// Complete a função 
+/*
 function myFunction(fullname, flag="") {
   if (flag === "firstname") {
     return fullname.split(" ")[0];
@@ -8,6 +8,7 @@ function myFunction(fullname, flag="") {
     return fullname.substring(0,20);
   }
 }
+*/
 
 console.log(myFunction("John Williams Smith", "firstname")); // John 
 console.log(myFunction("John Williams Smith", "lastname")); // Williams Smith
