@@ -1,6 +1,12 @@
 // Complete a função 
 function myFunction(fullname, flag="") {
-  return
+  if (flag === "firstname") {
+    return fullname.split(" ")[0];
+  } else if (flag === "lastname") {
+    return fullname.substring(5);
+  } else {
+    return fullname.substring(0,20);
+  }
 }
 
 console.log(myFunction("John Williams Smith", "firstname")); // John 
