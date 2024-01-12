@@ -1,5 +1,5 @@
 function myFunction(a,b) {
-  return
+  // não entendi
 }
 
 console.log(
