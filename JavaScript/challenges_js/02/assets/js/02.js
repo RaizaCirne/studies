@@ -6,7 +6,7 @@ function stringCounter(letter, string) {
     if(letter == string[i]) {
       cont++
     }
-    console.log("Essa letra aparece um total de: " + cont + " vezes");
+    console.log("Essa letra aparece um total de: " + cont + (cont === 1 ? " vez" : " vezes"));
   }
 
 }
