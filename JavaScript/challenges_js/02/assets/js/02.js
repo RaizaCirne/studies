@@ -1,15 +1,9 @@
-// 1) Uma função que recebe uma letra e uma frase. Ele deve dizer quantas vezes essa letra aparece na frase. 
+// 2) Porcemtagem 
+// Uma função que recebe dois números (a e b). Deve retornar quantos % de b é de a. 
 
-function stringCounter(letter, string) {
-  var cont = 0; 
-  for(var i in string) {
-    if(letter == string[i]) {
-      cont++
-    }
-    console.log("Essa letra aparece um total de: " + cont + (cont === 1 ? " vez" : " vezes"));
-  }
-
+function percentage (nominator, denominator ) {
+  var result = nominator / denominator; 
+  console.log(nominator + ' equivale a ' + result * 100 + '% de ' + denominator);
 }
 
-stringCounter("o", "Leonardo")
-
+percentage(40,50);

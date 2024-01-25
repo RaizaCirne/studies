@@ -1,9 +1,17 @@
-// 2) Porcemtagem 
-// Uma função que recebe dois números (a e b). Deve retornar quantos % de b é de a. 
+// 3) Faxina 
+// Uma função que receba um objeto (de atributo, nome, sobrenome, idade) e delete algum deles, caso esteja vazio (null). 
 
-function percentage (nominator, denominator ) {
-  var result = nominator / denominator; 
-  console.log(nominator + ' equivale a ' + result * 100 + '% de ' + denominator);
-}
+const myCleaning = (object) => {
+  if(object.name === null) {
+    delete object.name; 
+  } else if(object.surname === null) {
+    delete object.surnamename; 
+  } else if(object.age === null) {
+    delete object.age; 
+  } else {
+    console.log('Nada a deletar!');
+  }; 
+  console.log(object);
+};
 
-percentage(40,50);
+myCleaning({name: null , surname: 'Araujo', age: 23});
