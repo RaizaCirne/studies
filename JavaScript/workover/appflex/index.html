@@ -7,12 +7,12 @@
 </head>
 <body>
   <h1>JS - Aula 5: Calculadora Flex</h1>
-  <img src="images/neutro.png" alt="Calculadora Flex">
-  <form>
-    <input type="text" placeholder="Etanol" size="8">
-    <input type="text" placeholder="Gasolina" size="8">
-    <input type="button" value="Vantagem">
-    <input type="reset" value="Limpar">
+  <img src="images/neutro.png" alt="Calculadora Flex" id="status">
+  <form name="frmFlex">
+    <input type="text" placeholder="Etanol" size="8" name="txtEtanol">
+    <input type="text" placeholder="Gasolina" size="8" name="txtGasolina">
+    <input type="button" value="Vantagem" onclick="calcular()">
+    <input type="reset" value="Limpar" onclick="resetar()">
   </form>
 
   <script src="calcflex.js"></script>
