@@ -1,16 +1,11 @@
 // Eventos de teclado 
-function apertou() {
-  console.log('APERTOU');
+function soltou(event) {
+  console.log('TECLA APERTADA ' + event.code);
+  console.log('SHIFT?' + event.shiftKey);
+  console.log('CTRL?' + event.ctrlKey);
+  console.log('ALT?' + event.altKey);
+  console.log('--');
 }
 
-function segurou() {
-  console.log('SEGUROU');
-
-}
-
-function soltou() {
-  console.log('SOLTOU');
-}
-
-// const input = document.querySelector('input');
-document.addEventListener('keyup', soltou);
+const input = document.querySelector('input');
+input.addEventListener('keyup', soltou);
