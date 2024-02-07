@@ -12,5 +12,5 @@ console.log(Math.min(1, 3, 15, 2, 7, 4));
 // Math.round() retorna o valor inteiro -> 5
 console.log(Math.round(5.3));
 
-// Math.round() retorna o valor de PI
+// Math.PI retorna o valor de PI
 console.log(Math.PI);
