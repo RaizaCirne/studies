@@ -6,7 +6,7 @@ const email = 'Hi ' + fistName +  ', \nThe meeting is confirmed! Andre'; // Essa
 // 2ª Exemplo: usando crase 
 const email2 = `Hi ${fistName}, 
 The meeting is confirmed! 
-Andre'`;
+Andre`;
 
 
 console.log(email);
