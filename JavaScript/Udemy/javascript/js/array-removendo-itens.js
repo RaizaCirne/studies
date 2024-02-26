@@ -23,7 +23,7 @@ const num = [5, 6, 7, 8];
 const final = num.splice(2,1);
 
 console.log(num);
-console.log(final); // mostra o iitem removido 
+console.log(final); // mostra o item removido 
 */
 
 // splice() -> A partir do index 2, remover dois itens 
