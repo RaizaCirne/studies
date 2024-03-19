@@ -4,3 +4,4 @@ let clients = ['Andre', 'Marcela', 'Jose'];
 // Se for número, de 0 em diante... 
 clients.sort(); 
 console.log(clients);
+
