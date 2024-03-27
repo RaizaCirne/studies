@@ -15,6 +15,7 @@
     <main oninput="update()" >
       <h1>Quick Tip</h1>
       <section>
+
         <div class="bill">
           <label for="yourBill">Bill</label>
           <input 
@@ -22,25 +23,33 @@
             placeholder="Your bill" 
             id="yourBill"  />
         </div>
+
         <div>
+
           <div class="space-between">
             <label for="">Select tip</label
             ><span id="tipPercent">0%</span>
           </div>
+
           <input type="range" value="0" id="tipInput" class="range" />
         </div>
+
         <div class="space-between">
           <span>Tip</span>
           <span id="tipValue"></span>
         </div>
+
         <hr />
+
         <div class="space-between total">
           <span>Total</span>
           <span id="totalWithTip"></span>
         </div>
+
       </section>
 
       <section>
+
         <div>
           <div class="space-between">
             <label for="splitInput">Split</label>
@@ -55,10 +64,12 @@
             class="range"
           />
         </div>
+
         <div class="space-between">
           <span>Bill each</span>
           <span id="billEach"></span>
         </div>
+        
       </section>
     </main>
     <script src="index.js"></script>

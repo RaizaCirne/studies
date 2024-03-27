@@ -1,7 +1,10 @@
-// Valor da conta
-// Quanto deseja dar de porcentagem
-// Número de pessoas
+// 1º capturar informações e guardar nas variáveis
+// 2º Fazer os calculos 
 
 function update() {
-  console.log('ok');
+  let bill = Number(document.getElementById('yourBill').value);
+  let tipPercent = document.getElementById('tipInput').value;
+  let split = document.getElementById('splitInput').value;
+
+  console.log(bill, tipPercent, split);
 }
