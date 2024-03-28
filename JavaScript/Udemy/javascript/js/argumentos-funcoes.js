@@ -5,6 +5,6 @@ function price(a, b) {
 
 console.log(price(10,20));
 
-// Se tiver uma quantidade maior de valores? 
+
 console.log(price(10)); // Se esquecer um argumento -> retorna NaN 
 console.log(price(10, 20, 30, 40)); // Se passar mais argumentos -> Só considera os dois primeiros que foram passados para a função
