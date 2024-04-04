@@ -1,5 +1,5 @@
 // Adicionando variavéis
-const colors = ['Red', 'Blue', 'Yellow', 'Purple', 'Green']
+const colors = ['Red', 'Black', 'Blue', 'Yellow', 'Purple', 'Green']
 const btn = document.getElementById('btn')
 const color = document.querySelector('.color')
 
