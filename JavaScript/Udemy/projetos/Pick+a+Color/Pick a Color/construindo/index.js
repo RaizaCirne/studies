@@ -1,12 +1,13 @@
 // Adicionando variavéis
 const colors = ['Red', 'Blue', 'Yellow', 'Purple', 'Green']
 const btn = document.getElementById('btn')
+const color = document.querySelector('.color')
 
 // Adicionando ações
 btn.addEventListener('click', function() {
   const randomColor = getRandomColor()
   document.body.style.background = colors[randomColor]
-  document.getElementById('cor').innerHTML = colors[randomColor]
+  color.textContent = colors[randomColor]
   // console.log(randomColor)
 })
 
