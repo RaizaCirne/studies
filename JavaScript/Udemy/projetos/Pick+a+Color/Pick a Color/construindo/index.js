@@ -4,8 +4,9 @@ const btn = document.getElementById('btn')
 
 // Adicionando ações
 btn.addEventListener('click', function() {
-  document.body.style.background = colors[4]
   const randomColor = getRandomColor()
+  document.body.style.background = colors[randomColor]
+  
   // console.log(randomColor)
 })
 
