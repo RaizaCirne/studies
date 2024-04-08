@@ -1,17 +1,13 @@
-import PostComponent from './Post';
+import { Post } from './Post';
 
-function App() {
+export function App() {
   return (
       <div>
-        <PostComponent  />
-        <PostComponent />
-        <PostComponent />
-        <PostComponent />
-        <PostComponent />
-        <PostComponent />
-        <PostComponent />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
       </div>
   )
 }
-
-export default App
