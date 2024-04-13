@@ -91,6 +91,38 @@ body > main div {
   flex-direction: row;
   justify-content: center;
 }
+body > main div > form {
+  margin-top: 1rem;
+}
 body > main div > form > input {
-  padding: 1rem 8rem;
+  width: 400px;
+  height: 62px;
+  background-color: rgba(50, 50, 50, 0.2);
+  border-radius: 4px;
+  border: 2px solid #333430;
+  color: var(--secondary-color);
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+body > main div > form > input::-moz-placeholder {
+  color: #bbbbbb;
+  font-size: 1rem;
+}
+body > main div > form > input::placeholder {
+  color: #bbbbbb;
+  font-size: 1rem;
+}
+body > main div > form > button {
+  width: 180px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+body > main div > form > button:hover {
+  background-color: #c11119;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
