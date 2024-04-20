@@ -18,28 +18,32 @@ function compareNumbers() {
    userNumbers.push(' ' + userNumber)
    document.getElementById('guesses').innerHTML = userNumbers
 
-   if(attempts < MaxGuesses) {
-      if(userNumber > computerNumber) {
-         document.getElementById('textOutput').innerHTML = 'Your number is too high'
-         document.getElementById('inputBox').value = ''
-         attempts++ 
-         document.getElementById('attempts').innerHTML = attempts
-   
-      } else if (userNumber < computerNumber) {
-         document.getElementById('textOutput').innerHTML = 'Your number is too low'
-         document.getElementById('inputBox').value = ''
-         attempts++ 
-         document.getElementById('attempts').innerHTML = attempts
-         
-      } else {
-          document.getElementById('textOutput').innerHTML = 'Congratulations!!!'
-          attempts++ 
-          document.getElementById('attempts').innerHTML = attempts
-          document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
+   if (userNumber > 0 & userNumber < 100) {
+      if(attempts < MaxGuesses) {
+         if(userNumber > computerNumber) {
+            document.getElementById('textOutput').innerHTML = 'Your number is too high'
+            document.getElementById('inputBox').value = ''
+            attempts++ 
+            document.getElementById('attempts').innerHTML = attempts
+      
+         } else if (userNumber < computerNumber) {
+            document.getElementById('textOutput').innerHTML = 'Your number is too low'
+            document.getElementById('inputBox').value = ''
+            attempts++ 
+            document.getElementById('attempts').innerHTML = attempts
+            
+         } else {
+             document.getElementById('textOutput').innerHTML = 'Congratulations!!!'
+             attempts++ 
+             document.getElementById('attempts').innerHTML = attempts
+             document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
+         }
+      } 
+      else {
+         document.getElementById('textOutput').innerHTML = 'You Lose! The computer number was ' + computerNumber
+         document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
       }
-   } 
-   else {
-      document.getElementById('textOutput').innerHTML = 'You Lose! The computer number was ' + computerNumber
-      document.getElementById('inputBox').setAttribute('Readonly', 'Readonly')
+   } else {
+      document.getElementById('textOutput').innerHTML = '<span style="color: red;">Invalid.</br> Enter a number from 1 to 100.</span>'
    }
 }
