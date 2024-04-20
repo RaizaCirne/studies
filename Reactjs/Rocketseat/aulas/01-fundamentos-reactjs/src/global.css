@@ -12,6 +12,14 @@
   --green-500: #00875f;
 }
 
+/* subscrever o focus */
+:focus {
+  /* tira o focus padrão que é a bordinha branca dos elementos quando dá o tab ou clica no textarea  */
+  outline: transparent;
+  /* a bordinha do focus fica verde em todos os elementos */
+  box-shadow: 0 0 0 2px var(--green-500);
+}
+
 * {
   margin: 0;
   padding: 0;

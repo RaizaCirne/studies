@@ -28,6 +28,21 @@ export function Post () {
           <a href="">#rocketseat</a>
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea 
+          placeholder='Deixe um comentário'
+        />
+
+         {/* Criando footer em volta do botão 
+         para Botão de publicar aparecer somente quando 
+         usuário estiver com a textarea focada   */}
+        <footer>
+          <button type='submit'>Publicar</button>
+          </footer>
+      </form>
     </article>
   )
 }
