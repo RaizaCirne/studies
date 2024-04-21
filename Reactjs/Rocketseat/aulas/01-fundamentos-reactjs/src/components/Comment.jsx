@@ -16,7 +16,7 @@ export function Comment() {
              
              {/* Todo botão que é ícone, sem texto, colocar title - leitores de tela saber do que se trata. Ícone é só visual, não diz nada. */}
             <button title='Deletar comentário'>
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
 
           </header>
