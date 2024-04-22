@@ -130,8 +130,30 @@ body {
         }
     }
 
-    #teste {
+    > #medium-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: black;
+
+      > #text-content {
+        width: 40%;
+        > .title, .subtitle {
+          color: var(--secondary-color);
+          line-height: 1.25rem;
+        }
+
+        > .title {
+          font-size: var(--title-size);
+          font-weight: 900;
+        }
+  
+        > .subtitle {
+          font-size: var(--paragraph-size);
+          font-weight: 400;
+          padding: 2rem 0;
+        }
+      }
     }
   }
 }

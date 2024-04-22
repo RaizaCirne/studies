@@ -120,15 +120,24 @@ body > main > #main-content-section > #main-content > form > button:hover {
   background-color: #c11119;
   cursor: pointer;
 }
-body > main > section #text-content > .title, body > main > section #text-content .subtitle, body > main > section #text-content h3, body > main > section #text-content p {
+body > main > #medium-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+body > main > #medium-content > #text-content {
+  width: 40%;
+}
+body > main > #medium-content > #text-content > .title, body > main > #medium-content > #text-content .subtitle {
   color: var(--secondary-color);
   line-height: 1.25rem;
 }
-body > main > section #text-content > .title {
+body > main > #medium-content > #text-content > .title {
   font-size: var(--title-size);
   font-weight: 900;
 }
-body > main > section #text-content > .subtitle {
+body > main > #medium-content > #text-content > .subtitle {
   font-size: var(--paragraph-size);
   font-weight: 400;
   padding: 2rem 0;
