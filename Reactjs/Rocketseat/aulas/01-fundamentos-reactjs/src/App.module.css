@@ -10,3 +10,14 @@
 }
 
 /* 1fr: Unidade usada no grid pra dizer que algo vai ter um tamanho flexível. */
+
+/* Quando a tela for menor que 768px */
+@media (max-width: 768px){
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr; /* grid não vai ter mais duas colunas. Vai ter apenas uma coluna que ocupa a largura toda */ 
+  }
+}
