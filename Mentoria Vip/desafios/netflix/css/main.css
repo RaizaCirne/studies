@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+  background-color: rgb(33, 33, 33);
+}
 body > main > #main-content-section {
   background: linear-gradient(rgba(0, 0, 0, 0.367), rgb(0, 0, 0)), url(/assets/images/background.jpg);
   background-repeat: no-repeat;
@@ -120,25 +124,51 @@ body > main > #main-content-section > #main-content > form > button:hover {
   background-color: #c11119;
   cursor: pointer;
 }
-body > main > #medium-content {
+body > main > .medium-content {
+  background: #000;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  margin-top: 0.625rem;
 }
-body > main > #medium-content > #text-content {
-  width: 40%;
+body > main > .medium-content #text-content {
+  width: 55%;
 }
-body > main > #medium-content > #text-content > .title, body > main > #medium-content > #text-content .subtitle {
+body > main > .medium-content #text-content > .title, body > main > .medium-content #text-content .subtitle, body > main > .medium-content #text-content h3, body > main > .medium-content #text-content p {
   color: var(--secondary-color);
   line-height: 1.25rem;
 }
-body > main > #medium-content > #text-content > .title {
+body > main > .medium-content #text-content > .title {
   font-size: var(--title-size);
   font-weight: 900;
 }
-body > main > #medium-content > #text-content > .subtitle {
+body > main > .medium-content #text-content > .subtitle {
   font-size: var(--paragraph-size);
   font-weight: 400;
   padding: 2rem 0;
+  line-height: 1.2em;
+}
+body > main > .medium-content #text-content > #subtitle-width-one {
+  width: 80%;
+}
+body > main > .medium-content #text-content > #subtitle-width-two {
+  width: 80%;
+}
+body > main > .medium-content #text-content > #subtitle-width-three {
+  width: 70%;
+}
+body > main > .medium-content .text-content-width {
+  width: 10%;
+}
+body > main > #faq {
+  margin-top: 0.625rem;
+  background: #000;
+}
+body > main > #faq > h2 {
+  font-size: var(--title-size);
+  color: var(--secondary-color);
+  font-weight: 900;
+  text-align: center;
+  padding: 4rem 0;
 }/*# sourceMappingURL=main.css.map */
