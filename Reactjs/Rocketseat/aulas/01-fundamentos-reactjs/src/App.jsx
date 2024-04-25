@@ -6,14 +6,6 @@ import styles from './App.module.css';
 
 import './global.css';
 import { Paragraph } from '@phosphor-icons/react';
-// author: { avatar_url: “”, name: “”, role: “”}
-// publishedAt: Date
-// content: String
-
-// array com todos os posts que a aplicação vai ter
-// Como o post tem várias informações dentro dele, cada posição dentro do array vai ser um objeto.
-// Um array de objetos: um array com vários posts 
-
 
 const post = [
   {
@@ -43,7 +35,7 @@ const post = [
       {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
       {type: 'link', content: 'jane.design/doctorcare' },
     ],
-    publishedAt: new Date('2024-04-22 20:00:00'),
+    publishedAt: new Date('2024-04-24 20:00:00'),
   },
 ]; 
 
