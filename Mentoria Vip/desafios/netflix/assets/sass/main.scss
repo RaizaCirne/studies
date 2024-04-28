@@ -181,10 +181,18 @@ body {
       }
     }
 
-    > #faq {
+    > #container {
       margin-top: 0.625rem;
+      min-height: 100vh;
+      width: 100vw;
       background: #000;
-      > h2 {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20%;
+      // overflow-x: hidden;
+      > h1 {
         font-size: var(--title-size);
         color: var(--secondary-color);
         font-weight: 900;
