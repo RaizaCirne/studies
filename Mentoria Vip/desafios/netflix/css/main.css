@@ -178,4 +178,39 @@ body > main > #container > h1 {
   font-weight: 900;
   text-align: center;
   padding: 4rem 0;
+}
+body > main > #container > .faq-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+body > main > #container > .faq-list .faq .ques {
+  background-color: #2D2D2D;
+  padding: 30px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+body > main > #container > .faq-list .faq .ques:hover {
+  background-color: #545454;
+}
+body > main > #container > .faq-list .faq .ans {
+  max-height: 0px;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+body > main > #container > .faq-list .faq .ans p {
+  background-color: #2D2D2D;
+  padding: 30px;
+  font-size: 30px;
+  border-top: 1px solid #000;
+}
+body > main > #container > .faq-list .faq.active .ans {
+  max-height: 300px;
 }/*# sourceMappingURL=main.css.map */
