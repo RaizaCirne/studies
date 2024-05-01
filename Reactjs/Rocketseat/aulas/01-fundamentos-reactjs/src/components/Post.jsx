@@ -26,7 +26,7 @@ export function Post ({ author, publishedAt, content }) {
   function handleCreateNewComment() {
     event.preventDefault()
     
-    setComments([1,2,3]);
+    setComments([...comments, comments.length + 1]);
   }
 
   return (
