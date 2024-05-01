@@ -162,7 +162,6 @@ body > main > .medium-content .text-content-width {
   width: 10%;
 }
 body > main > #container {
-  margin-top: 0.625rem;
   min-height: 100vh;
   width: 100vw;
   background: #000;
@@ -205,12 +204,12 @@ body > main > #container > .faq-list .faq .ans {
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
 }
+body > main > #container > .faq-list .faq .faq.active .ans {
+  max-height: 300px;
+}
 body > main > #container > .faq-list .faq .ans p {
   background-color: #2D2D2D;
   padding: 30px;
   font-size: 30px;
   border-top: 1px solid #000;
-}
-body > main > #container > .faq-list .faq.active .ans {
-  max-height: 300px;
 }/*# sourceMappingURL=main.css.map */

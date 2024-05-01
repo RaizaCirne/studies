@@ -9,6 +9,8 @@
 body {
   font-family: sans-serif;
   background-color: rgb(33, 33, 33);
+  
+  
 
   > main {
     > #main-content-section {
@@ -177,9 +179,10 @@ body {
         width: 10%;
       }
     }
+    
 
     > #container {
-      margin-top: 0.625rem;
+      // margin-top: 0.625rem;
       min-height: 100vh;
       width: 100vw;
       background: #000;
@@ -203,8 +206,6 @@ body {
           justify-content: center;
           flex-direction: column;
           gap: 10px;
-
-        
         .faq {
           .ques {
             background-color: #2D2D2D;
@@ -228,22 +229,17 @@ body {
             transition: max-height .3s ease-in-out;
           }
 
-          
+          .faq.active .ans{
+            max-height: 300px;
+          } 
 
           .ans p {
             background-color: #2D2D2D;
             padding: 30px;
             font-size: 30px;
             border-top: 1px solid #000;
-            // height: 0;
-            // width: 100%;
-            // overflow: hidden;
           }
         }
-
-        .faq.active .ans{
-          max-height: 300px;
-        } 
       }
     }    
   }
