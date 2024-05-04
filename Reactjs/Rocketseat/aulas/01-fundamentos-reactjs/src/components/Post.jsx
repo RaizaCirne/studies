@@ -24,8 +24,10 @@ export function Post ({ author, publishedAt, content }) {
 
   function handleCreateNewComment() {
     event.preventDefault()
+
+    const newCommentTex = event.target.comment.value;
     
-    setComments([...comments, comments.length + 1]);
+    setComments([...comments, newCommentTex]);
   }
 
   return (
@@ -58,6 +60,7 @@ export function Post ({ author, publishedAt, content }) {
         <strong>Deixe seu feedback</strong>
 
         <textarea 
+          name="comment"
           placeholder='Deixe um comentário'
         />
 
