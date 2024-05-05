@@ -28,6 +28,8 @@ export function Post ({ author, publishedAt, content }) {
     const newCommentTex = event.target.comment.value;
     
     setComments([...comments, newCommentTex]);
+
+    event.target.comment.value = '';
   }
 
   return (
