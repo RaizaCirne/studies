@@ -91,28 +91,43 @@ body > main > #main-content-section > #main-content > h3 {
   font-weight: 400;
 }
 body > main > #main-content-section > #main-content > form {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 1rem;
 }
-body > main > #main-content-section > #main-content > form > input {
-  width: 380px;
-  padding: 1.5rem 1rem 0.5rem;
+body > main > #main-content-section > #main-content > form .input-group {
+  display: flex;
+  gap: 8px;
+}
+body > main > #main-content-section > #main-content > form .input-group input[type=text],
+body > main > #main-content-section > #main-content > form .input-group button {
+  height: 50px;
+  border: none;
+  padding: 0 40px;
+  border-radius: 0.1875rem;
+}
+body > main > #main-content-section > #main-content > form .input-group input[type=text] {
+  flex: 1;
   background-color: rgba(50, 50, 50, 0.2);
   border: 2px solid #333430;
   color: var(--secondary-color);
-  font-size: 1rem;
-  border-radius: 0.1875rem;
 }
-body > main > #main-content-section > #main-content > form > input::-moz-placeholder {
+body > main > #main-content-section > #main-content > form .input-group input[type=text]::-moz-placeholder {
   color: #bbbbbb;
   font-size: 1rem;
+  text-align: start;
+  padding-left: 5px;
 }
-body > main > #main-content-section > #main-content > form > input::placeholder {
+body > main > #main-content-section > #main-content > form .input-group input[type=text]::placeholder {
   color: #bbbbbb;
   font-size: 1rem;
+  text-align: start;
+  padding-left: 5px;
 }
-body > main > #main-content-section > #main-content > form > button {
-  width: 180px;
-  padding: 1.5rem 1rem 0.5rem;
+body > main > #main-content-section > #main-content > form .input-group button {
+  color: #fff;
+  cursor: pointer;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: none;
@@ -120,9 +135,8 @@ body > main > #main-content-section > #main-content > form > button {
   font-size: 1.5rem;
   border-radius: 0.1875rem;
 }
-body > main > #main-content-section > #main-content > form > button:hover {
+body > main > #main-content-section > #main-content > form .input-group button:hover {
   background-color: #c11119;
-  cursor: pointer;
 }
 body > main > .medium-content {
   background: #000;
@@ -161,32 +175,31 @@ body > main > .medium-content #text-content > #subtitle-width-three {
 body > main > .medium-content .text-content-width {
   width: 10%;
 }
-body > main > #container {
+body > main > .container {
   min-height: 100vh;
   width: 100vw;
-  background: #000;
-  color: #fff;
+  background-color: #000;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 20%;
+  color: #fff;
 }
-body > main > #container > h1 {
-  font-size: var(--title-size);
-  color: var(--secondary-color);
-  font-weight: 900;
-  text-align: center;
-  padding: 4rem 0;
+body > main > .container > h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
-body > main > #container > .faq-list {
+body > main > .container > .faq-list {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
 }
-body > main > #container > .faq-list .faq .ques {
-  background-color: #2D2D2D;
+body > main > .container > .faq-list .faq .ques {
+  background-color: #2d2d2d;
   padding: 30px;
   font-size: 30px;
   display: flex;
@@ -195,21 +208,27 @@ body > main > #container > .faq-list .faq .ques {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-body > main > #container > .faq-list .faq .ques:hover {
+body > main > .container > .faq-list .faq .ques > i {
+  transition: all 0.3s ease-in-out;
+}
+body > main > .container > .faq-list .faq .ques:hover {
   background-color: #545454;
 }
-body > main > #container > .faq-list .faq .ans {
+body > main > .container > .faq-list .faq .ans {
   max-height: 0px;
   width: 100%;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
 }
-body > main > #container > .faq-list .faq .faq.active .ans {
-  max-height: 300px;
-}
-body > main > #container > .faq-list .faq .ans p {
+body > main > .container > .faq-list .faq .ans > p {
   background-color: #2D2D2D;
   padding: 30px;
   font-size: 30px;
   border-top: 1px solid #000;
+}
+body > main > .container > .faq-list .faq.active .ans {
+  max-height: 300px;
+}
+body > main > .container > .faq-list .faq.active i {
+  transform: rotate(45deg);
 }/*# sourceMappingURL=main.css.map */
