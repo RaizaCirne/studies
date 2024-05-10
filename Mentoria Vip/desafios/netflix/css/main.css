@@ -1,8 +1,4 @@
 :root {
-  --main-font-family: sans-serif;
-  --title-size: 3rem;
-  --sub-title-size-3: 1.25rem;
-  --paragraph-size: 1.5rem;
   --primary-color: #c11119;
   --secondary-color: #ffffff;
   --tertiary-color: #000000;
@@ -16,16 +12,16 @@
 
 body {
   font-family: sans-serif;
-  background-color: rgb(33, 33, 33);
+  background-color: var(--tertiary-color);
 }
 body > main > #main-content-section {
   background: linear-gradient(rgba(0, 0, 0, 0.367), rgb(0, 0, 0)), url(/assets/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 695px;
+  height: 620px;
   padding: 1.5rem;
   margin: 0 auto;
-  font-family: var(--main-font-family);
+  font-family: sans-serif;
 }
 body > main > #main-content-section > header {
   display: flex;
@@ -77,17 +73,17 @@ body > main > #main-content-section > #main-content > .title, body > main > #mai
   line-height: 1.25rem;
 }
 body > main > #main-content-section > #main-content > .title {
-  font-size: var(--title-size);
+  font-size: 3rem;
   font-weight: 900;
 }
 body > main > #main-content-section > #main-content > .subtitle {
-  font-size: var(--paragraph-size);
+  font-size: 1.5rem;
   font-weight: 400;
   padding: 2rem 0;
 }
 body > main > #main-content-section > #main-content > h3 {
   line-height: 1.5;
-  font-size: var(--sub-title-size-3);
+  font-size: 1.25rem;
   font-weight: 400;
 }
 body > main > #main-content-section > #main-content > form {
@@ -126,7 +122,7 @@ body > main > #main-content-section > #main-content > form .input-group input[ty
   padding-left: 5px;
 }
 body > main > #main-content-section > #main-content > form .input-group button {
-  color: #fff;
+  color: var(--secondary-color);
   cursor: pointer;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -138,9 +134,49 @@ body > main > #main-content-section > #main-content > form .input-group button {
 body > main > #main-content-section > #main-content > form .input-group button:hover {
   background-color: #c11119;
 }
+body > main > .standart-plan-content {
+  width: 90%;
+  padding: 2rem 0;
+  background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+  margin: 0 auto;
+}
+body > main > .standart-plan-content > .standart-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: var(--secondary-color);
+}
+body > main > .standart-plan-content > .standart-plan > .standart-image {
+  width: 5%;
+}
+body > main > .standart-plan-content > .standart-plan > .standart-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+body > main > .standart-plan-content > .standart-plan > .standart-box > .standart-p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+body > main > .standart-plan-content > .standart-plan > .standart-box > .standart-p-two {
+  font-size: 1rem;
+}
+body > main > .standart-plan-content > .standart-plan > .standart-box > button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+body > main > .standart-plan-content > .standart-plan > .standart-box > button > a {
+  color: #448ef4;
+  cursor: pointer;
+}
 body > main > .medium-content {
-  background: #000;
+  border-top: 8px solid rgb(33, 33, 33);
+  background: var(--tertiary-color);
   margin-top: 0.625rem;
+  padding: 5rem 0;
 }
 body > main > .medium-content > .medium {
   width: 75%;
@@ -156,14 +192,14 @@ body > main > .medium-content > .medium > #text-content > .title, body > main > 
   line-height: 1.25rem;
 }
 body > main > .medium-content > .medium > #text-content > .title {
-  font-size: var(--title-size);
+  font-size: 3rem;
   font-weight: 900;
 }
 body > main > .medium-content > .medium > #text-content > .title-child {
   line-height: 1em;
 }
 body > main > .medium-content > .medium > #text-content > .subtitle {
-  font-size: var(--paragraph-size);
+  font-size: 1.5rem;
   font-weight: 400;
   padding: 2rem 0;
   line-height: 1.2em;
@@ -171,59 +207,117 @@ body > main > .medium-content > .medium > #text-content > .subtitle {
 body > main > .medium-content > .medium > .medium-image {
   width: 45%;
 }
-body > main > .container {
-  background-color: #000;
+body > main > .container-faq {
+  background-color: var(--tertiary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 10%;
-  color: #fff;
+  color: var(--secondary-color);
   margin-top: 0.625rem;
 }
-body > main > .container > h1 {
+body > main > .container-faq > h1 {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-body > main > .container > .faq-list {
+body > main > .container-faq > .faq-list {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
 }
-body > main > .container > .faq-list .faq .ques {
+body > main > .container-faq > .faq-list .faq .ques {
   background-color: #2d2d2d;
   padding: 30px;
-  font-size: 30px;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-body > main > .container > .faq-list .faq .ques > i {
+body > main > .container-faq > .faq-list .faq .ques > i {
   transition: all 0.3s ease-in-out;
 }
-body > main > .container > .faq-list .faq .ques:hover {
+body > main > .container-faq > .faq-list .faq .ques:hover {
   background-color: #545454;
 }
-body > main > .container > .faq-list .faq .ans {
+body > main > .container-faq > .faq-list .faq .ans {
   max-height: 0px;
   width: 100%;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
 }
-body > main > .container > .faq-list .faq .ans > p {
+body > main > .container-faq > .faq-list .faq .ans > p {
   background-color: #2D2D2D;
   padding: 30px;
   font-size: 30px;
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--tertiary-color);
 }
-body > main > .container > .faq-list .faq.active .ans {
+body > main > .container-faq > .faq-list .faq.active .ans {
   max-height: 300px;
 }
-body > main > .container > .faq-list .faq.active i {
+body > main > .container-faq > .faq-list .faq.active i {
   transform: rotate(45deg);
+}
+body > main > .container-faq > .faq-form {
+  width: 70%;
+  text-align: center;
+  margin: 4rem 0 auto;
+}
+body > main > .container-faq > .faq-form > h3 {
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+body > main > .container-faq > .faq-form > form {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+body > main > .container-faq > .faq-form > form .input-group {
+  display: flex;
+  gap: 8px;
+}
+body > main > .container-faq > .faq-form > form .input-group input[type=text],
+body > main > .container-faq > .faq-form > form .input-group button {
+  height: 55px;
+  border: none;
+  padding: 0 40px;
+  border-radius: 0.1875rem;
+}
+body > main > .container-faq > .faq-form > form .input-group input[type=text] {
+  flex: 1;
+  background-color: rgba(50, 50, 50, 0.35);
+  border: 2px solid #333430;
+  color: var(--secondary-color);
+}
+body > main > .container-faq > .faq-form > form .input-group input[type=text]::-moz-placeholder {
+  color: #bbbbbb;
+  font-size: 1rem;
+  text-align: start;
+  padding-left: 5px;
+}
+body > main > .container-faq > .faq-form > form .input-group input[type=text]::placeholder {
+  color: #bbbbbb;
+  font-size: 1rem;
+  text-align: start;
+  padding-left: 5px;
+}
+body > main > .container-faq > .faq-form > form .input-group button {
+  color: var(--secondary-color);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 0.1875rem;
+}
+body > main > .container-faq > .faq-form > form .input-group button:hover {
+  background-color: #c11119;
 }/*# sourceMappingURL=main.css.map */
