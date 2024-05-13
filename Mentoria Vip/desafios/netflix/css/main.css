@@ -6,6 +6,8 @@
 
 * {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -94,14 +96,14 @@ body > main > #main-content-section > #main-content > form {
 }
 body > main > #main-content-section > #main-content > form .input-group {
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
 }
 body > main > #main-content-section > #main-content > form .input-group input[type=text],
 body > main > #main-content-section > #main-content > form .input-group button {
   border: none;
   border-radius: 0.1875rem;
   height: 55px;
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 body > main > #main-content-section > #main-content > form .input-group input[type=text] {
   background-color: rgba(50, 50, 50, 0.35);
@@ -112,13 +114,13 @@ body > main > #main-content-section > #main-content > form .input-group input[ty
 body > main > #main-content-section > #main-content > form .input-group input[type=text]::-moz-placeholder {
   color: #bbbbbb;
   font-size: 1rem;
-  padding-left: 5px;
+  padding-left: 0.313rem;
   text-align: start;
 }
 body > main > #main-content-section > #main-content > form .input-group input[type=text]::placeholder {
   color: #bbbbbb;
   font-size: 1rem;
-  padding-left: 5px;
+  padding-left: 0.313rem;
   text-align: start;
 }
 body > main > #main-content-section > #main-content > form .input-group button {
@@ -217,15 +219,15 @@ body > main > .container-faq {
   padding: 10%;
 }
 body > main > .container-faq > h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 body > main > .container-faq > .faq-list {
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
   justify-content: center;
 }
 body > main > .container-faq > .faq-list .faq .ques {
@@ -235,7 +237,7 @@ body > main > .container-faq > .faq-list .faq .ques {
   display: flex;
   font-size: 1.5rem;
   justify-content: space-between;
-  padding: 30px;
+  padding: 1.875rem;
   transition: all 0.3s ease-in-out;
 }
 body > main > .container-faq > .faq-list .faq .ques > i {
@@ -253,8 +255,8 @@ body > main > .container-faq > .faq-list .faq .ans {
 body > main > .container-faq > .faq-list .faq .ans > p {
   background-color: #2D2D2D;
   border-top: 1px solid var(--tertiary-color);
-  font-size: 30px;
-  padding: 30px;
+  font-size: 1.875rem;
+  padding: 1.875rem;
 }
 body > main > .container-faq > .faq-list .faq.active .ans {
   max-height: 300px;
@@ -280,14 +282,14 @@ body > main > .container-faq > .faq-form > form {
 }
 body > main > .container-faq > .faq-form > form .input-group {
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
 }
 body > main > .container-faq > .faq-form > form .input-group input[type=text],
 body > main > .container-faq > .faq-form > form .input-group button {
   border: none;
   border-radius: 0.1875rem;
   height: 55px;
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 body > main > .container-faq > .faq-form > form .input-group input[type=text] {
   background-color: rgba(50, 50, 50, 0.35);
@@ -298,13 +300,13 @@ body > main > .container-faq > .faq-form > form .input-group input[type=text] {
 body > main > .container-faq > .faq-form > form .input-group input[type=text]::-moz-placeholder {
   color: #bbbbbb;
   font-size: 1rem;
-  padding-left: 5px;
+  padding-left: 0.313rem;
   text-align: start;
 }
 body > main > .container-faq > .faq-form > form .input-group input[type=text]::placeholder {
   color: #bbbbbb;
   font-size: 1rem;
-  padding-left: 5px;
+  padding-left: 0.313rem;
   text-align: start;
 }
 body > main > .container-faq > .faq-form > form .input-group button {
