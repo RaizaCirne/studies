@@ -357,6 +357,64 @@ body {
           }
         }
       }
-    }    
+    }   
+    
+    > footer {
+      > .medium-footer {
+        > .medium-footer-doubts {
+          padding: 1rem 13rem;
+          > h4 {
+            font-size: 1rem;
+            font-weight: normal;
+            > a {
+              color: #b3b3b3;
+              font-weight: normal;
+            }
+          }
+        }
+
+        > .medium-footer-list {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5rem;
+          font-weight: normal;
+          color: #b3b3b3;
+
+
+          > ul {
+            list-style: none;
+
+            > li {
+              margin: 1.2rem;
+
+              > a {
+                color: #b3b3b3;
+              }
+
+              > select {
+                background-image: url(/assets/images/translate-icon.svg);
+                background-repeat: no-repeat;
+                background-position: 8%;
+                background-color: rgba(50,50,50, 60%);
+                opacity: 100%;
+                color: var(--secondary-color);
+                padding: .3rem 2rem;
+                border-radius: .2rem;
+                line-height: 1.25rem;
+                font-size: 1rem;
+                margin-right: 1rem;
+            
+              > option {
+                background-color: var(--secondary-color);
+                color: var(--tertiary-color);
+                line-height: 1.25rem;
+              }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
