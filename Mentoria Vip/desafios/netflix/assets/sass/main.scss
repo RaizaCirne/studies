@@ -10,6 +10,7 @@
 body {
   background-color: var(--tertiary-color);
   font-family: sans-serif;
+  
  
   > main {
     > #main-content-section {
@@ -20,7 +21,6 @@ body {
       height: 620px;
       margin: 0 auto;
       padding: 1.5rem;
-      
       
         > header { 
           align-items: center;
@@ -87,19 +87,22 @@ body {
           transform: translate(-50%, -50%);
           width: 80%;
           @include d(m) {
-            width: 91%;
+            width: 100%;
           }
 
           > .title, .subtitle, h3, p {
             color: var(--secondary-color);
             line-height: 1.25rem;
+            @include d(m) {
+              margin: 0 auto;
+            }
           }
 
           > .title {
             font-size: 3rem;
             font-weight: 900;
             @include d(m) {
-              font-size: 2rem;
+              font-size: 1.8rem;
               line-height: 1.2;
             }
           }
@@ -118,6 +121,7 @@ body {
             font-weight: 400;
             line-height: 1.5;
             @include d(m) {
+              width: 79%;
               font-size: 1.125rem;
               line-height: 1.5;
             }
@@ -174,7 +178,6 @@ body {
                   width: 60%;
                   margin: 0 auto;
                   font-size: 1rem;
-
                 }
                 &:hover {
                   background-color: #c11119; 
@@ -270,6 +273,9 @@ body {
           > .title, .subtitle, h3, p {
             color: var(--secondary-color);
             line-height: 1.25rem;
+            @include d(m) {
+              margin: 0 auto;
+            }
           }
   
           > .title {
@@ -292,6 +298,7 @@ body {
             line-height: 1.2em;
             padding: 2rem 0;
             @include d(m) {
+              width: 90%;
               font-size: 1.125rem;
             }
           }
@@ -305,6 +312,19 @@ body {
         }
       }
     }
+
+    > .medium-desktop {
+      @include d(m) {
+        display: none;
+      }
+    }
+
+    > .medium-mobile {
+      display: none;
+      @include d(m) {
+        display: block;
+      }
+    }
     
     > .container-faq {
       align-items: center;
@@ -315,11 +335,19 @@ body {
       justify-content: center;
       margin-top: .625rem;
       padding: 10%;
+      @include d(m) {
+        padding: 4%;
+      }
       
       > h1 {
         font-size: 3.125rem;
         font-weight: bold;
         margin-bottom: 1.25rem;
+        @include d(m) {
+          font-size: 2rem;
+          margin: 0 auto 1.25rem;
+          text-align: center;
+        }
       }
 
       > .faq-list {
@@ -328,6 +356,7 @@ body {
         flex-direction: column;
         gap: 0.625rem;
         justify-content: center;
+        
         .faq {
           .ques {
             align-items: center;
@@ -338,6 +367,9 @@ body {
             justify-content: space-between;
             padding: 1.875rem;
             transition: all .3s ease-in-out;
+            @include d(m) {
+              font-size: 1.2rem;
+            }
 
             > i {
               transition: all .3s ease-in-out;
@@ -359,11 +391,18 @@ body {
               border-top: 1px solid var(--tertiary-color);
               font-size: 1.875rem;
               padding: 1.875rem;
+              @include d(m) {
+                font-size: 1.2rem;
+                line-height: 1.2em;
+              }
             }
           }
 
           &.active .ans {
-            max-height: 300px;
+            max-height: 360px;
+            @include d(m) {
+              max-height: 500px;
+            }
           } 
 
           &.active i {
@@ -376,6 +415,9 @@ body {
         margin: 4rem 0 auto;
         text-align: center;
         width: 70%;
+        @include d(m) {
+          width: 80%;
+        }
         > h3 {
           font-size: 1.25rem;
           font-weight: 400;
@@ -387,9 +429,16 @@ body {
           margin-top: 1rem;
           text-align: center;
           width: 70%;
+          @include d(m) {
+            width: 100%;
+          }
           .input-group {
             display: flex;
             gap: 0.5rem;
+            @include d(m) {
+              flex-direction: column;
+              height: 110px;
+            }
           
             input[type="text"],
             button {
@@ -420,6 +469,11 @@ body {
               cursor: pointer;
               font-size: 1.5rem;
               font-weight: bold;
+              @include d(m) {
+                width: 60%;
+                margin: 0 auto;
+                font-size: 1rem;
+              }
               &:hover {
                 background-color: #c11119; // Cor de fundo do botão quando em hover
               }
