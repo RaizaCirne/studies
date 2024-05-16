@@ -504,49 +504,16 @@ body > main > .container-faq > .faq-form > form .input-group button {
 body > main > .container-faq > .faq-form > form .input-group button:hover {
   background-color: #c11119;
 }
-body > main > footer > .medium-footer > .medium-footer-doubts {
-  padding: 1rem 13rem;
-}
-body > main > footer > .medium-footer > .medium-footer-doubts > h4 {
-  font-size: 1rem;
-  font-weight: normal;
-}
-body > main > footer > .medium-footer > .medium-footer-doubts > h4 > a {
-  color: #b3b3b3;
-  font-weight: normal;
-}
 body > main > footer > .medium-footer > .medium-footer-list {
-  align-items: center;
-  color: #b3b3b3;
-  display: flex;
-  font-weight: normal;
-  gap: 5rem;
-  justify-content: center;
+  padding: 10rem;
 }
 body > main > footer > .medium-footer > .medium-footer-list > ul {
+  font-style: no;
+}
+body > main > footer > .medium-footer > .medium-footer-list > ul > .medium-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
   list-style: none;
-}
-body > main > footer > .medium-footer > .medium-footer-list > ul > li {
-  margin: 1.2rem;
-}
-body > main > footer > .medium-footer > .medium-footer-list > ul > li > a {
-  color: #b3b3b3;
-}
-body > main > footer > .medium-footer > .medium-footer-list > ul > li > select {
-  background-color: rgba(50, 50, 50, 0.6);
-  background-image: url(/assets/images/translate-icon.svg);
-  background-position: 8%;
-  background-repeat: no-repeat;
-  border-radius: 0.2rem;
-  color: var(--secondary-color);
-  font-size: 1rem;
-  line-height: 1.25rem;
-  margin-right: 1rem;
-  opacity: 100%;
-  padding: 0.3rem 2rem;
-}
-body > main > footer > .medium-footer > .medium-footer-list > ul > li > select > option {
-  background-color: var(--secondary-color);
-  color: var(--tertiary-color);
-  line-height: 1.25rem;
 }/*# sourceMappingURL=main.css.map */
