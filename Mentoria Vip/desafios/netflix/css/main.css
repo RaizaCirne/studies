@@ -504,16 +504,65 @@ body > main > .container-faq > .faq-form > form .input-group button {
 body > main > .container-faq > .faq-form > form .input-group button:hover {
   background-color: #c11119;
 }
+body > main > footer > .medium-footer {
+  width: 80%;
+  margin: 0 auto;
+}
 body > main > footer > .medium-footer > .medium-footer-list {
-  padding: 10rem;
-}
-body > main > footer > .medium-footer > .medium-footer-list > ul {
-  font-style: no;
-}
-body > main > footer > .medium-footer > .medium-footer-list > ul > .medium-list {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 2rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list {
+  padding: 0;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .doubts-box {
+  margin-bottom: 1rem;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .doubts-box > .doubts {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .doubts-box > .doubts > a {
+  color: #b3b3b3;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > li {
+  color: #b3b3b3;
+  font-size: 0.9rem;
   list-style: none;
+  padding: 0.6rem 0;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > li > a {
+  color: #b3b3b3;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .select-box {
+  padding: 0.8rem 0;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .select-box > select {
+  background-color: rgba(50, 50, 50, 0.6);
+  background-image: url(/assets/images/translate-icon.svg);
+  background-position: 8%;
+  background-repeat: no-repeat;
+  border-radius: 0.2rem;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-right: 1rem;
+  opacity: 100%;
+  padding: 0.3rem 2rem;
+}
+@media only screen and (max-width: 767px) {
+  body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .select-box > select {
+    width: 0%;
+  }
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .select-box > select > option {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  line-height: 1.25rem;
+}
+body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .paragraph-box > p {
+  padding: 1rem 0;
+  color: #b3b3b3;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=main.css.map */

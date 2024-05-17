@@ -543,20 +543,76 @@ body {
 
     > footer {
       > .medium-footer {
+        width: 80%;
+        margin: 0 auto;
+        
         > .medium-footer-list {
-          padding: 10rem;
-          > ul {
-            font-style: no;
-            > .medium-list {
-              display: flex;
-              justify-content: flex-start;
-              align-items: center;
-              gap: 2rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          > .medium-list {
+            padding: 0;
+
+            > .doubts-box {
+              margin-bottom: 1rem;
+              > .doubts {
+                  color: #b3b3b3;
+                  font-size: .9rem;
+                > a {
+                  color: #b3b3b3;
+                }
+              }
+            }
+
+            > li {
+              color: #b3b3b3;
+              font-size: .9rem;
               list-style: none;
+              padding: .6rem 0;
+              > a {
+                color: #b3b3b3;
+              }
+            }
+
+            > .select-box {
+              padding: .8rem 0;
+              > select {
+                background-color: rgba(50,50,50, 60%);
+                background-image: url(/assets/images/translate-icon.svg);
+                background-position: 8%;
+                background-repeat: no-repeat;
+                border-radius: .2rem;
+                color: var(--secondary-color);
+                font-size: .9rem;
+                line-height: 1.25rem;
+                margin-right: 1rem;
+                opacity: 100%;
+                padding: .3rem 2rem;
+                @include d(m) {
+                  width: 0%;
+                }
+            
+              > option {
+                background-color: var(--secondary-color);
+                color: var(--tertiary-color);
+                line-height: 1.25rem;
+              }
+            }
+            }
+
+            > .paragraph-box {
+              > p {
+                padding: 1rem 0;
+
+                color: #b3b3b3;
+                font-size: .9rem;
+              }
             }
           }
         }
       }
     }
+
+ 
   }
 }
