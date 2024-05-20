@@ -34,8 +34,8 @@ body > main > #main-content-section > header {
 }
 @media only screen and (max-width: 767px) {
   body > main > #main-content-section > header {
-    margin: 0 auto;
     gap: 6rem;
+    margin: 0 auto;
   }
 }
 body > main > #main-content-section > header > img {
@@ -132,9 +132,9 @@ body > main > #main-content-section > #main-content > h3 {
 }
 @media only screen and (max-width: 767px) {
   body > main > #main-content-section > #main-content > h3 {
-    width: 79%;
     font-size: 1.125rem;
     line-height: 1.5;
+    width: 79%;
   }
 }
 body > main > #main-content-section > #main-content > form {
@@ -194,9 +194,9 @@ body > main > #main-content-section > #main-content > form .input-group button {
 }
 @media only screen and (max-width: 767px) {
   body > main > #main-content-section > #main-content > form .input-group button {
-    width: 60%;
-    margin: 0 auto;
     font-size: 1rem;
+    margin: 0 auto;
+    width: 60%;
   }
 }
 body > main > #main-content-section > #main-content > form .input-group button:hover {
@@ -278,10 +278,10 @@ body > main > .medium-content > .medium {
 @media only screen and (max-width: 767px) {
   body > main > .medium-content > .medium {
     flex-direction: column;
-    width: 100%;
-    text-align: center;
-    padding: 0 1.2rem;
     gap: 0;
+    padding: 0 1.2rem;
+    text-align: center;
+    width: 100%;
   }
 }
 body > main > .medium-content > .medium > #text-content > .title, body > main > .medium-content > .medium > #text-content .subtitle, body > main > .medium-content > .medium > #text-content h3, body > main > .medium-content > .medium > #text-content p {
@@ -300,8 +300,8 @@ body > main > .medium-content > .medium > #text-content > .title {
 @media only screen and (max-width: 767px) {
   body > main > .medium-content > .medium > #text-content > .title {
     font-size: 1.8rem;
-    width: 100%;
     line-height: 0.4em;
+    width: 100%;
   }
 }
 body > main > .medium-content > .medium > #text-content > .title-child {
@@ -315,8 +315,8 @@ body > main > .medium-content > .medium > #text-content > .subtitle {
 }
 @media only screen and (max-width: 767px) {
   body > main > .medium-content > .medium > #text-content > .subtitle {
-    width: 90%;
     font-size: 1.125rem;
+    width: 90%;
   }
 }
 body > main > .medium-content > .medium > .medium-image {
@@ -496,9 +496,9 @@ body > main > .container-faq > .faq-form > form .input-group button {
 }
 @media only screen and (max-width: 767px) {
   body > main > .container-faq > .faq-form > form .input-group button {
-    width: 60%;
-    margin: 0 auto;
     font-size: 1rem;
+    margin: 0 auto;
+    width: 60%;
   }
 }
 body > main > .container-faq > .faq-form > form .input-group button:hover {
@@ -578,8 +578,8 @@ body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .se
 }
 @media only screen and (max-width: 767px) {
   body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .select-box > select {
-    width: 90%;
     font-size: 0.7rem;
+    width: 90%;
   }
 }
 body > main > footer > .medium-footer > .medium-footer-list > .medium-list > .select-box > select > option {
