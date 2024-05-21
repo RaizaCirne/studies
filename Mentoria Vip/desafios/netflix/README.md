@@ -57,7 +57,7 @@ https://github.com/RaizaCirne/studies/assets/109912543/3c4b917d-5c2c-4802-bb6b-c
 
 <br />
 
-- Para acessar o site [Clique aqui](#)
+- Para acessar o site [Clique aqui](https://664cc0f62eda7e00a01f7844--beamish-lily-dfb26a.netlify.app/)
 
 <br />
 
@@ -105,7 +105,7 @@ Acessar caminho Mentoria Vip/desafios/netflix
 
 <br />
 
-- Personal Page - [Raíza Cirne Braz](#)
+- Personal Page - [Raíza Cirne Braz](https://664cc0f62eda7e00a01f7844--beamish-lily-dfb26a.netlify.app/)
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
