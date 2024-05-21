@@ -51,18 +51,6 @@ Manter a consistência de estilo em todas as seções foi desafiador, especialme
 
 https://github.com/RaizaCirne/studies/assets/109912543/3c4b917d-5c2c-4802-bb6b-cb41cee1964e
 
-## :desktop_computer: Desktop 
-
-
-
-https://github.com/RaizaCirne/studies/assets/109912543/c7382de8-9c1c-4b1b-a509-0060f2421d73
-
-
-## :iphone: Mobile 
-
-
-https://github.com/RaizaCirne/studies/assets/109912543/78c42811-fad6-4603-9015-e683dd177a42
-
 <br />
 
 # :heavy_check_mark: Links <a name="id07"></a>
