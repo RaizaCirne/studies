@@ -38,6 +38,11 @@ body > main > #main-content-section > header {
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > #main-content-section > header {
+    margin: 0 auto;
+  }
+}
 body > main > #main-content-section > header > img {
   width: 13%;
 }
@@ -121,6 +126,11 @@ body > main > #main-content-section > #main-content > .title {
     line-height: 1.2;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > #main-content-section > #main-content > .title {
+    line-height: 1.1;
+  }
+}
 body > main > #main-content-section > #main-content > .subtitle {
   font-size: 1.5rem;
   font-weight: 400;
@@ -152,6 +162,11 @@ body > main > #main-content-section > #main-content > form {
 @media only screen and (max-width: 767px) {
   body > main > #main-content-section > #main-content > form {
     width: 80%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > #main-content-section > #main-content > form {
+    width: 90%;
   }
 }
 body > main > #main-content-section > #main-content > form .input-group {
@@ -316,8 +331,22 @@ body > main > .medium-content > .medium > #text-content > .title {
     width: 100%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .medium-content > .medium > #text-content > .title {
+    font-size: 2.3rem;
+    line-height: 1;
+  }
+}
+body > main > .medium-content > .medium > #text-content > .sbtl {
+  line-height: 1;
+}
 body > main > .medium-content > .medium > #text-content > .title-child {
   line-height: 1em;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .medium-content > .medium > #text-content > .title-child {
+    font-size: 2.3rem;
+  }
 }
 body > main > .medium-content > .medium > #text-content > .subtitle {
   font-size: 1.5rem;
@@ -379,6 +408,11 @@ body > main > .container-faq > h1 {
     text-align: center;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .container-faq > h1 {
+    font-size: 2.5rem;
+  }
+}
 body > main > .container-faq > .faq-list {
   align-items: center;
   display: flex;
@@ -399,6 +433,11 @@ body > main > .container-faq > .faq-list .faq .ques {
 @media only screen and (max-width: 767px) {
   body > main > .container-faq > .faq-list .faq .ques {
     font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .container-faq > .faq-list .faq .ques {
+    font-size: 1.4rem;
   }
 }
 body > main > .container-faq > .faq-list .faq .ques > i {
@@ -425,12 +464,22 @@ body > main > .container-faq > .faq-list .faq .ans > p {
     line-height: 1.2em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .container-faq > .faq-list .faq .ans > p {
+    font-size: 1.4rem;
+  }
+}
 body > main > .container-faq > .faq-list .faq.active .ans {
   max-height: 360px;
 }
 @media only screen and (max-width: 767px) {
   body > main > .container-faq > .faq-list .faq.active .ans {
     max-height: 500px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .container-faq > .faq-list .faq.active .ans {
+    max-height: 600px;
   }
 }
 body > main > .container-faq > .faq-list .faq.active i {
@@ -444,6 +493,11 @@ body > main > .container-faq > .faq-form {
 @media only screen and (max-width: 767px) {
   body > main > .container-faq > .faq-form {
     width: 80%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .container-faq > .faq-form {
+    width: 100%;
   }
 }
 body > main > .container-faq > .faq-form > h3 {
@@ -497,6 +551,14 @@ body > main > .container-faq > .faq-form > form .input-group input[type=text]::p
   padding-left: 0.313rem;
   text-align: start;
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .container-faq > .faq-form > form .input-group input[type=text]::-moz-placeholder {
+    font-size: 0.9rem;
+  }
+  body > main > .container-faq > .faq-form > form .input-group input[type=text]::placeholder {
+    font-size: 0.9rem;
+  }
+}
 body > main > .container-faq > .faq-form > form .input-group button {
   background-color: var(--primary-color);
   border: none;
@@ -511,6 +573,12 @@ body > main > .container-faq > .faq-form > form .input-group button {
     font-size: 1rem;
     margin: 0 auto;
     width: 60%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body > main > .container-faq > .faq-form > form .input-group button {
+    font-size: 0.9rem;
+    width: 100%;
   }
 }
 body > main > .container-faq > .faq-form > form .input-group button:hover {

@@ -32,6 +32,9 @@ body {
           gap: 6rem;
           margin: 0 auto;
         }
+        @include d(t) {
+          margin: 0 auto;
+        }
 
         > img {
           width: 13%;
@@ -108,6 +111,9 @@ body {
             font-size: 1.8rem;
             line-height: 1.2;
           }
+          @include d(t) {
+            line-height: 1.1;
+          }
         }
 
         > .subtitle {
@@ -137,6 +143,9 @@ body {
           width: 50%;
           @include d(m) {
             width: 80%;
+          }
+          @include d(t) {
+            width: 90%;
           }
 
           .input-group {
@@ -297,10 +306,21 @@ body {
               line-height: 0.4em;
               width: 100%;
             }
+            @include d(t) {
+              font-size: 2.3rem;
+              line-height: 1;
+            }
+          }
+
+          > .sbtl {
+            line-height: 1;
           }
 
           > .title-child {
             line-height: 1em;
+            @include d(t) {
+              font-size: 2.3rem;
+            }
           }
 
           > .subtitle {
@@ -359,6 +379,9 @@ body {
           margin: 0 auto 1.25rem;
           text-align: center;
         }
+        @include d(t) {
+          font-size: 2.5rem;
+        }
       }
 
       > .faq-list {
@@ -380,6 +403,9 @@ body {
             transition: all 0.3s ease-in-out;
             @include d(m) {
               font-size: 1.2rem;
+            }
+            @include d(t) {
+              font-size: 1.4rem;
             }
 
             > i {
@@ -406,6 +432,9 @@ body {
                 font-size: 1.2rem;
                 line-height: 1.2em;
               }
+              @include d(t) {
+                font-size: 1.4rem;
+              }
             }
           }
 
@@ -413,6 +442,9 @@ body {
             max-height: 360px;
             @include d(m) {
               max-height: 500px;
+            }
+            @include d(t) {
+              max-height: 600px;
             }
           }
 
@@ -428,6 +460,9 @@ body {
         width: 70%;
         @include d(m) {
           width: 80%;
+        }
+        @include d(t) {
+          width: 100%;
         }
         > h3 {
           font-size: 1.25rem;
@@ -469,6 +504,9 @@ body {
                 font-size: 1rem;
                 padding-left: 0.313rem;
                 text-align: start;
+                @include d(t) {
+                  font-size: .9rem;
+                }
               }
             }
 
@@ -484,6 +522,10 @@ body {
                 font-size: 1rem;
                 margin: 0 auto;
                 width: 60%;
+              }
+              @include d(t) {
+                font-size: .9rem;
+                width: 100%;
               }
               &:hover {
                 background-color: #c11119; // Cor de fundo do botão quando em hover
