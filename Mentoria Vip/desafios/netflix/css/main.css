@@ -96,12 +96,18 @@ body > main > #main-content-section > #main-content {
     width: 100%;
   }
 }
-body > main > #main-content-section > #main-content > .title, body > main > #main-content-section > #main-content .subtitle, body > main > #main-content-section > #main-content h3, body > main > #main-content-section > #main-content p {
+body > main > #main-content-section > #main-content > .title,
+body > main > #main-content-section > #main-content .subtitle,
+body > main > #main-content-section > #main-content h3,
+body > main > #main-content-section > #main-content p {
   color: var(--secondary-color);
   line-height: 1.25rem;
 }
 @media only screen and (max-width: 767px) {
-  body > main > #main-content-section > #main-content > .title, body > main > #main-content-section > #main-content .subtitle, body > main > #main-content-section > #main-content h3, body > main > #main-content-section > #main-content p {
+  body > main > #main-content-section > #main-content > .title,
+  body > main > #main-content-section > #main-content .subtitle,
+  body > main > #main-content-section > #main-content h3,
+  body > main > #main-content-section > #main-content p {
     margin: 0 auto;
   }
 }
@@ -284,12 +290,18 @@ body > main > .medium-content > .medium {
     width: 100%;
   }
 }
-body > main > .medium-content > .medium > #text-content > .title, body > main > .medium-content > .medium > #text-content .subtitle, body > main > .medium-content > .medium > #text-content h3, body > main > .medium-content > .medium > #text-content p {
+body > main > .medium-content > .medium > #text-content > .title,
+body > main > .medium-content > .medium > #text-content .subtitle,
+body > main > .medium-content > .medium > #text-content h3,
+body > main > .medium-content > .medium > #text-content p {
   color: var(--secondary-color);
   line-height: 1.25rem;
 }
 @media only screen and (max-width: 767px) {
-  body > main > .medium-content > .medium > #text-content > .title, body > main > .medium-content > .medium > #text-content .subtitle, body > main > .medium-content > .medium > #text-content h3, body > main > .medium-content > .medium > #text-content p {
+  body > main > .medium-content > .medium > #text-content > .title,
+  body > main > .medium-content > .medium > #text-content .subtitle,
+  body > main > .medium-content > .medium > #text-content h3,
+  body > main > .medium-content > .medium > #text-content p {
     margin: 0 auto;
   }
 }
@@ -402,7 +414,7 @@ body > main > .container-faq > .faq-list .faq .ans {
   width: 100%;
 }
 body > main > .container-faq > .faq-list .faq .ans > p {
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   border-top: 1px solid var(--tertiary-color);
   font-size: 1.875rem;
   padding: 1.875rem;

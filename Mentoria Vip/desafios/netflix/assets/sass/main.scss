@@ -1,5 +1,5 @@
-@import 'mixins';
-@import 'global';
+@import "mixins";
+@import "global";
 
 * {
   @include border-box;
@@ -13,182 +13,192 @@ body {
 
   > main {
     > #main-content-section {
-      background: linear-gradient(rgba(0, 0, 0, 0.367), rgb(0,0,0)), url(/assets/images/background.jpg);
+      background: linear-gradient(rgba(0, 0, 0, 0.367), rgb(0, 0, 0)),
+        url(/assets/images/background.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       font-family: sans-serif;
       height: 620px;
       margin: 0 auto;
       padding: 1.5rem;
-      
-        > header { 
-          align-items: center;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          margin: 0 10rem;
+
+      > header {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10rem;
+        @include d(m) {
+          gap: 6rem;
+          margin: 0 auto;
+        }
+
+        > img {
+          width: 13%;
           @include d(m) {
-            gap: 6rem;
-            margin: 0 auto;
+            width: 25%;
           }
-    
-          > img {
-            width: 13%;
-            @include d(m) {
-              width: 25%;
-            }
+        }
+
+        > div {
+          @include d(m) {
+            display: flex;
           }
-    
-          > div {
+          > select {
+            background-color: rgba(50, 50, 50, 60%);
+            background-image: url(/assets/images/translate-icon.svg);
+            background-position: 8%;
+            background-repeat: no-repeat;
+            border-radius: 0.2rem;
+            color: var(--secondary-color);
+            font-size: 1rem;
+            line-height: 1.25rem;
+            margin-right: 1rem;
+            opacity: 100%;
+            padding: 0.3rem 2rem;
             @include d(m) {
-              display: flex;
+              width: 0%;
             }
-            > select {
-              background-color: rgba(50,50,50, 60%);
-              background-image: url(/assets/images/translate-icon.svg);
-              background-position: 8%;
-              background-repeat: no-repeat;
-              border-radius: .2rem;
-              color: var(--secondary-color);
-              font-size: 1rem;
-              line-height: 1.25rem;
-              margin-right: 1rem;
-              opacity: 100%;
-              padding: .3rem 2rem;
-              @include d(m) {
-                width: 0%;
-              }
-          
+
             > option {
               background-color: var(--secondary-color);
               color: var(--tertiary-color);
               line-height: 1.25rem;
             }
           }
-    
-            > button {
-              background-color: var(--primary-color);
-              border: none;
-              border-radius: .2rem;
-              color: var(--secondary-color);
-              font-size: 1rem;
-              line-height: 1.25rem;
-              padding: .3rem 1rem;
+
+          > button {
+            background-color: var(--primary-color);
+            border: none;
+            border-radius: 0.2rem;
+            color: var(--secondary-color);
+            font-size: 1rem;
+            line-height: 1.25rem;
+            padding: 0.3rem 1rem;
           }
         }
       }
 
-        > #main-content {
-          left: 50%;
-          position: absolute;
-          text-align: center;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          width: 80%;
+      > #main-content {
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        @include d(m) {
+          width: 100%;
+        }
+
+        > .title,
+        .subtitle,
+        h3,
+        p {
+          color: var(--secondary-color);
+          line-height: 1.25rem;
           @include d(m) {
-            width: 100%;
-          }
-
-          > .title, .subtitle, h3, p {
-            color: var(--secondary-color);
-            line-height: 1.25rem;
-            @include d(m) {
-              margin: 0 auto;
-            }
-          }
-
-          > .title {
-            font-size: 3rem;
-            font-weight: 900;
-            @include d(m) {
-              font-size: 1.8rem;
-              line-height: 1.2;
-            }
-          }
-    
-          > .subtitle {
-            font-size: 1.5rem;
-            font-weight: 400;
-            padding: 2rem 0;
-            @include d(m) {
-              font-size: 1.125rem;
-            }
-          }
-
-          > h3 {
-            font-size: 1.25rem;
-            font-weight: 400;
-            line-height: 1.5;
-            @include d(m) {
-              font-size: 1.125rem;
-              line-height: 1.5;
-              width: 79%;
-            }
-          }
-
-          > form {
             margin: 0 auto;
-            margin-top: 1rem;
-            text-align: left;
-            width: 50%;
+          }
+        }
+
+        > .title {
+          font-size: 3rem;
+          font-weight: 900;
+          @include d(m) {
+            font-size: 1.8rem;
+            line-height: 1.2;
+          }
+        }
+
+        > .subtitle {
+          font-size: 1.5rem;
+          font-weight: 400;
+          padding: 2rem 0;
+          @include d(m) {
+            font-size: 1.125rem;
+          }
+        }
+
+        > h3 {
+          font-size: 1.25rem;
+          font-weight: 400;
+          line-height: 1.5;
+          @include d(m) {
+            font-size: 1.125rem;
+            line-height: 1.5;
+            width: 79%;
+          }
+        }
+
+        > form {
+          margin: 0 auto;
+          margin-top: 1rem;
+          text-align: left;
+          width: 50%;
+          @include d(m) {
+            width: 80%;
+          }
+
+          .input-group {
+            display: flex;
+            gap: 0.5rem;
             @include d(m) {
-              width: 80%;
+              flex-direction: column;
+              height: 110px;
             }
-            
-            .input-group {
-              display: flex;
-              gap: 0.5rem;
+
+            input[type="text"],
+            button {
+              border: none;
+              border-radius: 0.1875rem;
+              height: 55px;
+              padding: 0 2.5rem;
+            }
+
+            input[type="text"] {
+              background-color: rgba(50, 50, 50, 35%);
+              border: 2px solid #333430;
+              color: var(--secondary-color);
+              flex: 1; // O campo de entrada deve ocupar todo o espaço restante
+
+              &::placeholder {
+                color: #bbbbbb;
+                font-size: 1rem;
+                padding-left: 0.313rem;
+                text-align: start;
+              }
+            }
+
+            button {
+              background-color: var(--primary-color);
+              border: none;
+              border-radius: 0.1875rem;
+              color: var(--secondary-color);
+              cursor: pointer;
+              font-size: 1.5rem;
+              font-weight: bold;
               @include d(m) {
-                flex-direction: column;
-                height: 110px;
+                font-size: 1rem;
+                margin: 0 auto;
+                width: 60%;
               }
-            
-              input[type="text"],
-              button {
-                border: none;
-                border-radius: 0.1875rem;
-                height: 55px;
-                padding: 0 2.5rem;
-              }
-            
-              input[type="text"] {
-                background-color: rgba(50,50,50, 35%);
-                border: 2px solid #333430;
-                color: var(--secondary-color);
-                flex: 1; // O campo de entrada deve ocupar todo o espaço restante
-                
-                &::placeholder {
-                  color: #bbbbbb;
-                  font-size: 1rem;
-                  padding-left: 0.313rem;
-                  text-align: start;
-                }
-              }
-            
-              button {
-                background-color: var(--primary-color);
-                border: none;
-                border-radius: 0.1875rem;
-                color: var(--secondary-color);
-                cursor: pointer;
-                font-size: 1.5rem;
-                font-weight: bold;
-                @include d(m) {
-                  font-size: 1rem;
-                  margin: 0 auto;
-                  width: 60%;
-                }
-                &:hover {
-                  background-color: #c11119; 
-                }
+              &:hover {
+                background-color: #c11119;
               }
             }
           }
         }
+      }
     }
 
     > .standart-plan-content {
-      background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+      background: radial-gradient(
+        51.39% 511.66% at 47.68% -217.91%,
+        #ff9900 0%,
+        #e50914 17.27%,
+        #0e1b4f 79.44%,
+        #000413 100%
+      );
       margin: 0 auto;
       padding: 2rem 0;
       width: 90%;
@@ -222,7 +232,7 @@ body {
           align-items: start;
           display: flex;
           flex-direction: column;
-          gap: .5rem;
+          gap: 0.5rem;
 
           > .standart-p {
             font-size: 1.2rem;
@@ -239,13 +249,12 @@ body {
             font-size: 1.2rem;
 
             > a {
-            color: #448ef4;
-            cursor: pointer;
+              color: #448ef4;
+              cursor: pointer;
             }
           }
         }
       }
-
     }
 
     > .medium-content {
@@ -269,20 +278,23 @@ body {
           width: 100%;
         }
         > #text-content {
-          > .title, .subtitle, h3, p {
+          > .title,
+          .subtitle,
+          h3,
+          p {
             color: var(--secondary-color);
             line-height: 1.25rem;
             @include d(m) {
               margin: 0 auto;
             }
           }
-  
+
           > .title {
             font-size: 3rem;
             font-weight: 900;
             @include d(m) {
               font-size: 1.8rem;
-              line-height: .4em;
+              line-height: 0.4em;
               width: 100%;
             }
           }
@@ -290,7 +302,7 @@ body {
           > .title-child {
             line-height: 1em;
           }
-    
+
           > .subtitle {
             font-size: 1.5rem;
             font-weight: 400;
@@ -324,7 +336,7 @@ body {
         display: block;
       }
     }
-    
+
     > .container-faq {
       align-items: center;
       background-color: var(--tertiary-color);
@@ -332,12 +344,12 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-top: .625rem;
+      margin-top: 0.625rem;
       padding: 10%;
       @include d(m) {
         padding: 4%;
       }
-      
+
       > h1 {
         font-size: 3.125rem;
         font-weight: bold;
@@ -355,7 +367,7 @@ body {
         flex-direction: column;
         gap: 0.625rem;
         justify-content: center;
-        
+
         .faq {
           .ques {
             align-items: center;
@@ -365,13 +377,13 @@ body {
             font-size: 1.5rem;
             justify-content: space-between;
             padding: 1.875rem;
-            transition: all .3s ease-in-out;
+            transition: all 0.3s ease-in-out;
             @include d(m) {
               font-size: 1.2rem;
             }
 
             > i {
-              transition: all .3s ease-in-out;
+              transition: all 0.3s ease-in-out;
             }
 
             &:hover {
@@ -382,11 +394,11 @@ body {
           .ans {
             max-height: 0px;
             overflow: hidden;
-            transition: max-height .3s ease-in-out;
+            transition: max-height 0.3s ease-in-out;
             width: 100%;
 
             > p {
-              background-color: #2D2D2D;
+              background-color: #2d2d2d;
               border-top: 1px solid var(--tertiary-color);
               font-size: 1.875rem;
               padding: 1.875rem;
@@ -402,7 +414,7 @@ body {
             @include d(m) {
               max-height: 500px;
             }
-          } 
+          }
 
           &.active i {
             transform: rotate(45deg);
@@ -438,7 +450,7 @@ body {
               flex-direction: column;
               height: 110px;
             }
-          
+
             input[type="text"],
             button {
               border: none;
@@ -446,20 +458,20 @@ body {
               height: 55px;
               padding: 0 2.5rem;
             }
-          
+
             input[type="text"] {
-              background-color: rgba(50,50,50, 35%);
+              background-color: rgba(50, 50, 50, 35%);
               border: 2px solid #333430;
               color: var(--secondary-color);
               flex: 1; // O campo de entrada deve ocupar todo o espaço restante
               &::placeholder {
-                color: #bbbbbb; 
-                font-size: 1rem; 
+                color: #bbbbbb;
+                font-size: 1rem;
                 padding-left: 0.313rem;
-                text-align: start; 
+                text-align: start;
               }
             }
-          
+
             button {
               background-color: var(--primary-color);
               border: none;
@@ -480,7 +492,7 @@ body {
           }
         }
       }
-    }   
+    }
 
     > footer {
       > .medium-footer {
@@ -489,7 +501,7 @@ body {
         @include d(m) {
           width: 100%;
         }
-        
+
         > .medium-footer-list {
           display: flex;
           flex-direction: row;
@@ -501,15 +513,15 @@ body {
             > .doubts-box {
               margin-bottom: 1rem;
               > .doubts {
-                  color: #b3b3b3;
-                  font-size: .9rem;
-                  @include d(m) {
-                    font-size: .7rem;
-                  }
+                color: #b3b3b3;
+                font-size: 0.9rem;
+                @include d(m) {
+                  font-size: 0.7rem;
+                }
                 > a {
                   color: #b3b3b3;
                   @include d(m) {
-                    font-size: .7rem;
+                    font-size: 0.7rem;
                   }
                 }
               }
@@ -517,57 +529,57 @@ body {
 
             > li {
               color: #b3b3b3;
-              font-size: .9rem;
+              font-size: 0.9rem;
               list-style: none;
-              padding: .6rem 0;
+              padding: 0.6rem 0;
               @include d(m) {
-                font-size: .7rem;
+                font-size: 0.7rem;
               }
               > a {
                 color: #b3b3b3;
                 @include d(m) {
-                  font-size: .7rem;
+                  font-size: 0.7rem;
                 }
               }
             }
 
             > .select-box {
-              padding: .8rem 0;
+              padding: 0.8rem 0;
               > select {
-                background-color: rgba(50,50,50, 60%);
+                background-color: rgba(50, 50, 50, 60%);
                 background-image: url(/assets/images/translate-icon.svg);
                 background-position: 8%;
                 background-repeat: no-repeat;
-                border-radius: .2rem;
+                border-radius: 0.2rem;
                 color: var(--secondary-color);
-                font-size: .9rem;
+                font-size: 0.9rem;
                 line-height: 1.25rem;
                 margin-right: 1rem;
                 opacity: 100%;
-                padding: .3rem 2rem;
+                padding: 0.3rem 2rem;
                 @include d(m) {
-                  font-size: .7rem;
+                  font-size: 0.7rem;
                   width: 90%;
                 }
-            
-              > option {
-                background-color: var(--secondary-color);
-                color: var(--tertiary-color);
-                line-height: 1.25rem;
-                @include d(m) {
-                  font-size: .7rem;
+
+                > option {
+                  background-color: var(--secondary-color);
+                  color: var(--tertiary-color);
+                  line-height: 1.25rem;
+                  @include d(m) {
+                    font-size: 0.7rem;
+                  }
                 }
               }
-            }
             }
 
             > .paragraph-box {
               > p {
                 padding: 1rem 0;
                 color: #b3b3b3;
-                font-size: .9rem;
+                font-size: 0.9rem;
                 @include d(m) {
-                  font-size: .7rem;
+                  font-size: 0.7rem;
                 }
               }
             }
@@ -587,6 +599,6 @@ body {
       @include d(m) {
         display: block;
       }
-    } 
+    }
   }
 }
