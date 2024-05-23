@@ -40,18 +40,20 @@ body {
             }
           }
 
-
-
-
-
-          > li {
+          > li, a{
             color: #fff;
             list-style: none;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
           }
+
           > .profile-photo {
             width: 5%;
             border-radius: 100%;
           }
+
+        
         }
       }
     }
