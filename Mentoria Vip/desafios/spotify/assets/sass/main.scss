@@ -57,5 +57,15 @@ body {
         }
       }
     }
+
+    > section {
+      padding-top: 0px;
+      width: 100%; /* ajuste conforme necessário */
+      height: 400px; /* ajuste conforme necessário */
+      background-image: linear-gradient(0deg, rgba(255, 210, 215, 0), rgba(255, 210, 215, 0)), url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png);
+      background-size: cover; /* ajusta a imagem para cobrir todo o elemento */
+      background-position: right; /* centraliza a imagem */
+      background-repeat: no-repeat;
+    }
   }
 }
