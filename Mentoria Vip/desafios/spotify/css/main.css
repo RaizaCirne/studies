@@ -43,7 +43,7 @@ body > main > header > nav > ul > .profile-photo {
   width: 5%;
   border-radius: 100%;
 }
-body > main > section {
+body > main .container {
   padding-top: 0px;
   width: 100%; /* ajuste conforme necessário */
   height: 400px; /* ajuste conforme necessário */
