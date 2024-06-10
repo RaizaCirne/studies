@@ -2,74 +2,76 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+  }
+  
+  body {
+    > main {
+      background-color: rgb(18, 18, 18);
+      > header {
+        background-color: #000;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
-body {
-  > main {
-    > header {
-      background-color: #000;
-      padding: 1rem 0;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
+        > .logo {
+          display: block;
+          width: 10%;
+        }
 
-      > .logo {
-        display: block;
-        width: 10%;
-      }
-
-      > nav {
-        > ul {
-          display: flex;
-          // justify-content: space-between;
-          justify-content: flex-end;
-          align-items: center;
-          gap: 2rem;
-          color: #fff;
-          > .premium {
-            > button {
-              background: none;
-              border: none;
-              > div {
-                > span {
-                  color: #fff;
-                  font-size: 1rem;
-                  font-weight: bold;
+        > nav {
+          > ul {
+            display: flex;
+            // justify-content: space-between;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 2rem;
+            color: #fff;
+            > .premium {
+              > button {
+                background: none;
+                border: none;
+                > div {
+                  > span {
+                    color: #fff;
+                    font-size: 1rem;
+                    font-weight: bold;
+                  }
                 }
               }
             }
-          }
 
-          > li,
-          a {
-            color: #fff;
-            list-style: none;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: bold;
-          }
+            > li,
+            a {
+              color: #fff;
+              list-style: none;
+              text-decoration: none;
+              font-size: 1rem;
+              font-weight: bold;
+            }
 
-          > .profile-photo {
-            width: 5%;
-            border-radius: 100%;
+            > .profile-photo {
+              width: 5%;
+              border-radius: 100%;
+            }
           }
         }
       }
-    }
 
     .container {
       padding-top: 0px;
-      width: 100%; /* ajuste conforme necessário */
-      height: 400px; /* ajuste conforme necessário */
-      background-image: linear-gradient(
-          0deg,
-          rgba(255, 210, 215, 0),
-          rgba(255, 210, 215, 0)
-        ),
-        url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png);
-      background-size: cover; /* ajusta a imagem para cobrir todo o elemento */
-      background-position: right; /* centraliza a imagem */
+      width: 100%; 
+      height: 400px; 
+      background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(0deg, rgba(255, 210, 215, 0) 45%, rgb(255, 210, 215) 100%);
+      // background-size: 800px; 
+      background-position: right;
       background-repeat: no-repeat;
+
+      div {
+        h1 {
+          color: #FFF;
+        }
+      }
     }
   }
 }
