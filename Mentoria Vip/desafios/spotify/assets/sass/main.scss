@@ -88,10 +88,68 @@
       }
 
       > .container-button {
+        margin: 1rem 0;
+        display: flex;
+        gap: 20px;
         > .button-one {
-          border-radius: 50px;
-          margin: 15px 0;
-          padding: 1rem 2rem;
+          background-color: #ffebee;
+          padding: 1rem 2.5rem;
+          border-radius: 2rem;
+          border: none;
+
+          > a {
+            color: #000;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+          }
+        }
+
+        > .button-two {
+          background-color: #000;
+          padding: 1rem 1.5rem;
+          border-radius: 2rem;
+          border: .5px solid #fff;
+          > a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+          }
+        }
+      }
+
+      > .container-p {
+        > p {
+          > a {
+            text-decoration: underline;
+            color: #fff;
+            font-size: .8rem;
+          }
+        }
+      }
+    }
+
+    > .premium {
+      margin-top: 8rem;
+      > .premium-one {
+        text-align: center;
+        > h2,h3 {
+          color: #fff;
+          line-height: 1.2em;
+          margin: 0 auto;
+
+        }
+
+        > h2 {
+          font-size: 2.5rem;
+        }
+
+        > h3 {
+          font-size: 1.5rem;
+          font-weight: normal;
+          width: 45%;
+          
         }
       }
     }
