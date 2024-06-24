@@ -127,14 +127,4 @@ body > main > .premium > .beneficios {
   text-align: center;
   margin: 0 auto;
   padding: 0 30rem;
-}
-body > main > .premium > .beneficios > ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 3rem;
-}
-body > main > .premium > .beneficios > ul > li {
-  color: #FFF;
-  list-style: none;
 }/*# sourceMappingURL=main.css.map */
