@@ -4,32 +4,58 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 body > main > header {
   background-color: #000;
+}
+body > main > header > .interior-header {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+  padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto;
 }
-body > main > header > .logo {
-  width: 9%;
+body > main > header > .interior-header > .logo {
+  width: 11%;
 }
-body > main > header > .list-options {
+body > main > header > .interior-header > nav > .list-options {
+  align-items: center;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  gap: 1rem;
+  gap: 2rem;
+  justify-content: end;
+  font-size: 1rem;
+  font-weight: bold;
 }
-body > main > header > .list-options > li {
-  color: #FFFFFF;
+body > main > header > .interior-header > nav > .list-options > li {
   list-style: none;
 }
-body > main > header > .list-options > li > a {
-  color: #FFFFFF;
+body > main > header > .interior-header > nav > .list-options > li > .list-options-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body > main > header > .interior-header > nav > .list-options > li > .list-options-button:hover {
+  color: #1eaf1f;
+}
+body > main > header > .interior-header > nav > .list-options > li > a {
+  color: #ffffff;
   text-decoration: none;
 }
-body > main > header > .profile {
-  width: 4%;
+body > main > header > .interior-header > nav > .list-options > li > a:hover {
+  color: #1eaf1f;
+}
+body > main > header > .interior-header > nav > .list-options > li:hover {
+  color: #1eaf1f;
+}
+body > main > header > .interior-header > nav > .list-options > .list-options-profile {
+  width: 5%;
   border-radius: 100%;
 }/*# sourceMappingURL=main.css.map */
