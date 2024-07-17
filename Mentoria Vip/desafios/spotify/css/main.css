@@ -5,7 +5,13 @@
 }
 
 body {
+  background-color: rgb(18, 18, 18);
   font-family: Helvetica, Arial, sans-serif;
+}
+body > main {
+  background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(0deg, rgba(255, 210, 215, 0) 70%, rgb(255, 210, 215) 100%);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 body > main > header {
   background-color: #000;
@@ -16,11 +22,11 @@ body > main > header > .interior-header {
   flex-direction: row;
   justify-content: space-around;
   padding: 1rem 0;
-  width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }
 body > main > header > .interior-header > .logo {
-  width: 11%;
+  width: 9%;
 }
 body > main > header > .interior-header > nav > .list-options {
   align-items: center;
@@ -58,4 +64,66 @@ body > main > header > .interior-header > nav > .list-options > li:hover {
 body > main > header > .interior-header > nav > .list-options > .list-options-profile {
   width: 5%;
   border-radius: 100%;
+}
+body > main > .container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+body > main > .container > .container-music {
+  padding: 6.2rem 0;
+  color: #fff;
+}
+body > main > .container > .container-music > h1 {
+  width: 45%;
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+body > main > .container > .container-music > h2 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 2.3em;
+}
+body > main > .container > .container-music > .container-music-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-individual {
+  background-color: #FFD2D7;
+  padding: 1rem 2.2rem;
+  border-radius: 8rem;
+}
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-individual > a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-individual:hover {
+  padding: 1.1rem 2.3rem;
+  background-color: #ffebee;
+}
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-planos {
+  background-color: #000;
+  padding: 1rem 2rem;
+  border-radius: 8rem;
+  border: 0.1px solid #fff;
+}
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-planos > a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-planos:hover {
+  padding: 1.1rem 2.3rem;
+}
+body > main > .container > .container-music > p {
+  font-size: 0.6rem;
+}
+body > main > .container > .container-music > p > a {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
