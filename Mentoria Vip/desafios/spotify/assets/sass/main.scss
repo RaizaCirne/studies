@@ -9,7 +9,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   > main {
     background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(0deg, rgba(255, 210, 215, 0) 70%, rgb(255, 210, 215) 100%);
-    background-position: right;
+    background-position: top right;
     background-repeat: no-repeat;
     > header {
       background-color: #000;
@@ -78,11 +78,12 @@ body {
     }
 
     > .container {
+      height: 565px;
       max-width: 75%;
       margin: 0 auto;
 
       > .container-music {
-        padding: 6.2rem 0;
+        padding: 3.2rem 0;
         color: #fff;
         > h1 {
           width: 45%;
@@ -92,7 +93,7 @@ body {
         }
 
         > h2 {
-          font-size: .9rem;
+          font-size: 1rem;
           font-weight: 500;
           line-height: 2.3em;
         }
@@ -146,6 +147,24 @@ body {
             color: #fff;
           }
         }
+      }
+    }
+
+    > .plans {
+      text-align: center;
+      max-width: 40%;
+      margin: 0 auto;
+      > h2 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: .5rem;
+      }
+      > h3 {
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: normal;
+        line-height: 1.2em;
       }
     }
   }
