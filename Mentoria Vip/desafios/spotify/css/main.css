@@ -211,4 +211,31 @@ body > main > .cards > div > ul > li {
 }
 body > main > .cards > div > ul > li > img {
   width: 100%;
+}
+body > main > .cards > div > .others {
+  margin: 1rem 0;
+}
+body > main > .cards > div > .others > span {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+body > main > .cards > aside {
+  padding: 2rem 5.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body > main > .cards > aside > h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+body > main > .cards > aside > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  color: #fff;
+  list-style: none;
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
