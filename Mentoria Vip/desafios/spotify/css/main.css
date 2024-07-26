@@ -238,4 +238,64 @@ body > main > .cards > aside > ul > li {
   text-align: left;
   font-size: 0.9rem;
   font-weight: 500;
+}
+body > main > .types-of-plans {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #fff;
+  margin: 0 auto;
+}
+body > main > .types-of-plans > .types-of-plans-premium {
+  background-color: #242424;
+  margin: 1rem 0rem;
+  width: 30%;
+  padding: 1rem 1rem 0 1.8rem;
+  border-radius: 0.5rem;
+}
+body > main > .types-of-plans > .types-of-plans-premium > div > span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+body > main > .types-of-plans > .types-of-plans-premium > div > h3 {
+  font-size: 1.8rem;
+  line-height: 1.2em;
+  margin: 0.8rem 0 0.6rem 0;
+}
+body > main > .types-of-plans > .types-of-plans-premium > div > p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+body > main > .types-of-plans > .types-of-plans-premium > div > ul > li {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans {
+  margin: 2rem 0;
+  text-align: center;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans > .button-plans-link {
+  background-color: #FFD2D7;
+  text-align: center;
+  padding: 1rem 2.5rem;
+  border-radius: 8rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans > p {
+  margin-top: 2rem;
+  text-align: center;
+  color: #a7a7a7;
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans > p > a {
+  color: #a7a7a7;
+  font-weight: 300;
+  font-size: 0.7rem;
 }/*# sourceMappingURL=main.css.map */
