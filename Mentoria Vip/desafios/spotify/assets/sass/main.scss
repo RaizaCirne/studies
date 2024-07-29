@@ -60,8 +60,6 @@ body {
               > a:hover {
                 color: #1eaf1f;
               }
-
-              
             }
 
             > li:hover {
@@ -151,9 +149,10 @@ body {
     }
 
     > .plans {
-      text-align: center;
-      max-width: 40%;
+      width: 100%;
+      max-width: 600px;
       margin: 0 auto;
+      text-align: center;
 
       > div {
         > h2 {
@@ -173,9 +172,15 @@ body {
       > article {
         padding: 4rem 0;
         > table {
-          width: 75%;
-          margin: 0 auto;
           color: #fff;
+          // table-layout: fixed;
+          border-spacing: 0px;
+          width: 100%;
+          max-width: 446px;
+          margin: 0 auto;
+          // overflow-wrap: break-word;
+          // background: rgb(26, 26, 26);
+          // --readable-color: red;
           > thead {
             text-align: left;
             > tr {
@@ -183,18 +188,33 @@ body {
                 font-size: 1rem;
                 font-weight: 600;
                 line-height: 1.2em;
-                padding: .5rem 1.3rem;
+                text-align: left;
+                border-bottom: 1px solid rgb(217, 218, 220);
               }
 
-              // > .center {
-              //   text-align: center;
-              //   width: 1%;
-              // }
+              > .bn {
+                vertical-align: bottom;
+              }
 
-              // > .premium {
-              //   width: 0.2%;
-              //   text-align: left;
-              // }
+              > .center {
+                border-bottom: 1px solid rgb(217, 218, 220);
+                text-align: left;
+                height: 100%;
+                width: 20%;
+                box-sizing: border-box;
+                color: rgb(255, 255, 255);
+                padding: 32px 8px 32px 20px;
+              }
+
+              > .premium {
+                border-bottom: 1px solid rgb(217, 218, 220);
+                text-align: left;
+                height: 100%;
+                width: 10%;
+                box-sizing: border-box;
+                color: rgb(255, 255, 255);
+                padding: 32px 8px 32px 20px;
+              }
             }
             
           }
@@ -202,18 +222,31 @@ body {
           > .body-footer {
             > tr {
               > th {
-                color: #fff;
-                font-weight: 400;
-                padding: .5rem 1.3rem;
                 text-align: left;
+                border-bottom: 1px solid rgb(217, 218, 220);
+                font-weight: 400;
+                font-size: 15px;
+                width: 30%;
+                padding: 1.2rem 0;
+
+                // display: inline-block;
+                // background-color: inherit;
+                text-decoration-line: underline;
+                text-decoration-style: dashed;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 4px;
+                // color: var(--text-base, #ffffff);
+                // font-size: var(--tooltip-content-font-size, 14px);
+                line-height: 24px;
+                // text-decoration-color: var(--text-subdued, inherit);
               }
 
               > td {
-                text-align: center;
-                font-weight: 400;
-                line-height: 1.2em;
-                // border-bottom: 2px solid #fff;
-                padding: .5rem 0;
+                border-bottom: 1px solid rgb(217, 218, 220);
+                color: rgb(255, 255, 255);
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
               }
             }
           }
@@ -304,7 +337,7 @@ body {
       justify-content: space-around;
       flex-wrap: wrap;
       color: #fff;
-      margin: 0 auto;
+      margin: 0 auto 8rem;
      //inserir grid 
 
      > .types-of-plans-premium {
@@ -373,6 +406,28 @@ body {
         }
       }
      }
+    }
+
+    > .faq {
+      color: #fff;
+      text-align: center;
+
+      > div {
+        > h2 {
+          font-size: 1.8rem;
+          padding: 1rem 0;
+        }
+
+        > p {
+          font-size: 1rem;
+          padding: .5rem 0;
+          font-weight: 500;
+
+          > a {
+            color: #fff;
+          }
+        }
+      }
     }
   }
 }
