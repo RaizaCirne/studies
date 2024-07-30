@@ -8,7 +8,7 @@ body {
   background-color: rgb(18, 18, 18);
   font-family: Helvetica, Arial, sans-serif;
   > main {
-    background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(0deg, rgba(255, 210, 215, 0) 90%, rgb(255, 210, 215) 100%);
+    background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(0deg, rgba(255, 210, 215, 0) 94%, rgb(255, 210, 215) 100%);
     background-position: top right;
     background-repeat: no-repeat;
     > header {
@@ -148,7 +148,7 @@ body {
       }
     }
 
-    > .plans {
+    > .benefits {
       width: 100%;
       max-width: 600px;
       margin: 0 auto;
@@ -331,114 +331,238 @@ body {
       }
     }
 
-    > .types-of-plans {
-      width: 80%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      color: #fff;
-      margin: 0 auto 8rem;
-     //inserir grid 
+    // > .types-of-plans {
+    //   width: 80%;
+    //   display: flex;
+    //   justify-content: space-around;
+    //   flex-wrap: wrap;
+    //   color: #fff;
+    //   margin: 0 auto 8rem;
+    //  //inserir grid 
 
-     > .types-of-plans-premium {
-      background-color: #242424;
-      margin: 1rem 0rem;
-      width: 30%;
-      padding: 1rem 1rem 0 1.8rem;
-      border-radius: .5rem;
-      > div {
-        > span {
-          font-size: .9rem;
-          font-weight: 500;
-        }
+    //  > .types-of-plans-premium {
+    //   background-color: #242424;
+    //   margin: 1rem 0rem;
+    //   width: 30%;
+    //   padding: 1rem 1rem 0 1.8rem;
+    //   border-radius: .5rem;
+    //   > div {
+    //     > span {
+    //       font-size: .9rem;
+    //       font-weight: 500;
+    //     }
 
-        > h3 {
-          font-size: 1.8rem;
-          line-height: 1.2em;
-          margin: .8rem 0 .6rem 0;
-        }
+    //     > h3 {
+    //       font-size: 1.8rem;
+    //       line-height: 1.2em;
+    //       margin: .8rem 0 .6rem 0;
+    //     }
 
-        > .individual {
-          color: #FFD2D7;
-        }
+    //     > .individual {
+    //       color: #FFD2D7;
+    //     }
 
-        > .university {
-          color: #c4b1d4;
-        }
+    //     > .university {
+    //       color: #c4b1d4;
+    //     }
 
-        > .duo {
-          color: #FFC862;
-        }
+    //     > .duo {
+    //       color: #FFC862;
+    //     }
 
-        > .family {
-          color: #a5bbd1;
-        }
+    //     > .family {
+    //       color: #a5bbd1;
+    //     }
 
-        > p {
-          font-size: 1rem;
-          font-weight: bold;
-          margin-bottom: 1.5rem;
-        }
-      }
+    //     > p {
+    //       font-size: 1rem;
+    //       font-weight: bold;
+    //       margin-bottom: 1.5rem;
+    //     }
+    //   }
 
-      > div {
-        > ul {
-          > li {
-            font-size: .9rem;
-            font-weight: 500;
-            line-height: 1.5em;
+    //   > div {
+    //     > ul {
+    //       > li {
+    //         font-size: .9rem;
+    //         font-weight: 500;
+    //         line-height: 1.5em;
 
-          }
-        }
-      }
+    //       }
+    //     }
+    //   }
 
-      > .button-plans {
-        margin: 2rem 0;
-        text-align: center;
+    //   > .button-plans {
+    //     margin: 2rem 0;
+    //     text-align: center;
         
-        > .button-plans-link {
-          // background-color: #FFD2D7;
-          text-align: center;     
-          padding: 1rem 2.5rem;
-          border-radius: 8rem;
+    //     > .button-plans-link {
+    //       // background-color: #FFD2D7;
+    //       text-align: center;     
+    //       padding: 1rem 2.5rem;
+    //       border-radius: 8rem;
+    //       color: #000;
+    //       text-decoration: none;
+    //       font-weight: bold;
+    //       font-size: 1rem;
+    //     }
+
+    //     > .premium-individual {
+    //       background-color: #FFD2D7;
+    //     }
+
+    //     > .premium-university {
+    //       background-color: #c4b1d4;
+    //     }
+
+    //     > .premium-duo {
+    //       background-color: #FFC862;
+    //     }
+
+    //     > .premium-family {
+    //       background-color: #a5bbd1;
+    //     }
+
+    //     > p {
+    //       margin-top: 2rem;
+    //       text-align: center;
+    //       color: #a7a7a7;
+    //       font-weight: 300;
+    //       font-size: .7rem;
+
+    //       > a { 
+    //         color: #a7a7a7;
+    //         font-weight: 300;
+    //         font-size: .7rem;
+    //       }
+    //     }
+    //   }
+    //  }
+    // }
+
+    > .plans {
+      color: #fff;
+      margin: 0 auto;
+      padding: 5rem 0;
+      > .grid {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        gap: 35px;
+        place-content: center;
+        > .item {
+          background-color: #242424;
+          padding: 20px;
+          border-radius: 8px;
+          display: grid;
+  
+          > span {
+            margin-top: 0px;
+            font-size: .9rem;
+            font-weight: 550;
+
+            > img {
+              width: 10%;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+
+          > h3 {
+            font-size: 1.8rem;
+            margin: .6rem 0;
+          }
+
+          > .individual {
+            color: #ffd2d7;
+          }
+
+          > .university {
+            color: #c4b1d4;
+          }
+
+          > .duo {
+            color: #ffc862;
+          }
+
+          > .family {
+            color: #a5bbd1;
+          }
+
+          > .preco {
+            font-size: .9rem;
+            font-weight: bold;
+          }
+          > .hr {
+            border: none;
+            height: 2px;
+            margin: 1rem 0;
+            color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0.1);
+          }
+
+          > ul {
+            padding: 0 1rem 1rem 1rem;
+            > li {
+              font-size: .9rem;
+              line-height: 1.5em;
+              font-weight: 540;
+            }
+          }
+
+          > a {
+          background: #a8f; 
           color: #000;
+          padding: 15px 20px;
           text-decoration: none;
+          border-radius: 30px;
+          text-align: center;
           font-weight: bold;
           font-size: 1rem;
-        }
-
-        > .premium-individual {
-          background-color: #FFD2D7;
-        }
-
-        > .premium-university {
-          background-color: #c4b1d4;
-        }
-
-        > .premium-duo {
-          background-color: #FFC862;
-        }
-
-        > .premium-family {
-          background-color: #a5bbd1;
-        }
-
-        > p {
-          margin-top: 2rem;
-          text-align: center;
-          color: #a7a7a7;
-          font-weight: 300;
-          font-size: .7rem;
-
-          > a { 
-            color: #a7a7a7;
-            font-weight: 300;
-            font-size: .7rem;
           }
+
+          > a:hover {
+            font-size: 1.1rem;
+          }
+
+          > .button-individual {
+            background-color: #ffd2d7;
+          }
+
+          > .button-university {
+            background-color: #c4b1d4;
+          }
+
+          > .button-duo {
+            background-color: #ffc862;
+          }
+
+          > .button-family {
+            background-color: #a5bbd1;
+          }
+
+          > .p-button {
+            font-size: .65rem;
+            text-align: center;
+            margin: 1rem 0;
+            font-weight: normal;
+            color: #a7a7a7;
+
+            > .button {
+              font-size: .65rem;
+              text-align: center;
+              font-weight: normal;
+              color: #a7a7a7; 
+            }
+          }
+
+        }
+
+        > .item-family {
+          grid-column: 2;
         }
       }
-     }
     }
+
 
     > .faq {
       color: #fff;
