@@ -295,6 +295,18 @@ body > main > .types-of-plans > .types-of-plans-premium > div > h3 {
   line-height: 1.2em;
   margin: 0.8rem 0 0.6rem 0;
 }
+body > main > .types-of-plans > .types-of-plans-premium > div > .individual {
+  color: #FFD2D7;
+}
+body > main > .types-of-plans > .types-of-plans-premium > div > .university {
+  color: #c4b1d4;
+}
+body > main > .types-of-plans > .types-of-plans-premium > div > .duo {
+  color: #FFC862;
+}
+body > main > .types-of-plans > .types-of-plans-premium > div > .family {
+  color: #a5bbd1;
+}
 body > main > .types-of-plans > .types-of-plans-premium > div > p {
   font-size: 1rem;
   font-weight: bold;
@@ -310,7 +322,6 @@ body > main > .types-of-plans > .types-of-plans-premium > .button-plans {
   text-align: center;
 }
 body > main > .types-of-plans > .types-of-plans-premium > .button-plans > .button-plans-link {
-  background-color: #FFD2D7;
   text-align: center;
   padding: 1rem 2.5rem;
   border-radius: 8rem;
@@ -318,6 +329,18 @@ body > main > .types-of-plans > .types-of-plans-premium > .button-plans > .butto
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans > .premium-individual {
+  background-color: #FFD2D7;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans > .premium-university {
+  background-color: #c4b1d4;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans > .premium-duo {
+  background-color: #FFC862;
+}
+body > main > .types-of-plans > .types-of-plans-premium > .button-plans > .premium-family {
+  background-color: #a5bbd1;
 }
 body > main > .types-of-plans > .types-of-plans-premium > .button-plans > p {
   margin-top: 2rem;
