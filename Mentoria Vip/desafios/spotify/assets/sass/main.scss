@@ -458,22 +458,63 @@ body {
 
     > .faq {
       color: #fff;
+      margin: 0 auto;
       text-align: center;
 
-      > div {
-        > h2 {
-          font-size: 1.8rem;
-          padding: 1rem 0;
-        }
+      > .accordion-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 1200px;
+        margin: 0 auto;
+        text-align: left;
 
-        > p {
-          font-size: 1rem;
-          padding: .5rem 0;
-          font-weight: 500;
-
-          > a {
-            color: #fff;
+        > .accordion {
+          padding: 12px;
+          cursor: pointer;
+          &:hover {
+            background-color: #2a2a2a;
           }
+
+          > .accordion-faq {
+            > .accordion-header {
+              width: 100%;
+              cursor: pointer;
+              color: #fff;
+              border: none;
+              background-color: transparent;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              font-size: 1rem;
+              font-weight: bold;
+              &:hover {
+                text-decoration: underline;
+              }
+
+              > span {
+                max-width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+
+            > .accordion-body {
+              font-size: 1rem;
+              opacity: 0;
+              height: 0;
+            }
+
+            > .accordion-body.active {
+              height: 100%;
+              opacity: 1;
+              padding: 5px 0;
+            }
+          }
+          
         }
       }
     }

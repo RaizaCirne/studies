@@ -375,19 +375,56 @@ body > main > .plans > .grid > .item-family {
 }
 body > main > .faq {
   color: #fff;
+  margin: 0 auto;
   text-align: center;
 }
-body > main > .faq > div > h2 {
-  font-size: 1.8rem;
-  padding: 1rem 0;
+body > main > .faq > .accordion-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
 }
-body > main > .faq > div > p {
-  font-size: 1rem;
-  padding: 0.5rem 0;
-  font-weight: 500;
+body > main > .faq > .accordion-list > .accordion {
+  padding: 12px;
+  cursor: pointer;
 }
-body > main > .faq > div > p > a {
+body > main > .faq > .accordion-list > .accordion:hover {
+  background-color: #2a2a2a;
+}
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header {
+  width: 100%;
+  cursor: pointer;
   color: #fff;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header:hover {
+  text-decoration: underline;
+}
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header > span {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-body {
+  font-size: 1rem;
+  opacity: 0;
+  height: 0;
+}
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-body.active {
+  height: 100%;
+  opacity: 1;
+  padding: 5px 0;
 }
 body > main > .footer {
   background-color: #000;
