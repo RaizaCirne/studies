@@ -378,22 +378,40 @@ body > main > .faq {
   margin: 0 auto;
   text-align: center;
 }
+body > main > .faq > .faq-questions {
+  padding-bottom: 1.5rem;
+}
+body > main > .faq > .faq-questions > h2 {
+  font-size: 1.5rem;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+body > main > .faq > .faq-questions > p {
+  font-size: 0.8rem;
+  line-height: 1.2em;
+  padding: 0.7rem 0;
+}
+body > main > .faq > .faq-questions > p > a {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.2em;
+}
 body > main > .faq > .accordion-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  width: 1200px;
+  width: 1100px;
   margin: 0 auto;
   text-align: left;
+  padding-bottom: 5rem;
 }
 body > main > .faq > .accordion-list > .accordion {
-  padding: 12px;
   cursor: pointer;
 }
-body > main > .faq > .accordion-list > .accordion:hover {
-  background-color: #2a2a2a;
+body > main > .faq > .accordion-list > .accordion > .accordion-faq {
+  max-width: 1000px;
 }
 body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header {
   width: 100%;
@@ -406,9 +424,11 @@ body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-
   justify-content: space-between;
   font-size: 1rem;
   font-weight: bold;
+  padding: 1rem;
+  border-bottom: 1px solid #1e1e1e;
 }
 body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header:hover {
-  text-decoration: underline;
+  background-color: #2a2a2a;
 }
 body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header > span {
   max-width: 100%;
@@ -416,15 +436,35 @@ body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-
   overflow: hidden;
   text-overflow: ellipsis;
 }
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header > span:hover {
+  text-decoration: underline;
+}
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header > .arrow {
+  transition: transform 0.2s linear;
+  list-style: none;
+  text-decoration: none;
+}
 body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-body {
   font-size: 1rem;
   opacity: 0;
   height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s;
+  background-color: #242424;
+}
+body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-body > p {
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-weight: 550;
+  line-height: 1.5em;
 }
 body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-body.active {
   height: 100%;
   opacity: 1;
   padding: 5px 0;
+}
+body > main > .faq > .accordion-list > .accordion:has(.active) .arrow {
+  transform: rotate(180deg);
 }
 body > main > .footer {
   background-color: #000;
