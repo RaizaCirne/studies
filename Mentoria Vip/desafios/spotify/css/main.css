@@ -202,6 +202,9 @@ body > main > .benefits > article > table > .body-footer > tr > td {
   align-items: center;
   -webkit-box-pack: center;
 }
+body > main > .benefits > article > table > .body-footer > tr > td:hover {
+  background-color: #313131;
+}
 body > main > .cards {
   text-align: center;
   margin: 0 auto;

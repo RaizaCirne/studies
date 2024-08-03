@@ -246,6 +246,9 @@ body {
                 -webkit-box-align: center;
                 align-items: center;
                 -webkit-box-pack: center;
+                &:hover {
+                  background-color: #313131;
+                }
               }
             }
           }
