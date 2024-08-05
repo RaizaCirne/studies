@@ -9,111 +9,117 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 body > main {
-  background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(0deg, rgba(255, 210, 215, 0) 94%, rgb(255, 210, 215) 100%);
-  background-position: top right;
+  background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(1deg, rgba(255, 210, 215, 0) 96.5%, rgb(255, 210, 215) 101%);
+  background-position: top 70px right;
   background-repeat: no-repeat;
 }
 body > main > header {
   background-color: #000;
 }
-body > main > header > .interior-header {
+body > main > header > .header {
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 1rem 0;
-  max-width: 90%;
+  justify-content: space-between;
   margin: 0 auto;
+  max-width: 90%;
+  padding: 1rem 2rem;
 }
-body > main > header > .interior-header > .logo {
+body > main > header > .header > .header-logo {
   width: 9%;
 }
-body > main > header > .interior-header > nav > .list-options {
+body > main > header > .header > .header-nav > .header-nav-list {
   align-items: center;
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  gap: 2rem;
-  justify-content: end;
   font-size: 1rem;
   font-weight: bold;
+  gap: 2rem;
+  justify-content: end;
 }
-body > main > header > .interior-header > nav > .list-options > li {
+body > main > header > .header > .header-nav > .header-nav-list > .header-nav-list-option {
   list-style: none;
 }
-body > main > header > .interior-header > nav > .list-options > li > .list-options-button {
+body > main > header > .header > .header-nav > .header-nav-list > .header-nav-list-option > .header-nav-list-option-button {
   background-color: transparent;
   border: none;
   color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
 }
-body > main > header > .interior-header > nav > .list-options > li > .list-options-button:hover {
+body > main > header > .header > .header-nav > .header-nav-list > .header-nav-list-option > .header-nav-list-option-button:hover {
   color: #1eaf1f;
 }
-body > main > header > .interior-header > nav > .list-options > li > a {
+body > main > header > .header > .header-nav > .header-nav-list > .header-nav-list-option > .header-nav-list-option-link {
   color: #ffffff;
   text-decoration: none;
 }
-body > main > header > .interior-header > nav > .list-options > li > a:hover {
+body > main > header > .header > .header-nav > .header-nav-list > .header-nav-list-option > .header-nav-list-option-link:hover {
   color: #1eaf1f;
 }
-body > main > header > .interior-header > nav > .list-options > li:hover {
+body > main > header > .header > .header-nav > .header-nav-list > .header-nav-list-option:hover {
   color: #1eaf1f;
 }
-body > main > header > .interior-header > nav > .list-options > .list-options-profile {
-  width: 5%;
-  border-radius: 100%;
+body > main > header > .header > .header-nav > .header-nav-list > .separator {
+  font-size: 1rem;
+  font-weight: 100;
 }
-body > main > .container {
-  height: 565px;
-  max-width: 75%;
-  margin: 0 auto;
-}
-body > main > .container > .container-music {
-  padding: 3.2rem 0;
+body > main > header > .header > .header-nav > .header-nav-list > .separator:hover {
   color: #fff;
 }
-body > main > .container > .container-music > h1 {
-  width: 45%;
+body > main > header > .header > .header-nav > .header-nav-list > .header-nav-list-profile {
+  border-radius: 100%;
+  width: 5%;
+}
+body > main > .container {
+  margin: 0 auto;
+  max-width: 85%;
+}
+body > main > .container > .container-music {
+  color: #fff;
+  padding: 5rem 0 9rem 0;
+}
+body > main > .container > .container-music > .container-music-headline {
   font-size: 2.7rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  width: 45%;
 }
-body > main > .container > .container-music > h2 {
+body > main > .container > .container-music > .container-music-subtitle {
   font-size: 1rem;
   font-weight: 500;
   line-height: 2.3em;
 }
 body > main > .container > .container-music > .container-music-buttons {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 1rem;
   margin: 2rem 0;
 }
 body > main > .container > .container-music > .container-music-buttons > .container-music-button-individual {
   background-color: #FFD2D7;
-  padding: 1rem 2.2rem;
   border-radius: 8rem;
+  padding: 1rem 2.2rem;
 }
-body > main > .container > .container-music > .container-music-buttons > .container-music-button-individual > a {
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-individual > .container-music-button-individual-link {
   color: #000;
-  text-decoration: none;
-  font-weight: bold;
   font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
 }
 body > main > .container > .container-music > .container-music-buttons > .container-music-button-individual:hover {
-  padding: 1.1rem 2.3rem;
   background-color: #ffebee;
+  padding: 1.1rem 2.3rem;
 }
 body > main > .container > .container-music > .container-music-buttons > .container-music-button-planos {
   background-color: #000;
-  padding: 1rem 2rem;
-  border-radius: 8rem;
   border: 0.1px solid #fff;
+  border-radius: 8rem;
+  padding: 1rem 2rem;
 }
-body > main > .container > .container-music > .container-music-buttons > .container-music-button-planos > a {
+body > main > .container > .container-music > .container-music-buttons > .container-music-button-planos > .container-music-button-planos-link {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -122,157 +128,154 @@ body > main > .container > .container-music > .container-music-buttons > .contai
 body > main > .container > .container-music > .container-music-buttons > .container-music-button-planos:hover {
   padding: 1.1rem 2.3rem;
 }
-body > main > .container > .container-music > p {
-  font-size: 0.6rem;
+body > main > .container > .container-music > .container-music-paragraph {
+  font-size: 0.7rem;
 }
-body > main > .container > .container-music > p > a {
+body > main > .container > .container-music > .container-music-paragraph > .container-music-paragraph-link {
   color: #fff;
+  line-height: 2em;
 }
-body > main > .benefits {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+body > main > .benefits > .benefits-differences {
   text-align: center;
 }
-body > main > .benefits > div > h2 {
+body > main > .benefits > .benefits-differences > .benefits-differences-title {
   color: #fff;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-body > main > .benefits > div > h3 {
+body > main > .benefits > .benefits-differences > .benefits-differences-subtitle {
   color: #fff;
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.2em;
+  margin: 0 auto;
+  width: 50%;
 }
-body > main > .benefits > article {
+body > main > .benefits > .benefits-differences > .benefits-differences-table {
+  border-spacing: 0px;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 35%;
   padding: 4rem 0;
 }
-body > main > .benefits > article > table {
-  color: #fff;
-  border-spacing: 0px;
-  width: 100%;
-  max-width: 446px;
-  margin: 0 auto;
-}
-body > main > .benefits > article > table > thead {
-  text-align: left;
-}
-body > main > .benefits > article > table > thead > tr > th {
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-thead > .benefits-differences-table-thead-tr > th {
+  border-bottom: 1px solid rgb(217, 218, 220);
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.2em;
   text-align: left;
-  border-bottom: 1px solid rgb(217, 218, 220);
 }
-body > main > .benefits > article > table > thead > tr > .bn {
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-thead > .benefits-differences-table-thead-tr > .benefits-differences-table-thead-tr-benefits {
   vertical-align: bottom;
 }
-body > main > .benefits > article > table > thead > tr > .center {
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-thead > .benefits-differences-table-thead-tr > .benefits-differences-table-thead-tr-free {
+  padding: 32px 8px 32px 20px;
   text-align: left;
   width: 15%;
-  padding: 32px 8px 32px 20px;
 }
-body > main > .benefits > article > table > thead > tr > .premium > .center-flex {
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-thead > .benefits-differences-table-thead-tr > .premium > .premium-flex {
+  align-items: flex-start;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   gap: 0.1rem;
 }
-body > main > .benefits > article > table > thead > tr > .premium > .center-flex > .center-image {
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-thead > .benefits-differences-table-thead-tr > .premium > .premium-flex > .premium-flex-img {
   width: 15%;
 }
-body > main > .benefits > article > table > .body-footer > tr > th {
-  text-align: left;
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-tbody > .benefits-differences-table-tbody-tr > .benefits-differences-table-tbody-tr-th {
   border-bottom: 1px solid rgb(217, 218, 220);
-  font-weight: 400;
   font-size: 15px;
-  width: 30%;
+  font-weight: 400;
+  line-height: 24px;
   padding: 1.2rem 0;
+  text-align: left;
   text-decoration-line: underline;
   text-decoration-style: dashed;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  line-height: 24px;
+  width: 15%;
 }
-body > main > .benefits > article > table > .body-footer > tr > td {
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-tbody > .benefits-differences-table-tbody-tr > .benefits-differences-table-tbody-tr-td-image {
   border-bottom: 1px solid rgb(217, 218, 220);
-  color: rgb(255, 255, 255);
-  align-items: center;
-  -webkit-box-pack: center;
 }
-body > main > .benefits > article > table > .body-footer > tr > td:hover {
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-tbody > .benefits-differences-table-tbody-tr:hover {
+  background-color: #1a1a1a;
+}
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-tbody > .benefits-differences-table-tbody-tr > .benefits-differences-table-tbody-tr-td-check {
+  border-bottom: 1px solid rgb(217, 218, 220);
+}
+body > main > .benefits > .benefits-differences > .benefits-differences-table > .benefits-differences-table-tbody > .benefits-differences-table-tbody-tr > .benefits-differences-table-tbody-tr-td-check:hover {
   background-color: #313131;
 }
 body > main > .cards {
   text-align: center;
-  margin: 0 auto;
-  max-width: 75%;
-  color: #fff;
-  line-height: 1.2em;
 }
-body > main > .cards > div > h2 {
+body > main > .cards > .cards-plans {
+  color: #fff;
+}
+body > main > .cards > .cards-plans > .cards-plans-title {
   color: #fff;
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
-body > main > .cards > div > h3 {
+body > main > .cards > .cards-plans > .cards-plans-subtitle {
   color: #fff;
   font-size: 1rem;
   font-weight: normal;
-  line-height: 1.2em;
-  width: 58%;
+  line-height: 1.4em;
   margin: 0 auto;
+  width: 52%;
 }
-body > main > .cards > div {
-  padding: 0.5rem 0;
+body > main > .cards > .cards-list {
+  padding: 2rem 0;
 }
-body > main > .cards > div > ul {
-  width: 20%;
-  margin: 0 auto;
-  display: flex;
+body > main > .cards > .cards-list > .cards-list-ordered {
   align-items: center;
-  justify-content: center;
+  display: flex;
   gap: 0.5rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 20%;
 }
-body > main > .cards > div > ul > li {
+body > main > .cards > .cards-list > .cards-list-ordered > .cards-list-ordered-order {
   list-style: none;
 }
-body > main > .cards > div > ul > li > img {
+body > main > .cards > .cards-list > .cards-list-ordered > .cards-list-ordered-order > .cards-list-ordered-order-image {
   width: 100%;
 }
-body > main > .cards > div > .others {
+body > main > .cards > .cards-list > .cards-list-others {
   margin: 1rem 0;
 }
-body > main > .cards > div > .others > span {
+body > main > .cards > .cards-list > .cards-list-others > .cards-list-others-span {
+  color: #fff;
   font-size: 1rem;
   text-decoration: underline;
 }
-body > main > .cards > aside {
-  padding: 2rem 5.5rem;
-  display: flex;
-  justify-content: space-around;
+body > main > .cards > .cards-aside {
   align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
 }
-body > main > .cards > aside > h3 {
+body > main > .cards > .cards-aside > .cards-aside-title {
   font-size: 2rem;
   font-weight: bold;
 }
-body > main > .cards > aside > ul > li {
-  display: flex;
+body > main > .cards > .cards-aside > .cards-aside-list > .cards-aside-list-order {
   align-items: center;
-  gap: 0.2rem;
   color: #fff;
-  list-style: none;
-  text-align: left;
+  display: flex;
   font-size: 0.9rem;
   font-weight: 500;
+  gap: 0.2rem;
+  list-style: none;
+  text-align: left;
 }
 body > main > .plans {
   color: #fff;
-  margin: 0 auto;
   padding: 5rem 0;
 }
 body > main > .plans > .grid {
@@ -378,7 +381,6 @@ body > main > .plans > .grid > .item-family {
 }
 body > main > .faq {
   color: #fff;
-  margin: 0 auto;
   text-align: center;
 }
 body > main > .faq > .faq-questions {
@@ -405,16 +407,12 @@ body > main > .faq > .accordion-list {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  width: 1100px;
   margin: 0 auto;
   text-align: left;
   padding-bottom: 5rem;
 }
 body > main > .faq > .accordion-list > .accordion {
   cursor: pointer;
-}
-body > main > .faq > .accordion-list > .accordion > .accordion-faq {
-  max-width: 1000px;
 }
 body > main > .faq > .accordion-list > .accordion > .accordion-faq > .accordion-header {
   width: 100%;
@@ -471,21 +469,18 @@ body > main > .faq > .accordion-list > .accordion:has(.active) .arrow {
 }
 body > main > .footer {
   background-color: #000;
-  padding: 5rem 0;
-  margin: 0 auto;
 }
 body > main > .footer > .footer-nav {
+  margin: 0 auto;
+  max-width: 75%;
   display: flex;
   justify-content: center;
-}
-body > main > .footer > .footer-nav > .footer-container {
-  width: 10%;
+  padding: 5rem 0;
 }
 body > main > .footer > .footer-nav > .footer-container > .footer-link > .footer-logo {
-  width: 70%;
+  width: 30%;
 }
 body > main > .footer > .footer-nav > .footer-container-list {
-  width: 40%;
   display: flex;
   justify-content: space-around;
   gap: 2rem;
@@ -509,7 +504,6 @@ body > main > .footer > .footer-nav > .footer-container-list > .footer-container
   font-weight: 500;
 }
 body > main > .footer > .footer-nav > .footer-container-icons {
-  width: 10%;
   text-align: end;
 }
 body > main > .footer > .footer-nav > .footer-container-icons > .list-icons {

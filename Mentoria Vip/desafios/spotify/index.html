@@ -12,16 +12,42 @@
 <body>
   <main>
     <header>
-      <div class="interior-header">
-        <img class="logo" src="assets/images/logo.png" alt="Logo Spotify">
-        <nav>
-          <ul class="list-options">
-            <li><button class="list-options-button">Premium</button></li>
-            <li><a href="#">Suporte</a></li>
-            <li><a href="#">Baixar</a></li>
-            <li class="list-options-separator"></li>
-            <img class="list-options-profile" src="https://avatars.githubusercontent.com/u/109912543?v=4" alt="Perfil">
-            <li>Perfil</li>
+      <div class="header">
+        <img class="header-logo" src="assets/images/logo.png" alt="Logo Spotify">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-option">
+              <button class="header-nav-list-option-button">
+                Premium
+              </button>
+            </li>
+            <li class="header-nav-list-option">
+              <a class="header-nav-list-option-link" 
+              href="https://support.spotify.com/br-pt/#_gl=1*2smnkv*_gcl_au*MjAxMzIzMzc4MC4xNzE1MTc1MTMy">
+              Suporte
+            </a>
+            </li>
+            <li class="header-nav-list-option">
+              <a class="header-nav-list-option-link" 
+              href="https://spotify.com/br-pt/download/windows/">
+              Baixar
+              </a>
+            </li>
+            <li class="header-nav-list-option separator">
+              |
+            </li>
+            <li class="header-nav-list-option">
+              <a class="header-nav-list-option-link" 
+              href="https://www.spotify.com/br-pt/signup">
+              Inscrever-se
+              </a>
+            </li>
+            <li class="header-nav-list-option">
+              <a class="header-nav-list-option-link" 
+              href="https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fwww.spotify.com%2Fbr-pt%2Fpremium%2F&_locale=pt-BR">
+              Entrar
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -29,148 +55,336 @@
 
     <section class="container">
       <div class="container-music">
-        <h1>Curta suas músicas ao máximo com o Premium Individual.</h1>
-        <h2>Curta músicas sem interrupções com o Spotify Premium.</h2>
-        <h2>Começando por apenas R$ 21,90. Cancele quando quiser.</h2>
-
+        <h1 class="container-music-headline">
+          Ouça sem limites. 
+          Experimente 1 mês de 
+          Premium Individual grátis.
+        </h1>
+        <h2 class="container-music-subtitle">
+          Depois, apenas R$ 21,90/mês. Cancele quando quiser.
+        </h2>
         <div class="container-music-buttons">
           <div class="container-music-button-individual">
-            <a href="">Adquirir Premium Individual</a>
+            <a class="container-music-button-individual-link" 
+            href="https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fwww.spotify.com%2Fbr-pt%2Fpurchase%2Foffer%2Fdefault-intro%2F%3Fcountry%3DBR">Experimente de graça por 1 mês</a>
           </div>
-
           <div class="container-music-button-planos">
-            <a href="">Ver todos os planos</a>
+            <a class="container-music-button-planos-link" href="#planos">Ver todos os planos</a>
           </div>
         </div>
 
-        <p><a href="https://www.spotify.com/br-pt/legal/end-user-agreement/">Sujeito a Termos</a></p>
+        <p class="container-music-paragraph">
+          Grátis por 1 mês, depois R$ 21,90 por mês. Oferta disponível<br>
+          apenas para quem nunca teve o Premium. 
+          <a class="container-music-paragraph-link" 
+            href="https://www.spotify.com/br-pt/legal/premium-promotional-offer-terms/">
+            Sujeito a Termos.
+          </a>
+        </p>
       </div>
     </section>
 
-    <section class="benefits">
-      <div>
-        <h2>Experimente a diferença</h2>
-        <h3>Seja Premium e tenha controle total da sua conta. Cancele quando quiser.</h3>
+    <section class="container benefits">
+      <div class="benefits-differences">
+        <h2 class="benefits-differences-title">Experimente a diferença</h2>
+        <h3 class="benefits-differences-subtitle">Seja Premium e tenha controle total da sua conta. Cancele quando quiser.</h3>
       </div>
 
-      <article>
-        <table>
-          <thead>
-            <tr>
-              <th class="bn">Benefícios</br></br></th>
-              <th class="center">Plano Free do Spotify</th>
+      <article class="benefits-differences">
+        <table class="benefits-differences-table">
+          <thead class="benefits-differences-table-thead">
+            <tr class="benefits-differences-table-thead-tr">
+              <th class="benefits-differences-table-thead-tr-benefits">Benefícios</br></br></th>
+              <th class="benefits-differences-table-thead-tr-free">Plano Free do Spotify</th>
               
-              <th class="center premium"> 
-                <div class="center-flex">
-                  <img class="center-image" src="/assets/images/music.svg" alt="Ícone de música">
-                  <div>
+              <th class="benefits-differences-table-thead-tr-free premium"> 
+                <div class="premium-flex">
+                  <img class="premium-flex-img" src="/assets/images/music.svg" alt="Ícone de música">
+                  <div class="premium-flex-plans">
                     Planos Premium <br>do Spotify
                   </div>
                 </div>
-                
               </th>
             </tr>
           </thead>
 
-          <tbody class="body-footer">
-            <tr>
-              <th>Música sem anúncios</th>
-              <td><svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true">
-                  <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
-                </svg></td>
-              <td><img src="./assets/images/check.svg" alt="Check"></td>
+          <tbody class="benefits-differences-table-tbody">
+            <tr class="benefits-differences-table-tbody-tr">
+              <th class="benefits-differences-table-tbody-tr-th">
+                Música sem anúncios
+              </th>
+              
+              <td class="benefits-differences-table-tbody-tr-td-image">
+                <svg 
+                width="24" 
+                height="4" 
+                viewBox="0 0 24 4" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <rect 
+                x="0.513672" 
+                y="0.826172" 
+                width="22.8767" 
+                height="3" 
+                fill="#949494">
+                </rect>
+                </svg>
+              </td>
+
+              <td class="benefits-differences-table-tbody-tr-td-check">
+                <img src="./assets/images/check.svg" alt="Check">
+              </td>
             </tr>
-            <tr>
-              <th>Baixe para ouvir no modo offline</th>
-              <td><svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true">
-                  <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
-                </svg></td>
-              <td><img src="./assets/images/check.svg" alt="Check"></td>
+
+            <tr class="benefits-differences-table-tbody-tr">
+              <th class="benefits-differences-table-tbody-tr-th">
+                Baixe pra ouvir no modo offline
+              </th>
+              
+              <td class="benefits-differences-table-tbody-tr-td-image">
+                <svg 
+                width="24" 
+                height="4" 
+                viewBox="0 0 24 4" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <rect 
+                x="0.513672" 
+                y="0.826172" 
+                width="22.8767" 
+                height="3" 
+                fill="#949494">
+                </rect>
+                </svg>
+              </td>
+
+              <td class="benefits-differences-table-tbody-tr-td-check">
+                <img src="./assets/images/check.svg" alt="Check">
+              </td>
             </tr>
-            <tr>
-              <th>Ouça músicas na ordem que quiser</th>
-              <td><svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true">
-                  <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
-                </svg></td>
-              <td><img src="./assets/images/check.svg" alt="Check"></td>
+
+            <tr class="benefits-differences-table-tbody-tr">
+              <th class="benefits-differences-table-tbody-tr-th">
+                Ouça músicas na ordem que quiser
+              </th>
+              
+              <td class="benefits-differences-table-tbody-tr-td-image">
+                <svg 
+                width="24" 
+                height="4" 
+                viewBox="0 0 24 4" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <rect 
+                x="0.513672" 
+                y="0.826172" 
+                width="22.8767" 
+                height="3" 
+                fill="#949494">
+                </rect>
+                </svg>
+              </td>
+
+              <td class="benefits-differences-table-tbody-tr-td-check">
+                <img src="./assets/images/check.svg" alt="Check">
+              </td>
             </tr>
-            <tr>
-              <th>Áudio de qualidade alta</th>
-              <td><svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true">
-                  <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
-                </svg></td>
-              <td><img src="./assets/images/check.svg" alt="Check"></td>
+
+            <tr class="benefits-differences-table-tbody-tr">
+              <th class="benefits-differences-table-tbody-tr-th">
+                Áudio de qualidade alta
+              </th>
+              
+              <td class="benefits-differences-table-tbody-tr-td-image">
+                <svg 
+                width="24" 
+                height="4" 
+                viewBox="0 0 24 4" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <rect 
+                x="0.513672" 
+                y="0.826172" 
+                width="22.8767" 
+                height="3" 
+                fill="#949494">
+                </rect>
+                </svg>
+              </td>
+
+              <td class="benefits-differences-table-tbody-tr-td-check">
+                <img src="./assets/images/check.svg" alt="Check">
+              </td>
             </tr>
-            <tr>
-              <th>Possibilidade de ouvir com os amigos em tempo real</th>
-              <td><svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true">
-                  <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
-                </svg></td>
-              <td><img src="./assets/images/check.svg" alt="Check"></td>
+
+            <tr class="benefits-differences-table-tbody-tr">
+              <th class="benefits-differences-table-tbody-tr-th">
+                Possibilidade de ouvir com os amigos em tempo real
+              </th>
+              
+              <td class="benefits-differences-table-tbody-tr-td-image">
+                <svg 
+                width="24" 
+                height="4" 
+                viewBox="0 0 24 4" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <rect 
+                x="0.513672" 
+                y="0.826172" 
+                width="22.8767" 
+                height="3" 
+                fill="#949494">
+                </rect>
+                </svg>
+              </td>
+
+              <td class="benefits-differences-table-tbody-tr-td-check">
+                <img src="./assets/images/check.svg" alt="Check">
+              </td>
             </tr>
-            <tr>
-              <th>Fila na ordem que você quiser</th>
-              <td><svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true">
-                  <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
-                </svg></td>
-              <td><img src="./assets/images/check.svg" alt="Check"></td>
+
+            <tr class="benefits-differences-table-tbody-tr">
+              <th class="benefits-differences-table-tbody-tr-th">
+                Fila na ordem que você quiser
+              </th>
+              
+              <td class="benefits-differences-table-tbody-tr-td-image">
+                <svg 
+                width="24" 
+                height="4" 
+                viewBox="0 0 24 4" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <rect 
+                x="0.513672" 
+                y="0.826172" 
+                width="22.8767" 
+                height="3" 
+                fill="#949494">
+                </rect>
+                </svg>
+              </td>
+
+              <td class="benefits-differences-table-tbody-tr-td-check">
+                <img src="./assets/images/check.svg" alt="Check">
+              </td>
             </tr>
-            <tr>
-              <th>Insights de streaming (Sua Máquina do Tempo)</th>
-              <td><svg width="24" height="4" viewBox="0 0 24 4" fill="none" xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true">
-                  <rect x="0.513672" y="0.826172" width="22.8767" height="3" fill="#949494"></rect>
-                </svg></td>
-              <td><img src="./assets/images/check.svg" alt="Check"></td>
+
+            <tr class="benefits-differences-table-tbody-tr">
+              <th class="benefits-differences-table-tbody-tr-th">
+                Insights de streaming (Sua Máquina do Tempo)
+              </th>
+              
+              <td class="benefits-differences-table-tbody-tr-td-image">
+                <svg 
+                width="24" 
+                height="4" 
+                viewBox="0 0 24 4" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <rect 
+                x="0.513672" 
+                y="0.826172" 
+                width="22.8767" 
+                height="3" 
+                fill="#949494">
+                </rect>
+                </svg>
+              </td>
+
+              <td class="benefits-differences-table-tbody-tr-td-check">
+                <img src="./assets/images/check.svg" alt="Check">
+              </td>
             </tr>
           </tbody>
         </table>
       </article>
     </section>
 
-    <section class="cards">
-      <div>
-        <h2>Planos acessíveis para qualquer situação</h2>
-        <h3>Escolha um plano Premium e ouça música sem anúncios de forma ilimitada no seu celular, alto-falante e em
-          outros dispositivos. Vários métodos de pagamento. Cancele quando quiser.</h3>
+    <section class="container cards" id="planos">
+      <div class="cards-plans">
+        <h2 class="cards-plans-title">Planos acessíveis para qualquer situação</h2>
+        <h3 class="cards-plans-subtitle">Escolha um plano Premium e ouça música sem anúncios de forma ilimitada no seu celular, alto-falante e em outros dispositivos. Vários métodos de pagamento. Cancele quando quiser.</h3>
       </div>
 
-      <div>
-        <ul>
-          <li><img src="https://paymentsdk.spotifycdn.com/svg/cards/visa.svg" alt="Visa"></li>
-          <li><img src="https://paymentsdk.spotifycdn.com/svg/cards/mastercard.svg" alt="Matercard"></li>
-          <li><img src="https://paymentsdk.spotifycdn.com/svg/cards/amex.svg" alt="Amex"></li>
-          <li><img src="https://paymentsdk.spotifycdn.com/svg/cards/diners.svg" alt="Diners"></li>
+      <div class="cards-list">
+        <ul class="cards-list-ordered">
+          <li class="cards-list-ordered-order">
+          <img class="cards-list-ordered-order-image" 
+                src="https://paymentsdk.spotifycdn.com/svg/cards/visa.svg" alt="Visa">
+        </li>
+          <li class="cards-list-ordered-order">
+            <img class="cards-list-ordered-order-image"
+            src="https://paymentsdk.spotifycdn.com/svg/cards/mastercard.svg" alt="Matercard">
+          </li>
+          <li class="cards-list-ordered-order">
+            <img class="cards-list-ordered-order-image"
+            src="https://paymentsdk.spotifycdn.com/svg/cards/amex.svg" alt="Amex">
+          </li>
+          <li class="cards-list-ordered-order">
+            <img class="cards-list-ordered-order-image"
+            src="https://paymentsdk.spotifycdn.com/svg/cards/diners.svg" alt="Diners">
+          </li>
         </ul>
 
-        <div class="others">
-          <span> e +13 outros</span>
+        <div class="cards-list-others">
+          <span class="cards-list-others-span"> e +13 outros</span>
         </div>
       </div>
 
-      <aside>
-        <h3>Recursos dos planos Premium</h3>
+      <aside class="cards-aside">
+        <h3 class="cards-aside-title">Recursos dos planos Premium</h3>
 
-        <ul>
-          <li><img src="/assets/images/icon-check.svg" alt="Check">Música sem anúncios</li>
-          <li><img src="/assets/images/icon-check.svg" alt="Check">Baixe pra ouvir no modo offline</li>
-          <li><img src="/assets/images/icon-check.svg" alt="Check">Ouça músicas na ordem que quiser</li>
-          <li><img src="/assets/images/icon-check.svg" alt="Check">Áudio de qualidade alta</li>
-          <li><img src="/assets/images/icon-check.svg" alt="Check">Possibilidade de ouvir com os amigos em tempo real
+        <ul class="cards-aside-list">
+          <li class="cards-aside-list-order">
+            <img src="/assets/images/icon-check.svg" alt="Check">
+            Música sem anúncios
           </li>
-          <li><img src="/assets/images/icon-check.svg" alt="Check">Fila na ordem que você quiser</li>
-          <li><img src="/assets/images/icon-check.svg" alt="Check">Insights de streaming (Sua Máquina do Tempo)</li>
+
+          <li class="cards-aside-list-order">
+            <img src="/assets/images/icon-check.svg" alt="Check">
+            Baixe pra ouvir no modo offline
+          </li>
+
+          <li class="cards-aside-list-order">
+            <img src="/assets/images/icon-check.svg" alt="Check">
+            Ouça músicas na ordem que quiser
+          </li>
+
+          <li class="cards-aside-list-order">
+            <img src="/assets/images/icon-check.svg" alt="Check">
+            Áudio de qualidade alta
+          </li>
+
+          <li class="cards-aside-list-order">
+            <img src="/assets/images/icon-check.svg" alt="Check">
+            Possibilidade de ouvir com os amigos em tempo real
+          </li>
+
+          <li class="cards-aside-list-order">
+            <img src="/assets/images/icon-check.svg" alt="Check">
+            Fila na ordem que você quiser
+          </li>
+
+          <li class="cards-aside-list-order">
+            <img src="/assets/images/icon-check.svg" alt="Check">
+            Insights de streaming (Sua Máquina do Tempo)
+          </li>
         </ul>
       </aside>
     </section>
 
-    <section class="plans">
+    <!-- PAREI AQUI -->
+
+    <section class="container plans">
       <div class="grid">
 
         <div class="item">
@@ -235,7 +449,7 @@
 
     </section>
 
-    <section class="faq">
+    <section class="container faq">
       <div class="faq-questions">
         <h2>Alguma dúvida?</h2>
         <p>Temos respostas que podem ajudar.</p>

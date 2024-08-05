@@ -8,67 +8,66 @@ body {
   background-color: rgb(18, 18, 18);
   font-family: Helvetica, Arial, sans-serif;
   > main {
-    background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(0deg, rgba(255, 210, 215, 0) 94%, rgb(255, 210, 215) 100%);
-    background-position: top right;
+    background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(1deg, rgba(255, 210, 215, 0) 96.5%, rgb(255, 210, 215) 101%);
+    background-position: top 70px right;
     background-repeat: no-repeat;
     > header {
       background-color: #000;
-      > .interior-header {
+      > .header {
         align-items: center;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        padding: 1rem 0;
-        max-width: 90%;
+        justify-content: space-between;
         margin: 0 auto;
-        > .logo {
+        max-width: 90%;
+        padding: 1rem 2rem;
+        > .header-logo {
           width: 9%;
         }
         
-        > nav {
-          > .list-options {
+        > .header-nav {
+          > .header-nav-list{
             align-items: center;
             color: #ffffff;
             display: flex;
             flex-direction: row;
-            gap: 2rem;
-            justify-content: end;
             font-size: 1rem;
             font-weight: bold;
-
-  
-            > li {
+            gap: 2rem;
+            justify-content: end;
+            > .header-nav-list-option {
               list-style: none;
-  
-              > .list-options-button {
+              > .header-nav-list-option-button {
                 background-color: transparent;
                 border: none;
                 color: #ffffff;
                 font-size: 1rem;
                 font-weight: bold;
+                &:hover {
+                  color: #1eaf1f;
+                }
               }
-
-              > .list-options-button:hover {
-                color: #1eaf1f;
-              }
-    
-              > a {
+              > .header-nav-list-option-link {
                 color: #ffffff;
                 text-decoration: none;
+                &:hover {
+                  color: #1eaf1f;
+                }
               }
-
-              > a:hover {
+              &:hover {
                 color: #1eaf1f;
               }
             }
-
-            > li:hover {
-              color: #1eaf1f;
+            > .separator {
+              font-size: 1rem;
+              font-weight: 100;
+              &:hover {
+                color: #fff;
+              }
             }
-    
-            > .list-options-profile {
-              width: 5%;
+            > .header-nav-list-profile {
               border-radius: 100%;
+              width: 5%;
             }
           }
         }
@@ -76,141 +75,126 @@ body {
     }
 
     > .container {
-      height: 565px;
-      max-width: 75%;
       margin: 0 auto;
-
+      max-width: 85%;
       > .container-music {
-        padding: 3.2rem 0;
         color: #fff;
-        > h1 {
-          width: 45%;
+        padding: 5rem 0 9rem 0;
+        > .container-music-headline {
           font-size: 2.7rem;
           font-weight: bold;
           margin-bottom: .5rem;
+          width: 45%;
         }
 
-        > h2 {
+        > .container-music-subtitle {
           font-size: 1rem;
           font-weight: 500;
           line-height: 2.3em;
         }
 
         > .container-music-buttons {
+          align-items: center;
           display: flex;
           flex-direction: row;
-          align-items: center;
           gap: 1rem;
           margin: 2rem 0;
-
           > .container-music-button-individual {
             background-color: #FFD2D7;
-            padding: 1rem 2.2rem;
             border-radius: 8rem;
-            > a {
+            padding: 1rem 2.2rem;
+            > .container-music-button-individual-link {
               color: #000;
-              text-decoration: none;
-              font-weight: bold;
               font-size: 1rem;
+              font-weight: bold;
+              text-decoration: none;
             }
-
             &:hover {
-              padding: 1.1rem 2.3rem;
               background-color: #ffebee;
+              padding: 1.1rem 2.3rem;
             }
           }
 
           > .container-music-button-planos {
             background-color: #000;
-            padding: 1rem 2rem;
-            border-radius: 8rem;
             border: 0.1px solid #fff;
-            > a {
+            border-radius: 8rem;
+            padding: 1rem 2rem;
+            > .container-music-button-planos-link {
               color: #fff;
               text-decoration: none;
               font-weight: bold;
               font-size: 1rem;
             }
-
             &:hover {
               padding: 1.1rem 2.3rem;
             }
           }
         }
         
-
-        > p {
-          font-size: .6rem;
-          > a {
+        > .container-music-paragraph {
+          font-size: .7rem;
+          > .container-music-paragraph-link {
             color: #fff;
+            line-height: 2em;
           }
         }
       }
     }
 
     > .benefits {
-      width: 100%;
-      max-width: 600px;
-      margin: 0 auto;
-      text-align: center;
-
-      > div {
-        > h2 {
+      > .benefits-differences {
+        text-align: center;
+        > .benefits-differences-title {
           color: #fff;
           font-size: 2.5rem;
           font-weight: bold;
           margin-bottom: .5rem;
         }
-        > h3 {
+        > .benefits-differences-subtitle {
           color: #fff;
           font-size: 1.4rem;
           font-weight: normal;
           line-height: 1.2em;
+          margin: 0 auto;
+          width: 50%;
         }
       }
 
-      > article {
-        padding: 4rem 0;
-        > table {
-          color: #fff;
-          // table-layout: fixed;
+      > .benefits-differences {
+        > .benefits-differences-table {
           border-spacing: 0px;
-          width: 100%;
-          max-width: 446px;
+          color: #fff;
           margin: 0 auto;
-          // overflow-wrap: break-word;
-          // background: rgb(26, 26, 26);
-          // --readable-color: red;
-          > thead {
-            text-align: left;
-            > tr {
+          max-width: 35%;
+          padding: 4rem 0;
+          > .benefits-differences-table-thead {
+            > .benefits-differences-table-thead-tr {
               > th {
+                border-bottom: 1px solid rgb(217, 218, 220);
                 font-size: 1rem;
                 font-weight: 600;
                 line-height: 1.2em;
                 text-align: left;
-                border-bottom: 1px solid rgb(217, 218, 220);
               }
 
-              > .bn {
+              > .benefits-differences-table-thead-tr-benefits {
                 vertical-align: bottom;
               }
 
-              > .center {
-                text-align: left;
-                // height: 100%;
-                width: 15%;
+              > .benefits-differences-table-thead-tr-free {
                 padding: 32px 8px 32px 20px;
+                text-align: left;
+                width: 15%;
               }
 
               > .premium {
-                > .center-flex {
+                > .premium-flex {
+                  align-items: flex-start;
                   display: flex;
                   flex-direction: row;
-                  align-items: flex-start;
                   gap: .1rem;
-
-                  > .center-image {
+                  > .premium-flex-img {
                     width: 15%;
                   }
                 }
@@ -218,34 +202,30 @@ body {
             }
           }
 
-          > .body-footer {
-            > tr {
-              > th {
-                text-align: left;
+          > .benefits-differences-table-tbody {
+            > .benefits-differences-table-tbody-tr {
+              > .benefits-differences-table-tbody-tr-th {
                 border-bottom: 1px solid rgb(217, 218, 220);
-                font-weight: 400;
                 font-size: 15px;
-                width: 30%;
+                font-weight: 400;
+                line-height: 24px;
                 padding: 1.2rem 0;
-
-                // display: inline-block;
-                // background-color: inherit;
+                text-align: left;
                 text-decoration-line: underline;
                 text-decoration-style: dashed;
                 text-decoration-thickness: 1px;
                 text-underline-offset: 4px;
-                // color: var(--text-base, #ffffff);
-                // font-size: var(--tooltip-content-font-size, 14px);
-                line-height: 24px;
-                // text-decoration-color: var(--text-subdued, inherit);
+                width: 15%;
+              }
+              > .benefits-differences-table-tbody-tr-td-image {
+                border-bottom: 1px solid rgb(217, 218, 220);
+              }
+              &:hover {
+                background-color: #1a1a1a;
               }
 
-              > td {
+              > .benefits-differences-table-tbody-tr-td-check {
                 border-bottom: 1px solid rgb(217, 218, 220);
-                color: rgb(255, 255, 255);
-                -webkit-box-align: center;
-                align-items: center;
-                -webkit-box-pack: center;
                 &:hover {
                   background-color: #313131;
                 }
@@ -258,84 +238,84 @@ body {
 
     > .cards {
       text-align: center;
-      margin: 0 auto;
-      max-width: 75%;
-      color: #fff;
-      line-height: 1.2em;
 
-      > div {
-        > h2 {
+      > .cards-plans {
+        color: #fff;
+        > .cards-plans-title {
           color: #fff;
           font-size: 2.2rem;
           font-weight: bold;
           margin-bottom: 1.5rem;
         }
 
-        > h3 {
+        > .cards-plans-subtitle {
           color: #fff;
           font-size: 1rem;
           font-weight: normal;
-          line-height: 1.2em;
-          width: 58%;
+          line-height: 1.4em;
           margin: 0 auto;
+          width: 52%;
         }
       }
 
-      > div {
-        padding: .5rem 0;
-        > ul {
-          width: 20%;
-          margin: 0 auto;
-          display: flex;
+      > .cards-list {
+        padding: 2rem 0;
+        > .cards-list-ordered {
           align-items: center;
-          justify-content: center;
+          display: flex;
           gap: .5rem;
+          justify-content: center;
+          margin: 0 auto;
+          width: 20%;
     
-          > li {
+          > .cards-list-ordered-order {
             list-style: none;
-            > img {
+            > .cards-list-ordered-order-image {
               width: 100%;
             }
           }
         }
 
-        > .others {
+        > .cards-list-others {
           margin: 1rem 0;
-          > span {
+          > .cards-list-others-span {
+            color: #fff;
             font-size: 1rem;
             text-decoration: underline;
           }
         }
       }
 
-      > aside {
-        padding: 2rem 5.5rem;
-        display: flex;
-        justify-content: space-around;
+      > .cards-aside {
         align-items: center;
-        > h3 {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        > .cards-aside-title {
           font-size: 2rem;
           font-weight: bold;
         }
 
-        > ul {
-          > li {
-            display: flex;
+        > .cards-aside-list {
+          > .cards-aside-list-order {
             align-items: center;
-            gap: .2rem;
             color: #fff;
-            list-style: none;
-            text-align: left;
+            display: flex;
             font-size: .9rem;
             font-weight: 500;
+            gap: .2rem;
+            list-style: none;
+            text-align: left;
           }
         }
       }
     }
 
+    
+    // PAREI AQUI
     > .plans {
       color: #fff;
-      margin: 0 auto;
       padding: 5rem 0;
       > .grid {
         display: grid;
@@ -461,7 +441,6 @@ body {
 
     > .faq {
       color: #fff;
-      margin: 0 auto;
       text-align: center;
 
       > .faq-questions {
@@ -491,7 +470,7 @@ body {
         align-items: center;
         justify-content: center;
         gap: 8px;
-        width: 1100px;
+        // width: 1100px;
         margin: 0 auto;
         text-align: left;
         padding-bottom: 5rem;
@@ -501,7 +480,7 @@ body {
           cursor: pointer;
 
           > .accordion-faq {
-            max-width: 1000px;
+            // max-width: 1000px;
             > .accordion-header {
               width: 100%;
               cursor: pointer;
@@ -570,22 +549,24 @@ body {
 
     > .footer {
       background-color: #000;
-      padding: 5rem 0;
-      margin: 0 auto;
       > .footer-nav {
+        margin: 0 auto;
+        max-width: 75%;
         display: flex;
         justify-content: center;
+        padding: 5rem 0;
+
         > .footer-container {
-          width: 10%;
+          // width: 10%;
           > .footer-link {
             > .footer-logo {
-              width: 70%;
+              width: 30%;
             }
           }
         }
 
         > .footer-container-list {
-          width: 40%;
+          // width: 40%;
           display: flex;
           justify-content: space-around;
           gap: 2rem;
@@ -612,7 +593,7 @@ body {
         }
 
         > .footer-container-icons {
-          width: 10%;
+          // width: 10%;
           text-align: end;
           > .list-icons {
             display: flex;
