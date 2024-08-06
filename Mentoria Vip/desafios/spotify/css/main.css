@@ -276,107 +276,113 @@ body > main > .cards > .cards-aside > .cards-aside-list > .cards-aside-list-orde
 }
 body > main > .plans {
   color: #fff;
-  padding: 5rem 0;
 }
-body > main > .plans > .grid {
+body > main > .plans > .plans-grid {
   display: grid;
-  grid-template-columns: 350px 350px 350px;
   gap: 35px;
+  grid-template-columns: 350px 350px 350px;
+  padding: 5rem 0;
   place-content: center;
 }
-body > main > .plans > .grid > .item {
+body > main > .plans > .plans-grid > .plans-grid-item {
   background-color: #242424;
-  padding: 20px;
   border-radius: 8px;
   display: grid;
+  padding: 20px;
 }
-body > main > .plans > .grid > .item > span {
-  margin-top: 0px;
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-span {
+  align-items: center;
+  display: flex;
   font-size: 1rem;
   font-weight: 500;
-  display: flex;
-  align-items: center;
   gap: 0.2rem;
+  margin-top: 0px;
 }
-body > main > .plans > .grid > .item > span > img {
-  width: 10%;
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-span > .plans-grid-item-span-image {
   align-items: center;
   justify-content: center;
+  width: 10%;
 }
-body > main > .plans > .grid > .item > h3 {
+body > main > .plans > .plans-grid > .plans-grid-item > h3 {
   font-size: 1.8rem;
   margin: 0.6rem 0;
 }
-body > main > .plans > .grid > .item > .individual {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-individual {
   color: #ffd2d7;
 }
-body > main > .plans > .grid > .item > .university {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-university {
   color: #c4b1d4;
 }
-body > main > .plans > .grid > .item > .duo {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-duo {
   color: #ffc862;
 }
-body > main > .plans > .grid > .item > .family {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-family {
   color: #a5bbd1;
 }
-body > main > .plans > .grid > .item > .preco {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-preco {
   font-size: 0.9rem;
   font-weight: bold;
 }
-body > main > .plans > .grid > .item > .hr {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-paragraph {
+  color: rgb(167, 167, 167);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 2em;
+}
+body > main > .plans > .plans-grid > .plans-grid-item > .hr {
+  background-color: rgba(255, 255, 255, 0.1);
   border: none;
+  color: rgba(255, 255, 255, 0.1);
   height: 2px;
   margin: 1rem 0;
-  color: rgba(255, 255, 255, 0.1);
-  background-color: rgba(255, 255, 255, 0.1);
 }
-body > main > .plans > .grid > .item > ul {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-list {
   padding: 0 1rem 1rem 1rem;
 }
-body > main > .plans > .grid > .item > ul > li {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-item-list > .plans-grid-item-list-order {
   font-size: 0.9rem;
-  line-height: 1.5em;
   font-weight: 540;
+  line-height: 1.5em;
 }
-body > main > .plans > .grid > .item > a {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-button {
   background: #a8f;
-  color: #000;
-  padding: 15px 20px;
-  text-decoration: none;
   border-radius: 30px;
-  text-align: center;
-  font-weight: bold;
+  color: #000;
   font-size: 1rem;
+  font-weight: bold;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
 }
-body > main > .plans > .grid > .item > a:hover {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-button:hover {
   font-size: 1.1rem;
 }
-body > main > .plans > .grid > .item > .button-individual {
+body > main > .plans > .plans-grid > .plans-grid-item > .button-individual {
   background-color: #ffd2d7;
 }
-body > main > .plans > .grid > .item > .button-university {
+body > main > .plans > .plans-grid > .plans-grid-item > .button-university {
   background-color: #c4b1d4;
 }
-body > main > .plans > .grid > .item > .button-duo {
+body > main > .plans > .plans-grid > .plans-grid-item > .button-duo {
   background-color: #ffc862;
 }
-body > main > .plans > .grid > .item > .button-family {
+body > main > .plans > .plans-grid > .plans-grid-item > .button-family {
   background-color: #a5bbd1;
 }
-body > main > .plans > .grid > .item > .p-button {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-button-paragraph {
+  color: #a7a7a7;
   font-size: 0.65rem;
-  text-align: center;
+  font-weight: normal;
   margin: 1rem 0;
-  font-weight: normal;
-  color: #a7a7a7;
-}
-body > main > .plans > .grid > .item > .p-button > .button {
-  font-size: 0.65rem;
   text-align: center;
-  font-weight: normal;
-  color: #a7a7a7;
 }
-body > main > .plans > .grid > .item-family {
+body > main > .plans > .plans-grid > .plans-grid-item > .plans-grid-button-paragraph > .plans-grid-button-paragraph-link {
+  color: #a7a7a7;
+  font-size: 0.65rem;
+  font-weight: normal;
+  text-align: center;
+}
+body > main > .plans > .plans-grid > .item-family {
   grid-column: 2;
 }
 body > main > .faq {
