@@ -26,7 +26,7 @@ No desenvolvimento dos projetos, utilizo tecnologias e ferramentas variadas para
 1. Clone este repositório: 
 
 ```bash
-git clone https://github.com/RaizaCirne/rolagem-fotografica.git
+git clone https://github.com/RaizaCirne/frontend.git
 ```
 <br />
 
