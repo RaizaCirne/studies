@@ -54,9 +54,9 @@ Se tiver interesse em colaborar ou trocar ideias sobre os projetos, você pode m
 <br /> 
 
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
-- Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - E-mail: raizacirne@gmail.com
+- Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
   
 **Reactjs - Vuejs - JavaScript - GIT - GitHub - SASS - styled-components - CSS3 - HTML5** 🚀
 
