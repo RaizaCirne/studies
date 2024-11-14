@@ -57,6 +57,8 @@ Se tiver interesse em colaborar ou trocar ideias sobre os projetos, você pode m
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - E-mail: raizacirne@gmail.com
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
+
+<br />
   
 **Reactjs - Vuejs - JavaScript - GIT - GitHub - SASS - styled-components - CSS3 - HTML5** 🚀
 
