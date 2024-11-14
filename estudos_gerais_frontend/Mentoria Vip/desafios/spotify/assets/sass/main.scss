@@ -1,0 +1,621 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(18, 18, 18);
+  font-family: Helvetica, Arial, sans-serif;
+  > main {
+    background-image: url(https://wwwmarketing.scdn.co/static/images/premium/desktop-album-evergreen-1x.png), linear-gradient(1deg, rgba(255, 210, 215, 0) 96.5%, rgb(255, 210, 215) 101%);
+    background-position: top 70px right;
+    background-repeat: no-repeat;
+    > header {
+      background-color: #000;
+      > .header {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 90%;
+        padding: 1rem 2rem;
+        > .header-logo {
+          width: 9%;
+        }
+        
+        > .header-nav {
+          > .header-nav-list{
+            align-items: center;
+            color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            font-size: 1rem;
+            font-weight: bold;
+            gap: 2rem;
+            justify-content: end;
+            > .header-nav-list-option {
+              list-style: none;
+              > .header-nav-list-option-button {
+                background-color: transparent;
+                border: none;
+                color: #ffffff;
+                font-size: 1rem;
+                font-weight: bold;
+                &:hover {
+                  color: #1eaf1f;
+                }
+              }
+              > .header-nav-list-option-link {
+                color: #ffffff;
+                text-decoration: none;
+                &:hover {
+                  color: #1eaf1f;
+                }
+              }
+              &:hover {
+                color: #1eaf1f;
+              }
+            }
+            > .separator {
+              font-size: 1rem;
+              font-weight: 100;
+              &:hover {
+                color: #fff;
+              }
+            }
+            > .header-nav-list-profile {
+              border-radius: 100%;
+              width: 5%;
+            }
+          }
+        }
+      }
+    }
+
+    > .container {
+      margin: 0 auto;
+      max-width: 85%;
+      > .container-music {
+        color: #fff;
+        padding: 5rem 0 9rem 0;
+        > .container-music-headline {
+          font-size: 2.7rem;
+          font-weight: bold;
+          margin-bottom: .5rem;
+          width: 45%;
+        }
+
+        > .container-music-subtitle {
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 2.3em;
+        }
+
+        > .container-music-buttons {
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+          margin: 2rem 0;
+          > .container-music-button-individual {
+            background-color: #FFD2D7;
+            border-radius: 8rem;
+            padding: 1rem 2.2rem;
+            > .container-music-button-individual-link {
+              color: #000;
+              font-size: 1rem;
+              font-weight: bold;
+              text-decoration: none;
+            }
+            &:hover {
+              background-color: #ffebee;
+              padding: 1.1rem 2.3rem;
+            }
+          }
+
+          > .container-music-button-planos {
+            background-color: #000;
+            border: 0.1px solid #fff;
+            border-radius: 8rem;
+            padding: 1rem 2rem;
+            > .container-music-button-planos-link {
+              color: #fff;
+              text-decoration: none;
+              font-weight: bold;
+              font-size: 1rem;
+            }
+            &:hover {
+              padding: 1.1rem 2.3rem;
+            }
+          }
+        }
+        
+        > .container-music-paragraph {
+          font-size: .7rem;
+          > .container-music-paragraph-link {
+            color: #fff;
+            line-height: 2em;
+          }
+        }
+      }
+    }
+
+    > .benefits {
+      > .benefits-differences {
+        text-align: center;
+        > .benefits-differences-title {
+          color: #fff;
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: .5rem;
+        }
+        > .benefits-differences-subtitle {
+          color: #fff;
+          font-size: 1.4rem;
+          font-weight: normal;
+          line-height: 1.2em;
+          margin: 0 auto;
+          width: 50%;
+        }
+      }
+
+      > .benefits-differences {
+        > .benefits-differences-table {
+          border-spacing: 0px;
+          color: #fff;
+          margin: 0 auto;
+          max-width: 35%;
+          padding: 4rem 0;
+          > .benefits-differences-table-thead {
+            > .benefits-differences-table-thead-tr {
+              > th {
+                border-bottom: 1px solid rgb(217, 218, 220);
+                font-size: 1rem;
+                font-weight: 600;
+                line-height: 1.2em;
+                text-align: left;
+              }
+
+              > .benefits-differences-table-thead-tr-benefits {
+                vertical-align: bottom;
+              }
+
+              > .benefits-differences-table-thead-tr-free {
+                padding: 32px 8px 32px 20px;
+                text-align: left;
+                width: 15%;
+              }
+
+              > .premium {
+                > .premium-flex {
+                  align-items: flex-start;
+                  display: flex;
+                  flex-direction: row;
+                  gap: .1rem;
+                  > .premium-flex-img {
+                    width: 15%;
+                  }
+                }
+              }
+            }
+          }
+
+          > .benefits-differences-table-tbody {
+            > .benefits-differences-table-tbody-tr {
+              > .benefits-differences-table-tbody-tr-th {
+                border-bottom: 1px solid rgb(217, 218, 220);
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 24px;
+                padding: 1.2rem 0;
+                text-align: left;
+                text-decoration-line: underline;
+                text-decoration-style: dashed;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 4px;
+                width: 15%;
+              }
+              > .benefits-differences-table-tbody-tr-td-image {
+                border-bottom: 1px solid rgb(217, 218, 220);
+              }
+              &:hover {
+                background-color: #1a1a1a;
+              }
+
+              > .benefits-differences-table-tbody-tr-td-check {
+                border-bottom: 1px solid rgb(217, 218, 220);
+                &:hover {
+                  background-color: #313131;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    > .cards {
+      text-align: center;
+
+      > .cards-plans {
+        color: #fff;
+        > .cards-plans-title {
+          color: #fff;
+          font-size: 2.2rem;
+          font-weight: bold;
+          margin-bottom: 1.5rem;
+        }
+
+        > .cards-plans-subtitle {
+          color: #fff;
+          font-size: 1rem;
+          font-weight: normal;
+          line-height: 1.4em;
+          margin: 0 auto;
+          width: 52%;
+        }
+      }
+
+      > .cards-list {
+        padding: 2rem 0;
+        > .cards-list-ordered {
+          align-items: center;
+          display: flex;
+          gap: .5rem;
+          justify-content: center;
+          margin: 0 auto;
+          width: 20%;
+    
+          > .cards-list-ordered-order {
+            list-style: none;
+            > .cards-list-ordered-order-image {
+              width: 100%;
+            }
+          }
+        }
+
+        > .cards-list-others {
+          margin: 1rem 0;
+          > .cards-list-others-span {
+            color: #fff;
+            font-size: 1rem;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      > .cards-aside {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        > .cards-aside-title {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+
+        > .cards-aside-list {
+          > .cards-aside-list-order {
+            align-items: center;
+            color: #fff;
+            display: flex;
+            font-size: .9rem;
+            font-weight: 500;
+            gap: .2rem;
+            list-style: none;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    > .plans {
+      color: #fff;
+      > .plans-grid {
+        display: grid;
+        gap: 35px;
+        grid-template-columns: 350px 350px 350px;
+        padding: 5rem 0;
+        place-content: center;
+        > .plans-grid-item {
+          background-color: #242424;
+          border-radius: 8px;
+          display: grid;
+          padding: 20px;
+          > .plans-grid-item-span {
+            align-items: center;
+            display: flex;
+            font-size: 1rem;
+            font-weight: 500;
+            gap: .2rem;
+            margin-top: 0px;
+            > .plans-grid-item-span-image {
+              align-items: center;
+              justify-content: center;
+              width: 10%;
+            }
+          }
+
+          > h3 {
+            font-size: 1.8rem;
+            margin: .6rem 0;
+          }
+
+          > .plans-grid-item-individual {
+            color: #ffd2d7;
+          }
+
+          > .plans-grid-item-university {
+            color: #c4b1d4;
+          }
+
+          > .plans-grid-item-duo {
+            color: #ffc862;
+          }
+
+          > .plans-grid-item-family {
+            color: #a5bbd1;
+          }
+
+          > .plans-grid-item-preco {
+            font-size: .9rem;
+            font-weight: bold;
+          }
+
+          > .plans-grid-item-paragraph {
+            color: rgb(167, 167, 167);
+            font-size: .8rem;
+            font-weight: 500;
+            line-height: 2em;
+          }
+          > .hr {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: rgba(255, 255, 255, 0.1);
+            height: 2px;
+            margin: 1rem 0;
+          }
+
+          > .plans-grid-item-list {
+            padding: 0 1rem 1rem 1rem;
+            > .plans-grid-item-list-order {
+              font-size: .9rem;
+              font-weight: 540;
+              line-height: 1.5em;
+            }
+          }
+
+          > .plans-grid-button {
+            background: #a8f;
+            border-radius: 30px;
+            color: #000;
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            &:hover {
+              font-size: 1.1rem;
+            }
+          }
+
+          > .button-individual {
+            background-color: #ffd2d7;
+          }
+
+          > .button-university {
+            background-color: #c4b1d4;
+          }
+
+          > .button-duo {
+            background-color: #ffc862;
+          }
+
+          > .button-family {
+            background-color: #a5bbd1;
+          }
+
+          > .plans-grid-button-paragraph {
+            color: #a7a7a7;
+            font-size: .73rem;
+            font-weight: normal;
+            margin: 1rem 0;
+            text-align: center;
+
+            > .plans-grid-button-paragraph-link {
+              color: #a7a7a7;
+              font-size: .65rem;
+              font-weight: normal;
+              text-align: center; 
+            }
+          }
+        }
+
+        > .item-family {
+          grid-column: 2;
+        }
+      }
+    }
+
+    // PAREI AQUI
+    > .faq {
+      color: #fff;
+      text-align: center;
+      > .faq-questions {
+        padding-bottom: 1.5rem;
+        > .faq-questions-title {
+          font-size: 2rem;
+          font-weight: bold;
+          line-height: 1.2em;
+        }
+
+        > .faq-questions-paragraph {
+          font-size: 1rem;
+          line-height: 1.2em;
+          padding: .5rem 0;
+
+          > .faq-questions-paragraph-link {
+            color: #fff;
+            font-size: .8rem;
+            line-height: 1.2em;
+          }
+        }
+      }
+
+      > .faq-accordion {
+        // align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: left;
+        padding-bottom: 5rem;
+
+        > .faq-accordion-container {
+          cursor: pointer;
+
+          > .faq-accordion-container-div {
+            > .faq-accordion-container-div-header {
+              align-items: center;
+              background-color: transparent;
+              border: none;
+              border-bottom: 1px solid #1e1e1e;
+              color: #fff;
+              cursor: pointer;
+              display: flex;
+              font-size: 1rem;
+              font-weight: bold;
+              justify-content: space-between;
+              padding: 1rem;
+              width: 100%;
+              &:hover {
+                background-color: #2a2a2a;
+              }
+
+              > .faq-accordion-container-div-header-span {
+                max-width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+
+              > .arrow {
+                transition: transform .2s linear;
+                list-style: none;
+                text-decoration: none;
+              }
+            }
+
+            > .accordion-body {
+              background-color: #242424;
+              font-size: 1rem;
+              height: 0;
+              opacity: 0;
+              overflow: hidden;
+              transition: opacity .3s;
+              > .accordion-body-paragraph {
+                padding: 1rem;
+                font-size: .9rem;
+                font-weight: 500;
+                line-height: 1.5em;
+                > .accordion-body-paragraph-link {
+                  color: #fff;
+                }
+              }
+            }
+
+            > .accordion-body.active {
+              height: 100%;
+              opacity: 1;
+              padding: 5px 0;
+            }
+          }
+          
+        }
+
+        > .accordion:has(.active) .arrow {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    > .footer {
+      background-color: #000;
+      > .footer-nav {
+        margin: 0 auto;
+        max-width: 75%;
+        display: flex;
+        justify-content: center;
+        padding: 5rem 0;
+
+        > .footer-container {
+          // width: 10%;
+          > .footer-link {
+            > .footer-logo {
+              width: 30%;
+            }
+          }
+        }
+
+        > .footer-container-list {
+          // width: 40%;
+          display: flex;
+          justify-content: space-around;
+          gap: 2rem;
+
+          > .footer-container-lista-one {
+            width: 17%;
+            > .color-title {
+              color: #919496;
+              font-size: .8rem;
+              text-transform: uppercase;
+              padding: 1rem 0;
+            }
+
+            > .subtitle {
+              padding: .6rem 0;
+              > .subtitle-link {
+                color: #fff;
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+
+        > .footer-container-icons {
+          // width: 10%;
+          text-align: end;
+          > .list-icons {
+            display: flex;
+
+
+            > .list-icons-footer {
+                list-style: none;
+                color: #fff;
+                gap: 0;
+              > .list-icons-footer-link {
+                > .span-icons {
+                  display: block;
+                  > .icons-img {
+                    width: 40%;
+                    color: #fff;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
