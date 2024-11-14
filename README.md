@@ -5,7 +5,7 @@ Este repositório é onde organizo e compartilho o que tenho aprendido sobre pro
 
 Ao longo do repositório, destaquei alguns projetos que mostram a aplicação prática dos conceitos estudados.
 
-#### 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 No desenvolvimento dos projetos, utilizo tecnologias e ferramentas variadas para construir interfaces e explorar as possibilidades de frontend.
 
 # ☑️ Pré-requisitos 
