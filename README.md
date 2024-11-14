@@ -51,15 +51,12 @@ Este repositório é atualizado regularmente com novos projetos e anotações. S
 ## 📫 Entre em Contato
 Se tiver interesse em colaborar ou trocar ideias sobre os projetos, você pode me encontrar:
 
-<br />
+<br /> 
+
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
-<br />
-- E-mail: raizacirne@gmail.com
-<br />
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
-<br />
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
-<br />
+  
 **Reactjs - Vuejs - JavaScript - GIT - GitHub - SASS - styled-components - CSS3 - HTML5** 🚀
 
 
