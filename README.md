@@ -8,7 +8,7 @@ Ao longo do repositório, destaquei alguns projetos que mostram a aplicação pr
 ## 🛠 Tecnologias Utilizadas
 No desenvolvimento dos projetos, utilizo tecnologias e ferramentas variadas para construir interfaces e explorar as possibilidades de frontend.
 
-# ☑️ Pré-requisitos 
+## ☑️ Pré-requisitos 
 
 <br />
 
@@ -17,7 +17,7 @@ No desenvolvimento dos projetos, utilizo tecnologias e ferramentas variadas para
 
 <br />
 
-# ⚙️ Como Usar?
+## ⚙️ Como Usar?
 
 <br />
 
@@ -41,11 +41,11 @@ npm start
 ```
 <br />
 
-# 📈 Atualizações
+## 📈 Atualizações
 Este repositório é atualizado regularmente com novos projetos e anotações. Sinta-se à vontade para explorar e acompanhar meu progresso!
 <br />
 
-# 📫 Entre em Contato
+## 📫 Entre em Contato
 Se tiver interesse em colaborar ou trocar ideias sobre os projetos, você pode me encontrar:
 
 <br />
