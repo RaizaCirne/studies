@@ -1,1 +1,0 @@
-document.write("<h2>" + "Professor José de Assis" + "</h2>");
