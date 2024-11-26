@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Home from "./pages/home";
+import Config from "./pages/config";
 
-function App() {
-  return <h1>Olá</h1>;
+export default function App() {
+  return (
+    <>
+      <Home />
+      <Config />
+    </>
+  );
 }
-
-export default App;
