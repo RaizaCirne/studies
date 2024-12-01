@@ -6,7 +6,7 @@ import Home from "../pages/home";
 export default function Rotas() {
   return (
     <Routes>
-      <Route element={<Home />} path="/" />
+      <Route element={<Home />} path="/" /> 
       <Route element={<Config />} path="/configuracoes" />
     </Routes>
   );
