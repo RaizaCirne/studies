@@ -25,8 +25,7 @@ export default function Home() {
   );
 }
 
-
-// Desafio: Criar uma tela individual para cada carro. Clicar no carro e ele ser levado para uma tela individual dele. 
+// Desafio: Criar uma tela individual para cada carro. Clicar no carro e ele ser levado para uma tela individual dele.
 
 // {cars.map((item) => {
 //   return (
@@ -36,8 +35,7 @@ export default function Home() {
 //   );
 // })}
 
-
 // O map lista todos os nomes dos carros quando colocamos item.nome
 // Ex: tem 10 carros dentro do objeto cars.js, então ele cria 10 h1 com o item.nome
-// Se eu der um map e criar um route dentro desse map, vai criar 10 rotas para cada carro, certo? 
-// 
+// Se eu der um map e criar um route dentro desse map, vai criar 10 rotas para cada carro, certo?
+//
