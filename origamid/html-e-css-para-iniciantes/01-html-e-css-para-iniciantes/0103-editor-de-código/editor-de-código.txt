@@ -1,0 +1,24 @@
+Editor de Código
+  - Editores
+    - Visual Studio Code, Sublime Text, Vim e outros.
+
+  - Vantagens
+    - Destaca a sintaxe, autocompleta o código, organiza o código, informa erros e mais.
+
+  - Visual Studio Code
+    - https://code.visualstudio.com/
+
+Plugins
+  - Origamid Next
+    - https://marketplace.visualstudio.com/items?itemName=origamid.origamid-next
+
+Configuração
+  - Ctrl + Shift + P
+
+  - Open Settings (JSON)
+    {
+      "workbench.colorTheme": "Origamid Next",
+      "editor.fontSize": 16,
+      "editor.lineHeight": 1.75,
+      "editor.tabSize": 2
+    }
