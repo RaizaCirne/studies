@@ -1,0 +1,78 @@
+HTML e CSS para Iniciantes: 
+HTML e CSS para Iniciantes
+
+O Curso
+-   HTML e CSS para Iniciantes
+  -   Front End, HTML, Tags, Acessibilidade, CSS, Grid Layout, Flexbox, Media Queries, Responsivo, VS Code e mais.
+
+Pré-requisitos
+  - Totalmente do zero.
+
+Ferramenta
+  - Visual Studio Code
+
+Slides
+  - https://www.origamid.com/slide/html-e-css-para-iniciantes
+
+Projetos
+  - Portfólio e Bikcraft
+
+Grade
+  - HTML e CSS para Iniciantes
+    - HTML, CSS, JavaScript, Editor de Código e Browser
+
+  - HTML e CSS Básico
+    - Tag, Estrutura HTML, Editor, CSS Básico, Box Model, Display, Imagens
+
+  - CSS Posicionamento
+    - Margin, Grid, Flexbox, Position
+
+  - HTML e Semântica
+    - Semântica e Acessibilidade, Pontos de Referência, Listas, Navegação
+
+  - CSS Propriedades
+    - Unidades, Tipografia, Background, Pseudo Classes e Elementos
+
+  - Responsivo
+    - Media Queries, Grid, Object Fit e Max Width
+
+  - Projeto Portfólio
+    - Projeto criado do zero
+
+  - Ferramentas
+    - Linha de Comando, Git e Automação
+
+  - Mais HTML e CSS
+    - Formulários, Especificidade, Propriedades Customizadas e CSS Utilitário
+
+  - Projeto Final
+    - Projeto Bikcraft criado do zero
+
+  - JavaScript Básico
+    - Tipos de dados, manipular o dom, objetos e outros
+
+  - JavaScript Projeto
+    - Link ativo, mostrar/esconder conteúdo, galeria de imagens, plugins e mais
+
+  - Produção
+    - Domínio, hospedagem, servidor, formulário
+
+Dúvidas Frequentes
+
+  - Para iniciantes?
+    - Tudo do zero, mas com extremo detalhe.
+
+  - Vai direto ao ponto?
+    - Não. O objeto do curso não é ir direto ao ponto, e sim fazer você entender o ponto. Eu rodo o ponto, volto no ponto e demonstro o ponto.
+
+  - Design?
+    - Esse curso é focado na parte de Código Front End (HTML e CSS), o curso de design está separado desse.
+
+  - JavaScript?
+    - O curso completo de JavaScript é separado deste, aqui temos apenas uma introdução ao assunto.
+
+Professor
+- André Rafael
+- Administrador e Designer
+- Mestre em UX Design
+- Fundador da Origamid
