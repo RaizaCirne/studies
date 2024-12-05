@@ -1,0 +1,40 @@
+/* Seletores */
+
+/* 
+A vírgula permite selecionarmos múltiplos elementos para a aplicação de um mesmo estilo. 
+h1,
+a {
+  color: gold;
+}
+
+Seleciona o a que tiver um p como elemento pai, ou seja, que está dentro do p (não precisa ser filho direto). 
+
+p a {
+  color: black;
+}
+*/
+
+/*
+id -> Atributo HTML que adiciona um identificador único na tag. Esse identificar pode ser utilizado no CSS para selecionarmos o elemento: #nomeid*/
+#introducao {
+  color: gold;
+}
+
+/* 
+class -> Atributo HTML que adiciona um identificador reutilizável na tag. Esse identificar pode ser utilizado no CSS para selecionarmos o(s) elemento(s): .classe */
+.codigo,
+.design {
+  color: blue;
+}
+
+.azul {
+  color: blue;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.grande {
+  font-size: 32px;
+}
