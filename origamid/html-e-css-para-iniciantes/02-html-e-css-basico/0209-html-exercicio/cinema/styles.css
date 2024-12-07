@@ -1,0 +1,23 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.today {
+  color: darkred;
+}
+
+.tomorrow {
+  color: darkblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: seagreen;
+}
+
+p {
+  font-size: 20px;
+}

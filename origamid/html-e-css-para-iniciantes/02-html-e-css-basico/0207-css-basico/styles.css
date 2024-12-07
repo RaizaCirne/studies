@@ -1,0 +1,12 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* O que vier depois sempre tem mais relevância */
+/* Fica por cima como se fosse uma cascata */
+/* Não só para a propriedade que tiverem dentro do mesmo estilo, mas também outros documentos de estilo que existirem no seu site */
+a {
+  color: tomato;
+  font-size: 32px;
+}

@@ -1,0 +1,39 @@
+div {
+  background: #aaa;
+  /* 
+  width: auto;
+  -> A div pega de ponta a ponta porque por padrão a largura é: width: auto; 
+  -> auto significa: pegue o tamanho total do elemento pai.  
+  -> O elemento pai é o body e está pegando 100% da tela.  
+  w
+  */
+  width: 140px;
+  height: 80px;
+  /* Comportamento padrão: somar a largura e a altura ao padding  */
+  padding: 30px;
+  border: 10px solid #111;
+  margin: 30px;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  background: white;
+  padding: 20px;
+  /* 
+  A altura começa automática e é setada de acordo com o tamanho do conteúdo. 
+  Altura aumenta de acordo com tamanho do conteúdo
+  */
+
+  /* 
+  Densidade: 
+  Com a ferramenta vemos que a borda ocupa 2px por causa da tela de alta densidade, então fica o dobro de pixel que normalmente existe, mas numa tela de densidade menor vai ter 1px.Mas em termos de aparência é a mesma forma em todas as telas. Isso é questão de densidade. */
+  border: 1px solid #111;
+  margin: 20px;
+  /* 
+  No CSS as margem colidem. Significa que a margem que for maior vai vencer 
+  Permanece a margem maior, mas não soma as duas
+  */
+}

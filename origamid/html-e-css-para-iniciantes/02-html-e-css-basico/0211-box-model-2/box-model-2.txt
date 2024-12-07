@@ -1,0 +1,12 @@
+div
+  - A <div> é um elemento de bloco block genérico que serve para auxiliar no posicionamento dos elementos/conteúdo na tela.
+
+  - Existem também elementos semânticos como main, section, nav e outros que veremos em outras aulas.
+
+Ferramentas
+
+  - VisBug
+    - https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc
+
+  - PixelSnap
+    - https://getpixelsnap.com/
