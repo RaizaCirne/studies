@@ -1,0 +1,58 @@
+h1 {
+  background: #8844ee;
+  /* transparência */
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  background: seagreen;
+  color: white;
+  font-size: 30px;
+}
+
+/* 
+    preto é o valor mais baixo possível, nenhuma cor ativa
+    background: #000000; 
+    */
+
+/* 
+    branco é o máximo de luz possível 
+    color: #ffffff; 
+    */
+
+/* 
+  rgb é uma função que recebe 3 valores diferentes (red, green, blue).
+  Esses valores vão de 0 à 255 
+  */
+
+/* 
+  Preto puro, pois não tem nenhum valor para nenhuma das lâmpadas rgb
+  color: rgb(0, 0, 0); 
+  */
+
+/* 
+  Aumentando o red pra 255, fica no máximo de vermelho, zero de verde e azul
+  color: rgb(255, 0, 0);  
+  */
+
+/* 
+  Aumentando 255 no green, vermelho com verde no máximo dá amarelo. 
+  color: rgb(255, 255, 0);   
+  */
+
+/* 
+  - a(alpha) -> É a transparência dessa cor 
+  - Transparência -> vai de zero até 1
+  - 1 -> A cor está totalmente opaca. Isso significa que a cor está no máximo dela
+  color: rgba(255, 255, 255,1);   
+  */
+
+/* 
+  - 0.5 -> A cor vai está numa opacidade de metade, ou seja, transparente
+  color: rgba(255, 255, 255,0.5);   
+  */
+
+/* 
+  Todas as lâmpadas no máximo, temos o branco
+  color: rgb(255, 255, 255);   
+  */
