@@ -1,0 +1,8 @@
+body {
+  color: tomato;
+}
+
+a {
+  /* inherit -> valor de herança -> herda o valor de body */
+  color: inherit;
+}
