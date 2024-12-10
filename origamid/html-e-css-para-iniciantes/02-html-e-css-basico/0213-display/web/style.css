@@ -1,12 +1,13 @@
-h1 {
-  background: #ddd;
-  width: 300px;
-}
-
 span,
 a,
 strong {
   border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+a {
+  padding: 20px;
+  display: inline-block;
+  margin: 10px;
 }
 
 div,
