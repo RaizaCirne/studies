@@ -1,0 +1,12 @@
+  - svg e png
+    - Svg e png são formatos geralmente utilizados para imagens que não possuem fundo (o fundo se mescla com o do site).
+
+    - Sempre que possível utilize svg, eles podem escalar infinitamente sem perder resolução e geralmente são menores em tamanho (bytes).
+
+Sites
+  - Squoosh (reduzir tamanho das imagens)
+    - https://squoosh.app/
+
+  - Unsplash (imagens gratuitas)
+    - https://unsplash.com/
+
