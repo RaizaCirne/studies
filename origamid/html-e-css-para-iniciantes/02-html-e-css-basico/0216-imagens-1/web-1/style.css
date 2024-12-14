@@ -1,0 +1,15 @@
+img {
+  /* 
+  -> max-width: 100% garante que a imagem não estoure/não fique maior que o container(elemento pai que segura ela). 
+  -> Se aumento e diminuo o site, a imagem diminui sem esmagar a imagem e nem perder a resolução A largura e a altura aumentam e diminuem proporcionalmente.
+  */
+  max-width: 100%;
+  display: block;
+  /* -> imagem por padrão é display: inline-block e tem 4 pixels de distância 7
+    -> display: block tira a distância*/
+}
+
+div {
+  /* A imagem que está dentro da div respeita o elemento pai (div de 300px e fica com 300px também) */
+  max-width: 300px;
+}

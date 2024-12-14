@@ -1,0 +1,11 @@
+img {
+  /* max-width: 100%; -> Ocupa a imagem toda no tamanho dela em si*/
+  /* width: 100%; Tem sempre 100% do tamanho do container. Ocupa todo o elemento pai 
+  OBS: Nunca vamos querer que a imagem fique maior que o tamanho dela. Usar sempre o max (no máximo 100%, mas não mais que seu tamanho real.*/
+  max-width: 100%;
+  display: block;
+}
+
+.foto {
+  width: 150px;
+}
