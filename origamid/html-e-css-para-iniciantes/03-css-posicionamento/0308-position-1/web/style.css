@@ -1,0 +1,33 @@
+h1 {
+  border: 2px solid #ccc;
+  padding: 20px 20px 200px 20px;
+}
+
+p {
+  background: #e7e7e7;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  margin: 0px;
+}
+
+/* 
+-> Colocar parágrafo acima de todos os elementos <h1> de forma fixa na tela. 
+-> Falar com a div que está segurando o parágrafo .fixo
+*/
+
+.fixo {
+  /* position: fixed -> Elemento some da tela, pois está posicionado em um local que não conseguimos visualizar. Precisamos definir onde ele deve estar posicionado. Para isso, temos os valores de top, right, bottom e left. Esses valores só vão funcionar em elementos que tiverem o position modificado. */
+  position: fixed;
+  /* top: 0px -> O elemento vai ser posicionado colado no topo. */
+  /* left: 0px; -> Respeita a margem da esquerda, mas se eu colocar o left com 0, ele gruda no canto esquerdo. */
+
+  /* bottom, left e right com 20px -> Fica há 20px de distância do bottom, da esquerda e da direita. Estica o conteúdo.  */
+  /* top: 20px; */
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+
+  /* OBS: Sempre escolher se o elemento vai estar posicionado ao topo ou em relação ao bottom. Isso vai depender sempre do tipo de conteúdo. 
+  -> Um modal que você clica e faz o login, normalmente fica posicionado em relação ao topo. -> Uma informação secundária, como, por exemplo: "utilizamos cookies nesse site", geralmente fica posicionado em relação ao bottom do site */
+}

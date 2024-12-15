@@ -1,0 +1,7 @@
+Position absolute e relative:
+  - Vai servir muito para casos onde queremos posicionar o elemento acima da borda, por exemplo, não teria como fazer no fluxo normal, apenas usando margem negativa, que não é recomendado.  
+
+  - Cuidado, só vamos usar esse tipo de posicionamento para casos muito específico, como esse do exemplo. 
+
+z-index 
+  - Só pega se estiver com position. 

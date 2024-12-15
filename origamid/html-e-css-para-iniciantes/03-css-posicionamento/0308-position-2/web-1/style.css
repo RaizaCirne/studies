@@ -1,0 +1,39 @@
+h1 {
+  margin: 0px;
+  padding: 10px;
+  background: lightblue;
+}
+
+.index1 {
+  position: relative;
+  background: greenyellow;
+  top: 20px;
+  /* z-index: -1 -> Joga o Elemento 2 para trás dos outros elementos.  */
+  /* z-index: 0 -> É o padrão e ele fica por cima dos outros elementos.  */
+
+  /* 
+  Posso influenciar no z-index e colocar o Elemento 2 por cima do Elemento 4. Só colocar um valor acima de zero, ou qualquer valor que seja acima do que estiver no index2.
+  Com z-index: 1 esse elemento vai ser o elemento de prioridade,vai sempre estar acima de todos os outros elementos que existirem no site, a nao ser que exista outro elemento com z-index acima de 1
+  */
+  z-index: 1;
+}
+
+/* O elemento 3 deveria ficar por cima do elemento 2. Porque não está? pois quando mudamos o posicionamento dele, mudamos o eixo de profundidade. Agora ele está acima de todos os elementos que seguem o fluxo normal. */
+
+/* Para influenciar no eixo de profundidade usamos o z-index.  */
+
+/* E se eu tiver mais de um elemento com o posicionamento relativo, absoluto ou fixo?  */
+.index2 {
+  /* Ele fica por cima do index 1 porque agora respeita a posição. O elemento 4 vem depois, então fica por cima.  */
+  position: absolute;
+  background: lightcoral;
+  top: 60px;
+  z-index: -1;
+}
+
+.index3 {
+  position: relative;
+  z-index: 999999;
+}
+
+/* obs: O z-index só pega se estiver com position. */

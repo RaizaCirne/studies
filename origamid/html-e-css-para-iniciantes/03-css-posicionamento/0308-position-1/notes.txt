@@ -1,0 +1,18 @@
+Position: 
+  - Com o position podemos influenciar no fluxo dos elementos. 
+  - Por padrão o elemento vem um abaixo do outro. 
+
+Como usar o position ? 
+  - Em elementos que queremos que fique acima de todos. 
+    Exemplos: 
+      1. Modal (a pessoa clica, vai fazer o login e aparece na tela)
+      2. Mensagem de cookie (que fica sempre grudada na parte debaixo do site independente de quanto escrole ou vá para cima)
+
+      Para isso precisamos mudar a posição desse elemento para tirar ele do fluxo normal.
+
+      OBS: Sempre escolher se o elemento vai estar posicionado ao topo ou em relação ao bottom. Isso vai depender sempre do tipo de conteúdo. 
+
+        Exemplos: 
+          -> Um modal que você clica e faz o login, normalmente fica posicionado em relação ao topo. 
+        
+          -> Uma informação secundária, como, por exemplo: "utilizamos cookies nesse site", geralmente fica posicionado em relação ao bottom do site */
