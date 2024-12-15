@@ -1,0 +1,73 @@
+/* Alinhamos os itens no elemento principal/grid/container. */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: center; */
+  /* No align-items center o que define o alinhamento central é sempre o elemento maior.  */
+}
+
+.titulo {
+  grid-column: 2;
+  text-align: right;
+}
+
+/* Falando com o item especificamento do preço (place-self). */
+.preco {
+  place-self: start end;
+}
+
+.comprar {
+  /* align-self: start -> alinhar elemento do botão ao topo. */
+  align-self: start;
+  /*  text-align: center -> alinhar o texto do botão ao centro. */
+  text-align: center;
+}
+
+.descricao {
+  /* text-align: right -> alinha o texto à direita. */
+  text-align: right;
+}
+
+/* Estilos Gerais */
+
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  /* line-height(altura de linha com 1 diminui o espaçamento entre a linha caso a palavra stark fique embaixo do h1 ) */
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}

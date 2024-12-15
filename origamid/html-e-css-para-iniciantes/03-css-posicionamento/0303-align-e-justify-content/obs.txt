@@ -1,0 +1,3 @@
+Para os elementos align e justify terem efeito, precisa ter ESPAÇO SOBRANDO.
+
+  grid-template-columns: auto -> A coluna fica de acordo com o tamanho do conteúdo.

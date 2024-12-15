@@ -1,0 +1,14 @@
+span {
+  /* display inline-block para pegar valor de padding e margin, senão não pegaria */
+  display: inline-block;
+  background: #ddd;
+}
+
+span {
+  padding: 30px;
+  padding: 20px 40px;
+  padding: 40px 100px 200px 10px;
+  border: 10px solid black;
+  /* borda de 30px para cima e para baixo e 60px para os lados.  */
+  border-width: 30px 60px;
+}

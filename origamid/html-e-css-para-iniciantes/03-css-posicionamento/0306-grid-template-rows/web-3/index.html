@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Template Rows</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="grid">
+    <h1 class="titulo">Nimbus Stark</h1>
+    <img class="foto" src="./img/bicicleta.jpg" alt="Bicicleta Preta">
+
+    <!-- A div info é um elemento de bloco, e não do tipo grid, e todos os filhos se comportam normalmente. O <span> e o <a> são elementos inline. Por isso estouram o padding, pois não respeitam o tamanho do padding. Para resolver isso, definir o info como display:grid no css -->
+    <div class="info">
+      <span class="preco">R$ 39</span>
+      <p class="descricao">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os
+        melhores acessórios, o que garante maior velocidade.</p>
+      <a class="comprar" href="/">Comprar</a>
+    </div>
+  </div>
+</body>
+
+</html>

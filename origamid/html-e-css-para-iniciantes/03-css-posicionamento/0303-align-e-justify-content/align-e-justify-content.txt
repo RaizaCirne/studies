@@ -1,0 +1,22 @@
+Guia CSS Grid Layout
+  Guia Origamid:  
+    - https://www.origamid.com/projetos/grid/
+    - https://www.origamid.com/projetos/css-grid-layout-guia-completo/
+
+  Outros guias:
+    - https://grid.malven.co/
+    - https://css-tricks.com/snippets/css/complete-guide-grid/
+
+align e justify content:
+
+  - align-content:
+    - Alinha/Distribui o conteúdo na vertical
+
+  - justify-content:
+    - Alinha/Distribui o conteúdo na horizontal
+
+  - place-content:
+    - Atalho para align e justify
+
+  Valores:
+    - start | center | end | stretch | space-between | space-around | space-evenly

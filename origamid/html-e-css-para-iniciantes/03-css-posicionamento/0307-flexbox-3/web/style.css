@@ -1,0 +1,30 @@
+body {
+  margin: 0px;
+}
+
+/* Flexbox vai encaixando os itens ao lado. Não definimos coluna para ele. */
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* Comentamos o justify-content, pois estamos usando o flex: 1 */
+  /* justify-content: center; */
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+  /* flex: 1; */
+}
+
+/* No grid definimos colunas. */
+/* auto-fit: Configuração do grid que falamos: Vai criando mais colunas se der para criar.  */
+.grid {
+  margin-top: 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  /* minmax(150px, auto) -> Recebe dois valores. O valor minímo que ele deve ter e o valor máximo que pode ter. Automático seria o valor máximo que ele conseguir do item. Ele vai encaixando e se der espaço para crescer, ele cresce mais sem precisar definir o total de colunas que ele deve ter sempre. */
+}

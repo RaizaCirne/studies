@@ -1,0 +1,18 @@
+CSS Posicionamento
+  - Top, Right, Bottom, Left
+
+  - Top, Right, Bottom, Left
+    - Propriedades como margin, padding e border permitem definirmos valores diferentes para cada um dos lados da caixa (box model).
+  
+  - inline e block
+    - Os valores de top, bottom, right e left são relativos ao documento. Para valores relativos a caixa (box) que pode ser influenciada pelo modo de escrita, use inline-start, inline-end, block-start, block-end.
+  
+    div {
+      margin-block-start: 20px;  top
+      margin-inline-end: 40px;  right 
+      margin-block-end: 80px; bottom 
+      margin-inline-start: 160px;  left 
+      margin: 20px 40px 80px 160px;
+    }
+
+    

@@ -1,0 +1,15 @@
+Flexbox
+
+  - flex
+
+    - flex-grow: 1;
+      - Se esse elemento deve crescer para ocupar o espaço vazio. O 0 impede o crescimento, valores maiores que 0 funcionam como a unidade fr do css grid.
+
+    - flex-basis: 200px;
+      - Valor inicial antes de distribuir o espaço em branco.
+
+    - flex-shrink: 0;
+      - Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. 0 significa que ele não pode ser reduzido.
+
+    - flex: 1;
+      - Atalho para flex-grow: 1; flex-shrink: 1; e flex-basis: 0;

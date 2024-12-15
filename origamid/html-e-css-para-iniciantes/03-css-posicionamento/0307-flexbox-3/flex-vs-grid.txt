@@ -1,0 +1,2 @@
+flex vs grid
+  - Use ambos no seu layout, eles resolvem problemas diferentes. O grid te dá controle em todos os eixos e o flexbox apenas no total de itens por linha.

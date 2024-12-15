@@ -1,0 +1,1 @@
+web-3 -> Mudamos a estrutura do html para o código ficar melhor em relação ao grid. 

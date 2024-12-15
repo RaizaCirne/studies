@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Config from "../pages/config";
 import Home from "../pages/home";
-import { cars } from "../assets/utils/cars";
 import Car from "../pages/car";
 
 export default function Rotas() {
@@ -10,7 +9,17 @@ export default function Rotas() {
     <Routes>
       <Route element={<Home />} path="/" />
       <Route element={<Config />} path="/configuracoes" />
-      {cars.map((item) => {
+      cars.map
+      {
+        <Route
+          element={<Car titulo={item} preco={item.preco} path={item.path} />}
+        />
+      }
+      {/* // no element criar uma página individual do carro
+        // SÓ UMA PÁGINA. Não é uma página para cada carro, esse trabalho o route vai fazer.
+        // Na hora de criar a rota de cada carro que vamos criar as props que estão vindo do map.
+        // No objeto tem que ter o path para cada carro */}
+      {/* {cars.map((item) => {
         return (
           <Route
             element={
@@ -18,12 +27,7 @@ export default function Rotas() {
             }
           />
         );
-      })}
-
-      {/* // no element criar uma página individual do carro
-        // SÓ UMA PÁGINA. Não é uma página para cada carro, esse trabalho o route vai fazer.
-        // Na hora de criar a rota de cada carro que vamos criar as props que estão vindo do map.
-        // No objeto tem que ter o path para cada carro */}
+      })} */}
     </Routes>
   );
 }

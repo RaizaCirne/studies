@@ -1,0 +1,24 @@
+Geralmente vamos usar: 
+  flex: 1; 
+
+Atalho para: 
+  flex-grow: 1; // Quero que o elemento cresça 
+  flex-shrink: 1; // Valor padrão, ou seja, pode diminuir caso tenha que quebrar
+  flex-basis: 0%; // Informa que o espaço distribuido pelo flex-grow deve ser igual entre os eleentos. Os elementos sempre vão ter basicamente o mesmo tamanho. 
+
+Geralmente no flexbox não vamos inventer muito. Vai ser: 
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    flex: 1;
+  }
+
+OBS: 
+
+Se os elementos estão com flex:1, NÃO IMPORTA o justify-content: center; Isso não vai pegar porque ele está distribuindo o espaço em branco, então não tem espaço em branco sobrando para tentar justificar o conteúdo. 
+
+Se quiser justificar não podemos definir flex nenhum. 

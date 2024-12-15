@@ -9,3 +9,6 @@ img
     
   - max-width: 100%;
     - Geralmente definimos um width máximo de 100% para a imagem, assim ela não cresce além do elemento pai.
+  
+  - Resolução
+    - Para manter uma boa resolução, utilize imagens com cerca de duas vezes o tamanho máximo que ela irá ocupar na tela (em pixels).

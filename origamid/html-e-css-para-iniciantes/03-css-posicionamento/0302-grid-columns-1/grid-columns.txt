@@ -1,0 +1,14 @@
+CSS Posicionamento
+  - Grid Template Columns
+
+  - grid:
+    - Com o display: grid; é possível definirmos colunas e linhas para organizarmos os elementos que estiverem dentro do grid.
+
+    - rid-template-columns
+      - Define o total de colunas e o tamanho de cada uma.
+
+    - fr
+      - fr é uma unidade fracionária que terá como objetivo distribuir o espaço restante, entre os elementos do grid.
+
+    - gap
+      - Cria uma distância entre os elementos do grid, tanto horizontal quanto vertical.

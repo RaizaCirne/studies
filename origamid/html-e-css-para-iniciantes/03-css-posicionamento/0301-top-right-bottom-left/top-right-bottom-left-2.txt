@@ -1,0 +1,9 @@
+div {
+  padding: 20px 40px; // 20px (CIMA e BAIXO) e (40px LADOS)
+  padding: 30px 100px 60px 200px; // CIMA, DIREITA, BAIXO, ESQUERDA
+}
+
+div {
+  padding: top/bottom right/left;
+  margin: top right bottom left;
+}

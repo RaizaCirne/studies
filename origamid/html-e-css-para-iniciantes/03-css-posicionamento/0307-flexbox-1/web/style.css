@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+}
+.flex {
+  /* <h2> -> São elementos de bloco e pegam de ponta a ponta e não quebram um ao lado do outro.  */
+  /* display: flex -> Um <h2> ao lado do outro.  */
+  display: flex;
+  gap: 20px;
+  /* Quebra a palavra e elementos ficam na mesma altura. Palavra não quebra e começa a estourar o container. Colocar flex-wrap para indicar se deve quebrar uma linha ou não. */
+  /* flex-wrap: wra -> Não estoura mais o container. Cria uma nova linha e joga o elemento para baixo. */
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-content: center; */
+  /* place-content -> Atalho para justify-content e align-content */
+  place-content: center;
+  height: 100vh;
+}
+
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+}

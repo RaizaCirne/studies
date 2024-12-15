@@ -1,0 +1,67 @@
+.grid {
+  display: grid;
+  gap: 20px;
+
+  /* repeat() -> Serve caso tenha uma repetição de itens.  */
+  /* grid-template-columns: repeat(2, 1fr); -> Quero que repita duas vezes 1fr */
+  grid-template-columns: repeat(2, 1fr);
+
+  /* grid-template-rows define o tamanho das linhas.  Muda como ele vai definir o tamanho das linhas novas. */
+  /* grid-template-rows: repeat(4, 200px) -> Repete 4 linhas de 200px cada uma.  */
+  /* grid-template-rows: repeat(4, 200px); */
+}
+
+.preco {
+  /* grid-row: 3 -> oloca o preço na terceira linha. */
+  /* grid-row: 3; */
+
+  /* grid-column: 2 e grid-row: 2 
+  -> Preço na segunda coluna e na segunda linha. */
+  /* grid-column: 2;
+  grid-row: 2; */
+
+  /* Atalho para grid-column e grid-row: grid-area  */
+  /* grid-area: 2 / 2 -> preço na segunda linha e segunda coluna */
+  grid-area: 2 / 2;
+}
+/* Estilos Gerais */
+
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}

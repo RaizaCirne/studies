@@ -1,0 +1,3 @@
+Definir como display grid o elemento envolve a parte que quero transformar em colunas. 
+
+fr: unidade fracionária que vai distribuir o espaço que sobra entre os elementos. Distribui de forma igual.

@@ -1,0 +1,63 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.foto {
+  /* grid-column: 1 / -1 pega a imagem de ponta a ponta nas colunas */
+  /* grid-column: span 3 expande a imagem a partir de onde ela nasceu */
+  /* grid-column: 2 / span 3; -> começe da linha 2 e expanda 3 colunas */
+  grid-column: span 3;
+}
+
+.descricao {
+  grid-column: 1 / 3;
+}
+
+.comprar {
+  grid-column: 1 / 3;
+}
+
+/* Estilos Gerais */
+
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  /* line-height(altura de linha com 1 diminui o espaçamento entre a linha caso a palavra stark fique embaixo do h1 ) */
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}

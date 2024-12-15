@@ -1,0 +1,10 @@
+body {
+  /* writing-mode é o modo de escrita */
+  writing-mode: vertical-rl;
+}
+h1 {
+  /* margin-block-start 30px, coloca 30px no topo  */
+  /* Mudando para modo de escrita vertical-rl, o 30px fica na direita */
+  /* margin-block-.... respeita o modo de escrita */
+  margin-block-start: 30px;
+}

@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+}
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* 
+  OBS: 
+  Se os elementos estão com flex:1, NÃO IMPORTA o justify-content: center; Isso não vai pegar porque ele está distribuindo o espaço em branco, então não tem espaço em branco sobrando para tentar justificar o conteúdo. 
+
+  Se quiser justificar não podemos definir flex nenhum.  
+  */
+}
+
+/* A largura do <h2> é do tamanho exato do conteúdo. Posso falar pra expandir o elemento o máximo que der de espaço. Pegar o espaço vazio e tentar encaixar dentro de cada elemento. 
+Item flex nesse caso é o <h2>. Isso com flex-grow: 1; */
+h2 {
+  background: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+  /* flex-grow: 1 -> Distribui o espaço em branco dentro dos elementos.  */
+  /* flex-grow: 1; */
+  /* flex-basis por padrão é automático. Isso significa que o flex-grow vai se dar no espaço que sobra, vazio. Distribui o espaço vazio com o flex-grow: 1 após o tamanho do conteúdo interno do elemento */
+  /* flex-basis: 0 -> O conteúdo com que todos os elementos do flex item fiquem de tamanhos iguais. flex-basis: 0 geralmente é o padrão que vamos utilizar */
+  /* flex-basis: auto; */
+  /* flex-shrink por padrão tem o valor de 1 e determina se o elemento pode ser encolhido ou não. Geralmente deixa 1 que é o valor inicial */
+  /* flex-shrink: 1; */
+  /* flex é um atalho para   flex-grow,  flex-basis e   flex-shrink.  */
+  /* flex: 1; */
+}

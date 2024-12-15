@@ -1,0 +1,4 @@
+text-align
+justify-items
+
+-> Tem a diferença entre o alinhamento do CONTEÚDO em sí (text-align) e da CAIXA que está envolvendo ele que pega 100% (justify-items)

@@ -1,0 +1,13 @@
+grid-template-rows
+
+  - grid-template-rows: 100px auto;
+    - Define o tamanho das linhas.
+
+  - grid-auto-rows:
+    - Linhas são adicionadas automaticamente com o valor de auto.
+
+  - grid-row: 2
+    - Define a linha do item, funciona da mesma forma que o grid-column.
+
+Evitando linhas
+  - Será mais comum manipularmos colunas do que linhas. Podemos evitar a complexidade do posicionamento em linhas com a reestruturação do HTML.

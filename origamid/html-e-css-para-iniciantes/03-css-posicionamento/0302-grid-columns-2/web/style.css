@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* essa div .item tem como width padrão o automático, então ela cresce ou diminui de acordo com o tamanho do conteúdo que ela conseguir ocupar */
+.item {
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  border-radius: 4px;
+  /* Com display grid os elementos dentro dele se comportam como se fosse elemento de bloco. Então o <a> dentro dele (.comprar) não precisa ter o inline-block.  */
+  display: grid;
+}
+.grid {
+  display: grid;
+  /* grid-template-columns define o número de colunas. */
+  grid-template-columns: 1fr 1fr;
+  /* gap cria margem para os lados e para baixo */
+  gap: 20px;
+}
